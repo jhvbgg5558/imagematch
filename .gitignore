@@ -1,0 +1,107 @@
+# Local environments and caches
+.conda/
+.codex
+.venv/
+venv/
+env/
+__pycache__/
+pycache/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Images, UAV photos, orthophotos, rasters, and rendered figures
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+*.tif
+*.tiff
+*.jp2
+*.j2k
+*.vrt
+*.ovr
+*.aux.xml
+
+# Geospatial and point-cloud data products
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+*.las
+*.laz
+*.ply
+*.pcd
+*.hgt
+
+# Large experiment/model/data artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.faiss
+*.index
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated report binaries; keep Markdown reports instead
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.xlsx
+
+# Generated experiment outputs and archived task material.
+# Keep curated Markdown summaries in docs_md/ or 汇总/ when they should be published.
+output/
+newoutput/
+new1output/
+new2output/
+new3output/
+new4output/
+old/
+
+# Archives and packaged data
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# External dependencies; document installation/source instead of committing vendored repos
+third_party/

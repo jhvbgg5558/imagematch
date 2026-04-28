@@ -1,0 +1,10 @@
+experiment_id: dino_v2_vs_v3_query_v2_compare_2026-03-30
+dataset_id: query_reselect_2026-03-26_v2
+query_round_root: /mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2
+method: dino_v2_vs_v3_comparison
+python_bin: /mnt/d/aiproject/imagematch/.conda/bin/python
+out_root: /mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2/dino_compare_workflow_2026-03-30
+update_docs: false
+inputs:
+  dinov2_dir: /mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2
+  dinov3_dir: /mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2/dinov3_eval_2026-03-30
