@@ -1,0 +1,15 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal",
+  "ortho_accuracy_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/eval_pose_validation_suite_satellite_truth/ortho_alignment_satellite/per_query_ortho_accuracy.csv",
+  "matchable_query_count": 40,
+  "status_counts": {
+    "too_few_tiepoints": 8,
+    "tiepoint_eval_ok": 32
+  },
+  "tiepoint_xy_error_mean_m": 145.2503025760234,
+  "tiepoint_xy_error_median_m": 138.728804,
+  "tiepoint_xy_error_rmse_m": 181.37150569385025,
+  "tiepoint_xy_error_p90_m": 320.9373711,
+  "tiepoint_xy_error_max_m": 504.828024,
+  "generated_at_unix": 1776320768.5526567
+}

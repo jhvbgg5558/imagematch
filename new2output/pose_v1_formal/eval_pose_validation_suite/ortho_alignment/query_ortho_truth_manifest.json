@@ -1,0 +1,10 @@
+{
+  "bundle_root": "new2output/pose_v1_formal",
+  "query_seed_csv": "/mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2/query_truth/queries_truth_seed.csv",
+  "raw_uav_root": "/mnt/d/数据/武汉影像/无人机0.1m",
+  "row_count": 40,
+  "status_counts": {
+    "ready": 40
+  },
+  "generated_at_unix": 1775730456.6845942
+}

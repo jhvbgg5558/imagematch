@@ -1,0 +1,14 @@
+{
+  "subgroup": "G06B_g03_siftgpu_inlier_top1",
+  "validation_timed_out": true,
+  "actual_reduced_downstream_time_seconds": 602.6432444165248,
+  "estimated_end_to_end_time_seconds": 1183.4735869505246,
+  "retrieval_time_from_base_seconds": 0.0,
+  "rerank_time_from_base_seconds": 580.8303425339998,
+  "step_times": {
+    "run_pnp_baseline": 1.763902187347412,
+    "run_pose_v1_formal_scoring_summary": 0.441303014755249,
+    "run_pose_validation_suite": 600.0260043144226
+  },
+  "validation_tiepoint_seconds": null
+}

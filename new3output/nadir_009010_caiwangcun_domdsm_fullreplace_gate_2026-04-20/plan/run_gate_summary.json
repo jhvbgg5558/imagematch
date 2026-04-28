@@ -1,0 +1,12 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20",
+  "reuse_root": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10",
+  "caiwangcun_root": "/mnt/d/数据/武汉影像/CaiWangCun-DOM",
+  "candidate_tiles_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/candidate_library/tiles.csv",
+  "retrieval_top20_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/retrieval/retrieval_top20.csv",
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+  "pose_gate_summary": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/summary/phase_gate_summary.json",
+  "validation_gate_summary": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/phase_gate_summary.json",
+  "frame_sanity_summary": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/frame_sanity/overall_frame_sanity.json",
+  "generated_at_utc": "2026-04-20T18:19:47+00:00"
+}

@@ -1,0 +1,1016 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+  "manifest_json": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/manifest/pose_manifest.json",
+  "pair_count": 100,
+  "row_count": 500000,
+  "pair_status_counts": {
+    "ok": 100
+  },
+  "pair_summaries": [
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x253783.721_y3364952.517",
+      "candidate_rank": 1,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2580,
+      "inlier_ratio": 0.516,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "candidate_rank": 2,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 166,
+      "inlier_ratio": 0.0332,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254083.721_y3364052.517",
+      "candidate_rank": 3,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 111,
+      "inlier_ratio": 0.0222,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x255133.721_y3364052.517",
+      "candidate_rank": 4,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 134,
+      "inlier_ratio": 0.0268,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x255133.721_y3364202.517",
+      "candidate_rank": 5,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 114,
+      "inlier_ratio": 0.0228,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254983.721_y3365252.517",
+      "candidate_rank": 6,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 120,
+      "inlier_ratio": 0.024,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254083.721_y3365102.517",
+      "candidate_rank": 7,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 153,
+      "inlier_ratio": 0.0306,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "candidate_rank": 8,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 78,
+      "inlier_ratio": 0.0156,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "candidate_rank": 9,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 73,
+      "inlier_ratio": 0.0146,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "candidate_rank": 10,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 65,
+      "inlier_ratio": 0.013,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "candidate_rank": 11,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 50,
+      "inlier_ratio": 0.01,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254233.721_y3364652.517",
+      "candidate_rank": 12,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 71,
+      "inlier_ratio": 0.0142,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "candidate_rank": 13,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 39,
+      "inlier_ratio": 0.0078,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "candidate_rank": 14,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 40,
+      "inlier_ratio": 0.008,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254208.721_y3364102.517",
+      "candidate_rank": 15,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 46,
+      "inlier_ratio": 0.0092,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "candidate_rank": 16,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 29,
+      "inlier_ratio": 0.0058,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3365002.517",
+      "candidate_rank": 17,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 33,
+      "inlier_ratio": 0.0066,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "candidate_rank": 18,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 49,
+      "inlier_ratio": 0.0098,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "candidate_rank": 19,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 31,
+      "inlier_ratio": 0.0062,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "candidate_rank": 20,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 8,
+      "inlier_ratio": 0.0016,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253783.721_y3364802.517",
+      "candidate_rank": 1,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2136,
+      "inlier_ratio": 0.4272,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "candidate_rank": 2,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1755,
+      "inlier_ratio": 0.351,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3365002.517",
+      "candidate_rank": 3,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1647,
+      "inlier_ratio": 0.3294,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "candidate_rank": 4,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1618,
+      "inlier_ratio": 0.3236,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "candidate_rank": 5,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1188,
+      "inlier_ratio": 0.2376,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "candidate_rank": 6,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1157,
+      "inlier_ratio": 0.2314,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "candidate_rank": 7,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1140,
+      "inlier_ratio": 0.228,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "candidate_rank": 8,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 921,
+      "inlier_ratio": 0.1842,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "candidate_rank": 9,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 219,
+      "inlier_ratio": 0.0438,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254658.721_y3365002.517",
+      "candidate_rank": 10,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 75,
+      "inlier_ratio": 0.015,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "candidate_rank": 11,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 105,
+      "inlier_ratio": 0.021,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "candidate_rank": 12,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 130,
+      "inlier_ratio": 0.026,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "candidate_rank": 13,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 58,
+      "inlier_ratio": 0.0116,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "candidate_rank": 14,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 33,
+      "inlier_ratio": 0.0066,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "candidate_rank": 15,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 24,
+      "inlier_ratio": 0.0048,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x255108.721_y3365227.517",
+      "candidate_rank": 16,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 38,
+      "inlier_ratio": 0.0076,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "candidate_rank": 17,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 61,
+      "inlier_ratio": 0.0122,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254683.721_y3364952.517",
+      "candidate_rank": 18,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 48,
+      "inlier_ratio": 0.0096,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "candidate_rank": 19,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 55,
+      "inlier_ratio": 0.011,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3364102.517",
+      "candidate_rank": 20,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 25,
+      "inlier_ratio": 0.005,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "candidate_rank": 1,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1797,
+      "inlier_ratio": 0.3594,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "candidate_rank": 2,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1688,
+      "inlier_ratio": 0.3376,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364502.517",
+      "candidate_rank": 3,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1483,
+      "inlier_ratio": 0.2966,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x253983.721_y3364327.517",
+      "candidate_rank": 4,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1568,
+      "inlier_ratio": 0.3136,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364652.517",
+      "candidate_rank": 5,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1206,
+      "inlier_ratio": 0.2412,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "candidate_rank": 6,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1228,
+      "inlier_ratio": 0.2456,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "candidate_rank": 7,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1199,
+      "inlier_ratio": 0.2398,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "candidate_rank": 8,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 986,
+      "inlier_ratio": 0.1972,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254083.721_y3364652.517",
+      "candidate_rank": 9,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 889,
+      "inlier_ratio": 0.1778,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "candidate_rank": 10,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 137,
+      "inlier_ratio": 0.0274,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "candidate_rank": 11,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 89,
+      "inlier_ratio": 0.0178,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254883.721_y3365227.517",
+      "candidate_rank": 12,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 170,
+      "inlier_ratio": 0.034,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3365102.517",
+      "candidate_rank": 13,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 98,
+      "inlier_ratio": 0.0196,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3365252.517",
+      "candidate_rank": 14,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 108,
+      "inlier_ratio": 0.0216,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254683.721_y3365252.517",
+      "candidate_rank": 15,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 105,
+      "inlier_ratio": 0.021,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254833.721_y3365102.517",
+      "candidate_rank": 16,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 70,
+      "inlier_ratio": 0.014,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254833.721_y3365252.517",
+      "candidate_rank": 17,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 118,
+      "inlier_ratio": 0.0236,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "candidate_rank": 18,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 40,
+      "inlier_ratio": 0.008,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "candidate_rank": 19,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 66,
+      "inlier_ratio": 0.0132,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "candidate_rank": 20,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 14,
+      "inlier_ratio": 0.0028,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3364052.517",
+      "candidate_rank": 1,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2682,
+      "inlier_ratio": 0.5364,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3364102.517",
+      "candidate_rank": 2,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1371,
+      "inlier_ratio": 0.2742,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254533.721_y3364052.517",
+      "candidate_rank": 3,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1445,
+      "inlier_ratio": 0.289,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364327.517",
+      "candidate_rank": 4,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1031,
+      "inlier_ratio": 0.2062,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254383.721_y3364127.517",
+      "candidate_rank": 5,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 910,
+      "inlier_ratio": 0.182,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3364327.517",
+      "candidate_rank": 6,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 805,
+      "inlier_ratio": 0.161,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254683.721_y3364352.517",
+      "candidate_rank": 7,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 220,
+      "inlier_ratio": 0.044,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254758.721_y3364502.517",
+      "candidate_rank": 8,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 59,
+      "inlier_ratio": 0.0118,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364777.517",
+      "candidate_rank": 9,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 55,
+      "inlier_ratio": 0.011,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3365252.517",
+      "candidate_rank": 10,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 66,
+      "inlier_ratio": 0.0132,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364552.517",
+      "candidate_rank": 11,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 75,
+      "inlier_ratio": 0.015,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3365227.517",
+      "candidate_rank": 12,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 50,
+      "inlier_ratio": 0.01,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254208.721_y3364777.517",
+      "candidate_rank": 13,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 39,
+      "inlier_ratio": 0.0078,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "candidate_rank": 14,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 124,
+      "inlier_ratio": 0.0248,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "candidate_rank": 15,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 33,
+      "inlier_ratio": 0.0066,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254383.721_y3364502.517",
+      "candidate_rank": 16,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 12,
+      "inlier_ratio": 0.0024,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s700_x254783.721_y3364902.517",
+      "candidate_rank": 17,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 13,
+      "inlier_ratio": 0.0026,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "candidate_rank": 18,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 24,
+      "inlier_ratio": 0.0048,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254883.721_y3364777.517",
+      "candidate_rank": 19,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 26,
+      "inlier_ratio": 0.0052,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254383.721_y3364877.517",
+      "candidate_rank": 20,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 18,
+      "inlier_ratio": 0.0036,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364052.517",
+      "candidate_rank": 1,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 3719,
+      "inlier_ratio": 0.7438,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364202.517",
+      "candidate_rank": 2,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 3526,
+      "inlier_ratio": 0.7052,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "candidate_rank": 3,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2503,
+      "inlier_ratio": 0.5006,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "candidate_rank": 4,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2498,
+      "inlier_ratio": 0.4996,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "candidate_rank": 5,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2520,
+      "inlier_ratio": 0.504,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "candidate_rank": 6,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2219,
+      "inlier_ratio": 0.4438,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364352.517",
+      "candidate_rank": 7,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1985,
+      "inlier_ratio": 0.397,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3363902.517",
+      "candidate_rank": 8,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2019,
+      "inlier_ratio": 0.4038,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "candidate_rank": 9,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 2018,
+      "inlier_ratio": 0.4036,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "candidate_rank": 10,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1825,
+      "inlier_ratio": 0.365,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "candidate_rank": 11,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1658,
+      "inlier_ratio": 0.3316,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "candidate_rank": 12,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1538,
+      "inlier_ratio": 0.3076,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "candidate_rank": 13,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1498,
+      "inlier_ratio": 0.2996,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "candidate_rank": 14,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1509,
+      "inlier_ratio": 0.3018,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254758.721_y3364127.517",
+      "candidate_rank": 15,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 1241,
+      "inlier_ratio": 0.2482,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254233.721_y3364652.517",
+      "candidate_rank": 16,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 196,
+      "inlier_ratio": 0.0392,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "candidate_rank": 17,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 101,
+      "inlier_ratio": 0.0202,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254008.721_y3364127.517",
+      "candidate_rank": 18,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 33,
+      "inlier_ratio": 0.0066,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3365002.517",
+      "candidate_rank": 19,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 25,
+      "inlier_ratio": 0.005,
+      "geom_valid": true
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "candidate_rank": 20,
+      "status": "ok",
+      "match_count": 5000,
+      "inlier_count": 20,
+      "inlier_ratio": 0.004,
+      "geom_valid": true
+    }
+  ],
+  "sample_count": 5000,
+  "ransac_reproj_thresh": 4.0,
+  "device": "cuda",
+  "setting": "satast",
+  "generated_at_unix": 1776703286.8854477
+}

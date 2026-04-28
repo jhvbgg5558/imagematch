@@ -1,0 +1,5 @@
+﻿main_bucket,query_count,coarse_first_truth_rank_mean,romav2_first_truth_rank_mean,delta_top1_error_m_mean,delta_top1_error_m_median
+A,31,1.000,1.000,-46.031,0.000
+B,6,2.500,1.000,-1308.029,-1288.461
+C,3,6.000,2.333,0.000,0.000
+D,0,NA,NA,NA,NA

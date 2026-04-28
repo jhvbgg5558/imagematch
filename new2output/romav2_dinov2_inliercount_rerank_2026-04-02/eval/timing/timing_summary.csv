@@ -1,0 +1,7 @@
+﻿stage,elapsed_seconds
+coarse_topk_export,3.240000
+input_preparation,0.982164
+romav2_rerank,9649.367414
+summary_aggregation,0.493230
+visualization,83.035705
+report_generation,3.501480

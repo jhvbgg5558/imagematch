@@ -1,0 +1,11 @@
+{
+  "bundle_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06C_g03_siftgpu_match_top1/pose_v1_formal",
+  "truth_manifest_csv": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06C_g03_siftgpu_match_top1/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/query_ortho_truth_manifest.csv",
+  "target_resolution_m": 0.14,
+  "row_count": 5,
+  "built_count": 5,
+  "status_counts": {
+    "ready": 5
+  },
+  "generated_at_unix": 1777364685.828981
+}

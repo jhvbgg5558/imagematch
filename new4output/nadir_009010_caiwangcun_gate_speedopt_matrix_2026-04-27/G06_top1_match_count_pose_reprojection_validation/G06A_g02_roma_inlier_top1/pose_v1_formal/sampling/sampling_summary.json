@@ -1,0 +1,39 @@
+{
+  "source_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling/pose_v1_formal/sampling/sampled_correspondences.csv",
+  "output_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06A_g02_roma_inlier_top1/pose_v1_formal/sampling/sampled_correspondences.csv",
+  "source_rows_read": 500000,
+  "row_count": 25000,
+  "selected_pair_count": 5,
+  "status_counts": {
+    "ok": 24993,
+    "nodata": 7
+  },
+  "elapsed_seconds": 8.568992210000033,
+  "per_pair_counts": [
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x253783.721_y3364952.517",
+      "row_count": 5000
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253783.721_y3364802.517",
+      "row_count": 5000
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "row_count": 5000
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3364052.517",
+      "row_count": 5000
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364052.517",
+      "row_count": 5000
+    }
+  ]
+}

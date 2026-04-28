@@ -1,0 +1,1348 @@
+{
+  "stage": "build_domz_point_cache_for_correspondences",
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+  "manifest_json": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/manifest/pose_manifest.json",
+  "correspondences_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/correspondences/pose_correspondences.csv",
+  "cache_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/domz_cache/domz_point_cache.csv",
+  "cache_type": "sparse_correspondence_point_domz",
+  "row_count": 21218,
+  "status_counts": {
+    "ok": 21208,
+    "unstable_local_height": 1,
+    "nodata": 9
+  },
+  "worker_count": 4,
+  "parallel_backend": "process_pool",
+  "pair_count": 100,
+  "candidate_count": 71,
+  "rows_by_pair": {
+    "min": 13,
+    "max": 1721,
+    "mean": 212.18
+  },
+  "rows_by_candidate": {
+    "min": 13,
+    "max": 1721,
+    "mean": 298.84507042253523
+  },
+  "group_seconds": 0.017055601000265597,
+  "sampling_compute_seconds": 6.8476984200001425,
+  "raster_open_seconds_total": 1.9618824659992242,
+  "coordinate_transform_seconds_total": 0.07105800699855536,
+  "bilinear_sample_seconds_total": 17.03641043501557,
+  "stability_check_seconds_total": 3.9844718629683484,
+  "merge_seconds": 0.01848149999977977,
+  "csv_write_seconds": 0.6082523129998663,
+  "elapsed_seconds": 7.688727254999776,
+  "rows_per_second": 2759.624486120573,
+  "per_pair_timing": [
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254083.721_y3365102.517",
+      "row_count": 17,
+      "status_counts": {
+        "ok": 17
+      },
+      "raster_open_seconds": 0.12017761300012353,
+      "coordinate_transform_seconds": 0.00011440000116635929,
+      "bilinear_sample_seconds": 0.05942380700162175,
+      "stability_check_seconds": 0.00621750000073007,
+      "elapsed_seconds": 0.9238821979997738
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "row_count": 13,
+      "status_counts": {
+        "ok": 13
+      },
+      "raster_open_seconds": 0.13059341400003177,
+      "coordinate_transform_seconds": 5.939999982729205e-05,
+      "bilinear_sample_seconds": 0.05983180600014748,
+      "stability_check_seconds": 0.0036884009982713906,
+      "elapsed_seconds": 0.9480070009999508
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "row_count": 15,
+      "status_counts": {
+        "ok": 15
+      },
+      "raster_open_seconds": 0.01631240099959541,
+      "coordinate_transform_seconds": 8.629999956610845e-05,
+      "bilinear_sample_seconds": 0.05606120799848213,
+      "stability_check_seconds": 0.009079099998416496,
+      "elapsed_seconds": 0.09143850999998904
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "row_count": 19,
+      "status_counts": {
+        "ok": 19
+      },
+      "raster_open_seconds": 0.013056100999619957,
+      "coordinate_transform_seconds": 5.9899999541812576e-05,
+      "bilinear_sample_seconds": 0.07742570899927159,
+      "stability_check_seconds": 0.0038369999992937665,
+      "elapsed_seconds": 0.09728560999974434
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "row_count": 18,
+      "status_counts": {
+        "ok": 17,
+        "unstable_local_height": 1
+      },
+      "raster_open_seconds": 0.018072401999688736,
+      "coordinate_transform_seconds": 7.739999909972539e-05,
+      "bilinear_sample_seconds": 0.06189770699984365,
+      "stability_check_seconds": 0.004092999998192681,
+      "elapsed_seconds": 0.08626670900002864
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x255133.721_y3364202.517",
+      "row_count": 13,
+      "status_counts": {
+        "ok": 13
+      },
+      "raster_open_seconds": 0.008392401000037353,
+      "coordinate_transform_seconds": 4.2800000301213004e-05,
+      "bilinear_sample_seconds": 0.05291310499933388,
+      "stability_check_seconds": 0.002657000999079173,
+      "elapsed_seconds": 0.06546230700041633
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254233.721_y3364652.517",
+      "row_count": 39,
+      "status_counts": {
+        "ok": 39
+      },
+      "raster_open_seconds": 0.15601451600014116,
+      "coordinate_transform_seconds": 0.00014770000188946142,
+      "bilinear_sample_seconds": 0.12042941500112647,
+      "stability_check_seconds": 0.015923200001452642,
+      "elapsed_seconds": 1.1296536199997718
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.009345800999653875,
+      "coordinate_transform_seconds": 7.199999981821747e-05,
+      "bilinear_sample_seconds": 0.07388870900012989,
+      "stability_check_seconds": 0.0049074000003201945,
+      "elapsed_seconds": 0.09155141000019285
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "row_count": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "raster_open_seconds": 0.010263801000292005,
+      "coordinate_transform_seconds": 5.5199999223987106e-05,
+      "bilinear_sample_seconds": 0.07555650900030741,
+      "stability_check_seconds": 0.0033547000011822092,
+      "elapsed_seconds": 0.09166040999980396
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "row_count": 17,
+      "status_counts": {
+        "ok": 17
+      },
+      "raster_open_seconds": 0.016624702000171965,
+      "coordinate_transform_seconds": 7.640000148967374e-05,
+      "bilinear_sample_seconds": 0.08175250700060133,
+      "stability_check_seconds": 0.0037458019987752778,
+      "elapsed_seconds": 0.10360111099998903
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.007774601000164694,
+      "coordinate_transform_seconds": 6.55999992886791e-05,
+      "bilinear_sample_seconds": 0.06459020499960388,
+      "stability_check_seconds": 0.0046493020004163554,
+      "elapsed_seconds": 0.08319330900030764
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x253783.721_y3364952.517",
+      "row_count": 668,
+      "status_counts": {
+        "ok": 668
+      },
+      "raster_open_seconds": 0.1267454139997426,
+      "coordinate_transform_seconds": 0.0021228020100352296,
+      "bilinear_sample_seconds": 0.30068722900023204,
+      "stability_check_seconds": 0.11958421400504449,
+      "elapsed_seconds": 1.2986126380001224
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254983.721_y3365252.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.010387200999957713,
+      "coordinate_transform_seconds": 7.190000042101019e-05,
+      "bilinear_sample_seconds": 0.08192280900129845,
+      "stability_check_seconds": 0.0066070000016225094,
+      "elapsed_seconds": 0.10122141100009685
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254083.721_y3364052.517",
+      "row_count": 17,
+      "status_counts": {
+        "ok": 17
+      },
+      "raster_open_seconds": 0.007981800999914412,
+      "coordinate_transform_seconds": 5.340000097930897e-05,
+      "bilinear_sample_seconds": 0.059353106999878946,
+      "stability_check_seconds": 0.0036129000000073574,
+      "elapsed_seconds": 0.07495800800006691
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254208.721_y3364102.517",
+      "row_count": 22,
+      "status_counts": {
+        "ok": 22
+      },
+      "raster_open_seconds": 0.01587920199972359,
+      "coordinate_transform_seconds": 8.24999997348641e-05,
+      "bilinear_sample_seconds": 0.11549831000138511,
+      "stability_check_seconds": 0.009041602999786846,
+      "elapsed_seconds": 0.14665531499986173
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "row_count": 19,
+      "status_counts": {
+        "ok": 19
+      },
+      "raster_open_seconds": 0.011291800999970292,
+      "coordinate_transform_seconds": 6.669999993391684e-05,
+      "bilinear_sample_seconds": 0.07847870900059206,
+      "stability_check_seconds": 0.004682299999331008,
+      "elapsed_seconds": 0.09612210999966919
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3365002.517",
+      "row_count": 18,
+      "status_counts": {
+        "ok": 18
+      },
+      "raster_open_seconds": 0.01457700199989631,
+      "coordinate_transform_seconds": 6.619999976464896e-05,
+      "bilinear_sample_seconds": 0.08375910899985683,
+      "stability_check_seconds": 0.004115900002034323,
+      "elapsed_seconds": 0.10580241099978593
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x255133.721_y3364052.517",
+      "row_count": 13,
+      "status_counts": {
+        "ok": 13
+      },
+      "raster_open_seconds": 0.011802201000136847,
+      "coordinate_transform_seconds": 4.4099999740865314e-05,
+      "bilinear_sample_seconds": 0.04964890499968533,
+      "stability_check_seconds": 0.007117801000276813,
+      "elapsed_seconds": 0.07031720699978905
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "row_count": 17,
+      "status_counts": {
+        "ok": 17
+      },
+      "raster_open_seconds": 0.011233901000196056,
+      "coordinate_transform_seconds": 5.65999980608467e-05,
+      "bilinear_sample_seconds": 0.054892906000077346,
+      "stability_check_seconds": 0.0034765999994306185,
+      "elapsed_seconds": 0.07375720800018826
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.017954701999769895,
+      "coordinate_transform_seconds": 7.410000034724362e-05,
+      "bilinear_sample_seconds": 0.0842419089995019,
+      "stability_check_seconds": 0.0048050999998849875,
+      "elapsed_seconds": 0.11089441200010697
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253783.721_y3364802.517",
+      "row_count": 475,
+      "status_counts": {
+        "ok": 475
+      },
+      "raster_open_seconds": 0.012741201000153524,
+      "coordinate_transform_seconds": 0.0013128000059623446,
+      "bilinear_sample_seconds": 0.2588321300027019,
+      "stability_check_seconds": 0.0837111069963612,
+      "elapsed_seconds": 0.36930703999996695
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "row_count": 325,
+      "status_counts": {
+        "ok": 325
+      },
+      "raster_open_seconds": 0.013967902000331378,
+      "coordinate_transform_seconds": 0.0009624000022085966,
+      "bilinear_sample_seconds": 0.20167622099052096,
+      "stability_check_seconds": 0.08539870899858215,
+      "elapsed_seconds": 0.31415923300028226
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "row_count": 514,
+      "status_counts": {
+        "ok": 514
+      },
+      "raster_open_seconds": 0.012820501999613043,
+      "coordinate_transform_seconds": 0.0016052999999374151,
+      "bilinear_sample_seconds": 0.39669534299946463,
+      "stability_check_seconds": 0.10647361100336639,
+      "elapsed_seconds": 0.5314423559998431
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "row_count": 203,
+      "status_counts": {
+        "ok": 203
+      },
+      "raster_open_seconds": 0.012259601999630831,
+      "coordinate_transform_seconds": 0.0006082000013520883,
+      "bilinear_sample_seconds": 0.1786531220013785,
+      "stability_check_seconds": 0.04107310099971073,
+      "elapsed_seconds": 0.23869502500019735
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "row_count": 282,
+      "status_counts": {
+        "ok": 282
+      },
+      "raster_open_seconds": 0.010129600999789545,
+      "coordinate_transform_seconds": 0.0007740999963061768,
+      "bilinear_sample_seconds": 0.32250173500278834,
+      "stability_check_seconds": 0.048916703996837896,
+      "elapsed_seconds": 0.3890977410001142
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "row_count": 737,
+      "status_counts": {
+        "ok": 737
+      },
+      "raster_open_seconds": 0.017917202000262478,
+      "coordinate_transform_seconds": 0.0021847010066267103,
+      "bilinear_sample_seconds": 0.6279940640010864,
+      "stability_check_seconds": 0.14070191599785176,
+      "elapsed_seconds": 0.8083663850002267
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "row_count": 105,
+      "status_counts": {
+        "ok": 105
+      },
+      "raster_open_seconds": 0.01758460200016998,
+      "coordinate_transform_seconds": 0.00034849999838115764,
+      "bilinear_sample_seconds": 0.19307061900053668,
+      "stability_check_seconds": 0.027138804000969685,
+      "elapsed_seconds": 0.24339892499983762
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "row_count": 25,
+      "status_counts": {
+        "ok": 25
+      },
+      "raster_open_seconds": 0.017929902000105358,
+      "coordinate_transform_seconds": 8.590000106778461e-05,
+      "bilinear_sample_seconds": 0.12556441100105076,
+      "stability_check_seconds": 0.005549503000565892,
+      "elapsed_seconds": 0.15461951599991153
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3365002.517",
+      "row_count": 220,
+      "status_counts": {
+        "ok": 220
+      },
+      "raster_open_seconds": 0.013711001000046963,
+      "coordinate_transform_seconds": 0.0008689999999660358,
+      "bilinear_sample_seconds": 0.24221852399932686,
+      "stability_check_seconds": 0.04348470600143628,
+      "elapsed_seconds": 0.310468832999959
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "row_count": 26,
+      "status_counts": {
+        "ok": 26
+      },
+      "raster_open_seconds": 0.01912760300001537,
+      "coordinate_transform_seconds": 9.040000031745876e-05,
+      "bilinear_sample_seconds": 0.09503120999943349,
+      "stability_check_seconds": 0.008576400998663303,
+      "elapsed_seconds": 0.12887601400007043
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "row_count": 15,
+      "status_counts": {
+        "ok": 15
+      },
+      "raster_open_seconds": 0.014781900999878417,
+      "coordinate_transform_seconds": 5.580000060945167e-05,
+      "bilinear_sample_seconds": 0.06578580799987321,
+      "stability_check_seconds": 0.0036497999999483,
+      "elapsed_seconds": 0.08808270999998058
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254658.721_y3365002.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.013799300999835395,
+      "coordinate_transform_seconds": 9.159999808616703e-05,
+      "bilinear_sample_seconds": 0.09075270899984389,
+      "stability_check_seconds": 0.011959502001445799,
+      "elapsed_seconds": 0.12079441299965765
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3364102.517",
+      "row_count": 26,
+      "status_counts": {
+        "ok": 26
+      },
+      "raster_open_seconds": 0.012123600999984774,
+      "coordinate_transform_seconds": 9.070000078281737e-05,
+      "bilinear_sample_seconds": 0.10379860999955781,
+      "stability_check_seconds": 0.009124502001213841,
+      "elapsed_seconds": 0.1292803129999811
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "row_count": 24,
+      "status_counts": {
+        "ok": 24
+      },
+      "raster_open_seconds": 0.016801202000351623,
+      "coordinate_transform_seconds": 7.469999854947673e-05,
+      "bilinear_sample_seconds": 0.06928000800144218,
+      "stability_check_seconds": 0.004860099999859813,
+      "elapsed_seconds": 0.0946354100001372
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "row_count": 25,
+      "status_counts": {
+        "ok": 25
+      },
+      "raster_open_seconds": 0.013347901000088314,
+      "coordinate_transform_seconds": 8.73999993018515e-05,
+      "bilinear_sample_seconds": 0.10347021200141171,
+      "stability_check_seconds": 0.00546740000072532,
+      "elapsed_seconds": 0.12839401300016107
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x255108.721_y3365227.517",
+      "row_count": 14,
+      "status_counts": {
+        "ok": 14
+      },
+      "raster_open_seconds": 0.01736740100022871,
+      "coordinate_transform_seconds": 4.710000030172523e-05,
+      "bilinear_sample_seconds": 0.05721360699953948,
+      "stability_check_seconds": 0.0028678999997282517,
+      "elapsed_seconds": 0.07959260899997389
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "row_count": 18,
+      "status_counts": {
+        "ok": 18
+      },
+      "raster_open_seconds": 0.016835801000070205,
+      "coordinate_transform_seconds": 6.889999986015027e-05,
+      "bilinear_sample_seconds": 0.06833270699962668,
+      "stability_check_seconds": 0.004463801001747925,
+      "elapsed_seconds": 0.09440460999985589
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "row_count": 28,
+      "status_counts": {
+        "ok": 28
+      },
+      "raster_open_seconds": 0.013663401000030717,
+      "coordinate_transform_seconds": 8.900000102585182e-05,
+      "bilinear_sample_seconds": 0.09134961099925931,
+      "stability_check_seconds": 0.0059132000001227425,
+      "elapsed_seconds": 0.11291551200019967
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254683.721_y3364952.517",
+      "row_count": 26,
+      "status_counts": {
+        "ok": 26
+      },
+      "raster_open_seconds": 0.020487402000071597,
+      "coordinate_transform_seconds": 8.370000023205648e-05,
+      "bilinear_sample_seconds": 0.06588810599987482,
+      "stability_check_seconds": 0.011862001999361382,
+      "elapsed_seconds": 0.10098871100035467
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "row_count": 28,
+      "status_counts": {
+        "ok": 28
+      },
+      "raster_open_seconds": 0.018431802000122843,
+      "coordinate_transform_seconds": 0.00011300000096525764,
+      "bilinear_sample_seconds": 0.07983120799963217,
+      "stability_check_seconds": 0.00576800099997854,
+      "elapsed_seconds": 0.10851361100003487
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "row_count": 357,
+      "status_counts": {
+        "ok": 357
+      },
+      "raster_open_seconds": 0.013495702000000165,
+      "coordinate_transform_seconds": 0.0009628000016164151,
+      "bilinear_sample_seconds": 0.21704522299796736,
+      "stability_check_seconds": 0.06067910699675849,
+      "elapsed_seconds": 0.3027074320002612
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364502.517",
+      "row_count": 396,
+      "status_counts": {
+        "ok": 396
+      },
+      "raster_open_seconds": 0.011471101000097406,
+      "coordinate_transform_seconds": 0.0011638000082712097,
+      "bilinear_sample_seconds": 0.23462731900099243,
+      "stability_check_seconds": 0.07241581400285213,
+      "elapsed_seconds": 0.3327926350002599
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "row_count": 638,
+      "status_counts": {
+        "ok": 638
+      },
+      "raster_open_seconds": 0.014486801999737509,
+      "coordinate_transform_seconds": 0.0017797000045902678,
+      "bilinear_sample_seconds": 0.3529246350035464,
+      "stability_check_seconds": 0.10716271399996913,
+      "elapsed_seconds": 0.4868881520001196
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364652.517",
+      "row_count": 238,
+      "status_counts": {
+        "ok": 238
+      },
+      "raster_open_seconds": 0.019430801999988034,
+      "coordinate_transform_seconds": 0.00063250100129153,
+      "bilinear_sample_seconds": 0.17508301800125992,
+      "stability_check_seconds": 0.04818750500044189,
+      "elapsed_seconds": 0.24849192600004244
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254083.721_y3364652.517",
+      "row_count": 258,
+      "status_counts": {
+        "ok": 258
+      },
+      "raster_open_seconds": 0.014698601999953098,
+      "coordinate_transform_seconds": 0.000755600001411949,
+      "bilinear_sample_seconds": 0.22623922500088156,
+      "stability_check_seconds": 0.043698404002952884,
+      "elapsed_seconds": 0.29161963099977584
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x253983.721_y3364327.517",
+      "row_count": 147,
+      "status_counts": {
+        "ok": 147
+      },
+      "raster_open_seconds": 0.02604640300023675,
+      "coordinate_transform_seconds": 0.002430200998333021,
+      "bilinear_sample_seconds": 0.1568675170028655,
+      "stability_check_seconds": 0.026815701999566954,
+      "elapsed_seconds": 0.21642232300018804
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "row_count": 85,
+      "status_counts": {
+        "ok": 85
+      },
+      "raster_open_seconds": 0.014785201999984565,
+      "coordinate_transform_seconds": 0.00025899999809553265,
+      "bilinear_sample_seconds": 0.12430791399856389,
+      "stability_check_seconds": 0.013310101001025032,
+      "elapsed_seconds": 0.15582641700029853
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "row_count": 935,
+      "status_counts": {
+        "ok": 935
+      },
+      "raster_open_seconds": 0.01687450200006424,
+      "coordinate_transform_seconds": 0.00623690099655505,
+      "bilinear_sample_seconds": 0.6119837679839293,
+      "stability_check_seconds": 0.16866051500164758,
+      "elapsed_seconds": 0.8249026870003036
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "row_count": 48,
+      "status_counts": {
+        "ok": 48
+      },
+      "raster_open_seconds": 0.01968750200012437,
+      "coordinate_transform_seconds": 0.0001315000008617062,
+      "bilinear_sample_seconds": 0.09279281000181072,
+      "stability_check_seconds": 0.00972020100152804,
+      "elapsed_seconds": 0.12766571400015891
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3365102.517",
+      "row_count": 28,
+      "status_counts": {
+        "ok": 28
+      },
+      "raster_open_seconds": 0.011463901000297483,
+      "coordinate_transform_seconds": 9.359999967273325e-05,
+      "bilinear_sample_seconds": 0.08457360800048264,
+      "stability_check_seconds": 0.008663301000069623,
+      "elapsed_seconds": 0.11018981100005476
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "row_count": 36,
+      "status_counts": {
+        "ok": 36
+      },
+      "raster_open_seconds": 0.012587501999860251,
+      "coordinate_transform_seconds": 0.00014379999947777833,
+      "bilinear_sample_seconds": 0.12328591300047265,
+      "stability_check_seconds": 0.007920401000319544,
+      "elapsed_seconds": 0.146745416000158
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254833.721_y3365102.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.024632701999962592,
+      "coordinate_transform_seconds": 7.200000072771218e-05,
+      "bilinear_sample_seconds": 0.06107220700187099,
+      "stability_check_seconds": 0.0077222999993864505,
+      "elapsed_seconds": 0.1026950109999234
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254833.721_y3365252.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.016255101999831822,
+      "coordinate_transform_seconds": 8.269999943877338e-05,
+      "bilinear_sample_seconds": 0.06854110699941884,
+      "stability_check_seconds": 0.003964300000461662,
+      "elapsed_seconds": 0.09234000900005412
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254883.721_y3365227.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.014195002000178647,
+      "coordinate_transform_seconds": 6.679999978587148e-05,
+      "bilinear_sample_seconds": 0.07991930600019259,
+      "stability_check_seconds": 0.00487880299851895,
+      "elapsed_seconds": 0.1013153109997802
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254683.721_y3365252.517",
+      "row_count": 31,
+      "status_counts": {
+        "ok": 31
+      },
+      "raster_open_seconds": 0.01158570100005818,
+      "coordinate_transform_seconds": 0.00010040000142907957,
+      "bilinear_sample_seconds": 0.07933120899906498,
+      "stability_check_seconds": 0.011379500999737502,
+      "elapsed_seconds": 0.11001761200031979
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "row_count": 24,
+      "status_counts": {
+        "ok": 24
+      },
+      "raster_open_seconds": 0.01974320199997237,
+      "coordinate_transform_seconds": 7.779999987178599e-05,
+      "bilinear_sample_seconds": 0.08122830899856126,
+      "stability_check_seconds": 0.005027100000006612,
+      "elapsed_seconds": 0.11044761099992684
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "row_count": 40,
+      "status_counts": {
+        "ok": 40
+      },
+      "raster_open_seconds": 0.010007900999880803,
+      "coordinate_transform_seconds": 0.00014260000079957535,
+      "bilinear_sample_seconds": 0.13556341399953453,
+      "stability_check_seconds": 0.01709000199844013,
+      "elapsed_seconds": 0.16763241699982245
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3365252.517",
+      "row_count": 38,
+      "status_counts": {
+        "ok": 38
+      },
+      "raster_open_seconds": 0.01248800100029257,
+      "coordinate_transform_seconds": 0.0003063000021938933,
+      "bilinear_sample_seconds": 0.11770221199958542,
+      "stability_check_seconds": 0.00891750199980379,
+      "elapsed_seconds": 0.14268341500019233
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "row_count": 25,
+      "status_counts": {
+        "ok": 25
+      },
+      "raster_open_seconds": 0.014196801999787567,
+      "coordinate_transform_seconds": 0.00010689999999158317,
+      "bilinear_sample_seconds": 0.09737531100154229,
+      "stability_check_seconds": 0.005376100000830775,
+      "elapsed_seconds": 0.11944881299996268
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "row_count": 15,
+      "status_counts": {
+        "ok": 15
+      },
+      "raster_open_seconds": 0.016165301999990334,
+      "coordinate_transform_seconds": 5.020000025979243e-05,
+      "bilinear_sample_seconds": 0.0745044079985746,
+      "stability_check_seconds": 0.0034587009999995644,
+      "elapsed_seconds": 0.09839541099972848
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254533.721_y3364052.517",
+      "row_count": 349,
+      "status_counts": {
+        "ok": 349
+      },
+      "raster_open_seconds": 0.012389000999974087,
+      "coordinate_transform_seconds": 0.000956500000484084,
+      "bilinear_sample_seconds": 0.20459802200230115,
+      "stability_check_seconds": 0.06317110799636794,
+      "elapsed_seconds": 0.2893449309999596
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3364052.517",
+      "row_count": 558,
+      "status_counts": {
+        "ok": 558
+      },
+      "raster_open_seconds": 0.012175000999832264,
+      "coordinate_transform_seconds": 0.001643701001739828,
+      "bilinear_sample_seconds": 0.25528102600083,
+      "stability_check_seconds": 0.10467140900027516,
+      "elapsed_seconds": 0.39103304099990055
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3364327.517",
+      "row_count": 103,
+      "status_counts": {
+        "ok": 103
+      },
+      "raster_open_seconds": 0.009834900999976526,
+      "coordinate_transform_seconds": 0.00037880000036238926,
+      "bilinear_sample_seconds": 0.13405181399866706,
+      "stability_check_seconds": 0.02205950300049153,
+      "elapsed_seconds": 0.17038051800000176
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364327.517",
+      "row_count": 52,
+      "status_counts": {
+        "ok": 52
+      },
+      "raster_open_seconds": 0.01312780099988231,
+      "coordinate_transform_seconds": 0.00016239999831668683,
+      "bilinear_sample_seconds": 0.1602683179980886,
+      "stability_check_seconds": 0.010208099998180842,
+      "elapsed_seconds": 0.18913771999996243
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364777.517",
+      "row_count": 22,
+      "status_counts": {
+        "ok": 22
+      },
+      "raster_open_seconds": 0.013585002000127133,
+      "coordinate_transform_seconds": 6.960000155231683e-05,
+      "bilinear_sample_seconds": 0.09957051100082026,
+      "stability_check_seconds": 0.004350100000920065,
+      "elapsed_seconds": 0.12035471299986966
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "row_count": 21,
+      "status_counts": {
+        "ok": 21
+      },
+      "raster_open_seconds": 0.010474800999872969,
+      "coordinate_transform_seconds": 6.860000166852842e-05,
+      "bilinear_sample_seconds": 0.08018400899982225,
+      "stability_check_seconds": 0.004493199999615172,
+      "elapsed_seconds": 0.0974504099999649
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3364102.517",
+      "row_count": 914,
+      "status_counts": {
+        "ok": 914
+      },
+      "raster_open_seconds": 0.01952840199965067,
+      "coordinate_transform_seconds": 0.002849999997579289,
+      "bilinear_sample_seconds": 0.49321754800394046,
+      "stability_check_seconds": 0.17179972099665974,
+      "elapsed_seconds": 0.7081694759999664
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "row_count": 26,
+      "status_counts": {
+        "ok": 26
+      },
+      "raster_open_seconds": 0.009522300999833533,
+      "coordinate_transform_seconds": 0.000308399999539688,
+      "bilinear_sample_seconds": 0.09193810900023891,
+      "stability_check_seconds": 0.010258302000238473,
+      "elapsed_seconds": 0.11420761199997287
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s700_x254783.721_y3364902.517",
+      "row_count": 24,
+      "status_counts": {
+        "ok": 24
+      },
+      "raster_open_seconds": 0.014714102000198181,
+      "coordinate_transform_seconds": 7.889999960752903e-05,
+      "bilinear_sample_seconds": 0.09929490700096721,
+      "stability_check_seconds": 0.005761801000517153,
+      "elapsed_seconds": 0.12208160999989559
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364552.517",
+      "row_count": 32,
+      "status_counts": {
+        "ok": 32
+      },
+      "raster_open_seconds": 0.010890100999858987,
+      "coordinate_transform_seconds": 0.00013039999885222642,
+      "bilinear_sample_seconds": 0.12455270800001017,
+      "stability_check_seconds": 0.007815599998593825,
+      "elapsed_seconds": 0.1495157089998429
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254883.721_y3364777.517",
+      "row_count": 30,
+      "status_counts": {
+        "ok": 30
+      },
+      "raster_open_seconds": 0.015616401999977825,
+      "coordinate_transform_seconds": 0.00012030000198137714,
+      "bilinear_sample_seconds": 0.13028380599962475,
+      "stability_check_seconds": 0.0072997010001927265,
+      "elapsed_seconds": 0.15567380899983618
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "row_count": 19,
+      "status_counts": {
+        "ok": 19
+      },
+      "raster_open_seconds": 0.011125100000299426,
+      "coordinate_transform_seconds": 6.550000080096652e-05,
+      "bilinear_sample_seconds": 0.09114910100197449,
+      "stability_check_seconds": 0.005231000000094355,
+      "elapsed_seconds": 0.11006270100006077
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254683.721_y3364352.517",
+      "row_count": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "raster_open_seconds": 0.01402589999997872,
+      "coordinate_transform_seconds": 4.9900000249181176e-05,
+      "bilinear_sample_seconds": 0.055041601000084484,
+      "stability_check_seconds": 0.0030606999994233774,
+      "elapsed_seconds": 0.07434880099981456
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254208.721_y3364777.517",
+      "row_count": 23,
+      "status_counts": {
+        "ok": 23
+      },
+      "raster_open_seconds": 0.010707499999625725,
+      "coordinate_transform_seconds": 7.109999933163635e-05,
+      "bilinear_sample_seconds": 0.09949320099985925,
+      "stability_check_seconds": 0.008991400000468275,
+      "elapsed_seconds": 0.1253754019999178
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254383.721_y3364127.517",
+      "row_count": 1317,
+      "status_counts": {
+        "ok": 1317
+      },
+      "raster_open_seconds": 0.012618401000054291,
+      "coordinate_transform_seconds": 0.0041519999917909445,
+      "bilinear_sample_seconds": 0.7819166709937235,
+      "stability_check_seconds": 0.2516253179933301,
+      "elapsed_seconds": 1.0773328939999374
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3365227.517",
+      "row_count": 34,
+      "status_counts": {
+        "ok": 34
+      },
+      "raster_open_seconds": 0.01677840100001049,
+      "coordinate_transform_seconds": 0.00010680000013962854,
+      "bilinear_sample_seconds": 0.13762820200099668,
+      "stability_check_seconds": 0.006640099999458471,
+      "elapsed_seconds": 0.16731910299995434
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3365252.517",
+      "row_count": 28,
+      "status_counts": {
+        "ok": 28
+      },
+      "raster_open_seconds": 0.020543100000395498,
+      "coordinate_transform_seconds": 0.00012700000161203207,
+      "bilinear_sample_seconds": 0.08749270200178216,
+      "stability_check_seconds": 0.005744400000367023,
+      "elapsed_seconds": 0.11765180200018222
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254383.721_y3364877.517",
+      "row_count": 35,
+      "status_counts": {
+        "ok": 35
+      },
+      "raster_open_seconds": 0.016378700000132085,
+      "coordinate_transform_seconds": 0.00014770000007047202,
+      "bilinear_sample_seconds": 0.15709130199957144,
+      "stability_check_seconds": 0.008140600001297571,
+      "elapsed_seconds": 0.18460480200019447
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254383.721_y3364502.517",
+      "row_count": 24,
+      "status_counts": {
+        "ok": 24
+      },
+      "raster_open_seconds": 0.014758301000256324,
+      "coordinate_transform_seconds": 8.870000146998791e-05,
+      "bilinear_sample_seconds": 0.12325930099996185,
+      "stability_check_seconds": 0.009089499998935935,
+      "elapsed_seconds": 0.15772690199992212
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254758.721_y3364502.517",
+      "row_count": 28,
+      "status_counts": {
+        "ok": 28
+      },
+      "raster_open_seconds": 0.010684299999866198,
+      "coordinate_transform_seconds": 0.00012569999944389565,
+      "bilinear_sample_seconds": 0.13500880199899257,
+      "stability_check_seconds": 0.010768899998765846,
+      "elapsed_seconds": 0.1609827019997283
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364052.517",
+      "row_count": 972,
+      "status_counts": {
+        "ok": 971,
+        "nodata": 1
+      },
+      "raster_open_seconds": 0.02272080000011556,
+      "coordinate_transform_seconds": 0.003304699987438653,
+      "bilinear_sample_seconds": 0.3594585040027596,
+      "stability_check_seconds": 0.16446650299167231,
+      "elapsed_seconds": 0.5720221080000556
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "row_count": 1515,
+      "status_counts": {
+        "ok": 1512,
+        "nodata": 3
+      },
+      "raster_open_seconds": 0.014601499999571388,
+      "coordinate_transform_seconds": 0.0045938999933241575,
+      "bilinear_sample_seconds": 0.6070962079948004,
+      "stability_check_seconds": 0.27516240501381617,
+      "elapsed_seconds": 0.928885512999841
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "row_count": 1681,
+      "status_counts": {
+        "ok": 1681
+      },
+      "raster_open_seconds": 0.012524099999609462,
+      "coordinate_transform_seconds": 0.005246899991561804,
+      "bilinear_sample_seconds": 0.5989584090066273,
+      "stability_check_seconds": 0.2734829039854958,
+      "elapsed_seconds": 0.9270401150001817
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364202.517",
+      "row_count": 741,
+      "status_counts": {
+        "ok": 741
+      },
+      "raster_open_seconds": 0.04380219999984547,
+      "coordinate_transform_seconds": 0.0019728000011127733,
+      "bilinear_sample_seconds": 0.268050804010727,
+      "stability_check_seconds": 0.11667830399846935,
+      "elapsed_seconds": 0.45253840799978207
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254758.721_y3364127.517",
+      "row_count": 1721,
+      "status_counts": {
+        "ok": 1719,
+        "nodata": 2
+      },
+      "raster_open_seconds": 0.013605699999970966,
+      "coordinate_transform_seconds": 0.004785799987530481,
+      "bilinear_sample_seconds": 0.820960816999559,
+      "stability_check_seconds": 0.2959659019929859,
+      "elapsed_seconds": 1.1722312199999578
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "row_count": 631,
+      "status_counts": {
+        "ok": 628,
+        "nodata": 3
+      },
+      "raster_open_seconds": 0.0254120999998122,
+      "coordinate_transform_seconds": 0.0017658000042501953,
+      "bilinear_sample_seconds": 0.2954239050018259,
+      "stability_check_seconds": 0.11544450398605477,
+      "elapsed_seconds": 0.46325840899999093
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "row_count": 402,
+      "status_counts": {
+        "ok": 402
+      },
+      "raster_open_seconds": 0.008749200000238488,
+      "coordinate_transform_seconds": 0.0010781000009956188,
+      "bilinear_sample_seconds": 0.26098710700216543,
+      "stability_check_seconds": 0.07211870000401177,
+      "elapsed_seconds": 0.35599590800029546
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "row_count": 701,
+      "status_counts": {
+        "ok": 701
+      },
+      "raster_open_seconds": 0.014308700000128738,
+      "coordinate_transform_seconds": 0.0027762000072470983,
+      "bilinear_sample_seconds": 0.33859740700381735,
+      "stability_check_seconds": 0.13306790400201862,
+      "elapsed_seconds": 0.5028339109999251
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "row_count": 215,
+      "status_counts": {
+        "ok": 215
+      },
+      "raster_open_seconds": 0.020135400000071968,
+      "coordinate_transform_seconds": 0.0006094000041230174,
+      "bilinear_sample_seconds": 0.17456600400100797,
+      "stability_check_seconds": 0.03679880000208868,
+      "elapsed_seconds": 0.23742240499996115
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3363902.517",
+      "row_count": 401,
+      "status_counts": {
+        "ok": 401
+      },
+      "raster_open_seconds": 0.015380900999844016,
+      "coordinate_transform_seconds": 0.001077399993846484,
+      "bilinear_sample_seconds": 0.2263821029923747,
+      "stability_check_seconds": 0.07103260299527392,
+      "elapsed_seconds": 0.3243747070000609
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "row_count": 409,
+      "status_counts": {
+        "ok": 409
+      },
+      "raster_open_seconds": 0.01164939999989656,
+      "coordinate_transform_seconds": 0.0012560999994093436,
+      "bilinear_sample_seconds": 0.25160890700135496,
+      "stability_check_seconds": 0.06809800000337418,
+      "elapsed_seconds": 0.34116900799972427
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "row_count": 250,
+      "status_counts": {
+        "ok": 250
+      },
+      "raster_open_seconds": 0.017029099999945174,
+      "coordinate_transform_seconds": 0.0007869999967624608,
+      "bilinear_sample_seconds": 0.24809950500412015,
+      "stability_check_seconds": 0.04882920200179797,
+      "elapsed_seconds": 0.32685090699987995
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "row_count": 98,
+      "status_counts": {
+        "ok": 98
+      },
+      "raster_open_seconds": 0.017905301000155305,
+      "coordinate_transform_seconds": 0.0005018999972890015,
+      "bilinear_sample_seconds": 0.1267477029996371,
+      "stability_check_seconds": 0.02025039999944056,
+      "elapsed_seconds": 0.17086180399974182
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "row_count": 111,
+      "status_counts": {
+        "ok": 111
+      },
+      "raster_open_seconds": 0.014489799999864772,
+      "coordinate_transform_seconds": 0.0003652000009424228,
+      "bilinear_sample_seconds": 0.1413596040010816,
+      "stability_check_seconds": 0.020297699999900942,
+      "elapsed_seconds": 0.1808311039999353
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364352.517",
+      "row_count": 54,
+      "status_counts": {
+        "ok": 54
+      },
+      "raster_open_seconds": 0.01112970000031055,
+      "coordinate_transform_seconds": 0.00015419999908772297,
+      "bilinear_sample_seconds": 0.09609080199970776,
+      "stability_check_seconds": 0.009598400000868423,
+      "elapsed_seconds": 0.1210601019997739
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254008.721_y3364127.517",
+      "row_count": 15,
+      "status_counts": {
+        "ok": 15
+      },
+      "raster_open_seconds": 0.01168020000022807,
+      "coordinate_transform_seconds": 5.329999976311228e-05,
+      "bilinear_sample_seconds": 0.06418000199982998,
+      "stability_check_seconds": 0.003609100000176113,
+      "elapsed_seconds": 0.0813930019999134
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "row_count": 21,
+      "status_counts": {
+        "ok": 21
+      },
+      "raster_open_seconds": 0.011971599999924365,
+      "coordinate_transform_seconds": 6.910000047355425e-05,
+      "bilinear_sample_seconds": 0.08187180199956856,
+      "stability_check_seconds": 0.0047748999995747,
+      "elapsed_seconds": 0.10027670199997374
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254233.721_y3364652.517",
+      "row_count": 29,
+      "status_counts": {
+        "ok": 29
+      },
+      "raster_open_seconds": 0.011440400000083173,
+      "coordinate_transform_seconds": 9.549999913360807e-05,
+      "bilinear_sample_seconds": 0.09592940199945588,
+      "stability_check_seconds": 0.006927200000063749,
+      "elapsed_seconds": 0.11702140200031863
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3365002.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.023492401000112295,
+      "coordinate_transform_seconds": 6.520000124510261e-05,
+      "bilinear_sample_seconds": 0.06416160000026139,
+      "stability_check_seconds": 0.005508201000338886,
+      "elapsed_seconds": 0.09555690199977107
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "row_count": 20,
+      "status_counts": {
+        "ok": 20
+      },
+      "raster_open_seconds": 0.01576889999978448,
+      "coordinate_transform_seconds": 6.379999967975891e-05,
+      "bilinear_sample_seconds": 0.04939610100018399,
+      "stability_check_seconds": 0.00397510000038892,
+      "elapsed_seconds": 0.07375140100020872
+    }
+  ],
+  "started_at_unix": 1777307966.924445,
+  "completed_at_unix": 1777307974.6261108,
+  "generated_at_unix": 1777307974.626111
+}

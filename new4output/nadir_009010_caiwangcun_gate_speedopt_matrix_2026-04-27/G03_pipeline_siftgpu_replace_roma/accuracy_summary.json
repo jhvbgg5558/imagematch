@@ -1,0 +1,25 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma",
+  "g02_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "generated_at_utc": "2026-04-27T17:58:07+00:00",
+  "retrieval_top20_rows": 100,
+  "matches_row_count": 21218,
+  "sampling_row_count": 21218,
+  "sampling_status_counts": {
+    "ok": 21208,
+    "unstable_local_height": 1,
+    "nodata": 9
+  },
+  "pnp_row_count": 100,
+  "pnp_status_counts": {
+    "ok": 39,
+    "pnp_failed": 61
+  },
+  "best_pose_status_counts": {
+    "ok": 5,
+    "missing_pnp_rows": 35
+  },
+  "validation_pipeline_status": "ok",
+  "layer2_horizontal_error_m_mean": 2.0530604,
+  "layer3_tiepoint_xy_error_rmse_m": 0.41744002475044845
+}

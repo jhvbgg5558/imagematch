@@ -1,0 +1,10 @@
+{
+  "bundle_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal",
+  "candidate_manifest_csv": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/input/formal_candidate_manifest.csv",
+  "best_pose_csv": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/summary/per_query_best_pose.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ok": 40
+  },
+  "generated_at_unix": 1775833333.6898217
+}

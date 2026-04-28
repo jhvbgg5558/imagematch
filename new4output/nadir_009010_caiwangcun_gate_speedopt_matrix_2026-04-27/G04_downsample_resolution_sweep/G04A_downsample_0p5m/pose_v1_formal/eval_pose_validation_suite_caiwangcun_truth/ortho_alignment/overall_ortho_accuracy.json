@@ -1,0 +1,28 @@
+{
+  "query_count": 5,
+  "evaluated_query_count": 5,
+  "phase_corr_error_m": {
+    "mean": 0.0240582,
+    "median": 0.021356,
+    "p90": 0.0412304
+  },
+  "center_offset_m": {
+    "mean": 32.488831,
+    "median": 33.621802,
+    "p90": 33.8934762
+  },
+  "ortho_iou": {
+    "mean": 0.863844,
+    "median": 0.864181,
+    "p90": 0.8664548
+  },
+  "ssim": {
+    "mean": 0.0130358,
+    "median": 0.002026,
+    "p90": 0.0423166
+  },
+  "eval_status_counts": {
+    "ok": 5
+  },
+  "generated_at_unix": 1777343396.7563553
+}

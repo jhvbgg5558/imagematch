@@ -1,0 +1,44 @@
+{
+  "top_k": 3,
+  "query_count": 1,
+  "recall@1": 1.0,
+  "recall@5": 1.0,
+  "recall@10": 1.0,
+  "mrr": 1.0,
+  "top1_error_m_mean": 83.59773243443438,
+  "hit_count@1": 1,
+  "hit_count@5": 1,
+  "hit_count@10": 1,
+  "per_query": [
+    {
+      "query_id": "q_200m_05",
+      "truth_tile_ids": [
+        "s80_x254507.293_y3364207.454",
+        "s80_x254507.293_y3364267.454",
+        "s120_x254467.293_y3364227.454",
+        "s120_x254557.293_y3364227.454",
+        "s200_x254447.293_y3364207.454",
+        "s200_x254597.293_y3364207.454"
+      ],
+      "topk_tile_ids": [
+        "s200_x254597.293_y3364207.454",
+        "s120_x254467.293_y3364137.454",
+        "s200_x254689.058_y3364504.565"
+      ],
+      "hit@1": true,
+      "hit@5": true,
+      "hit@10": true,
+      "reciprocal_rank": 1.0,
+      "top1_error_m": 83.59773243443438
+    }
+  ],
+  "config": {
+    "feature_backend": "superpoint",
+    "max_num_keypoints": 128,
+    "device": "cpu",
+    "promotion_rank_gate": 3,
+    "ransac_reproj_thresh": 5.0,
+    "min_inliers": 4,
+    "min_inlier_ratio": 0.5
+  }
+}

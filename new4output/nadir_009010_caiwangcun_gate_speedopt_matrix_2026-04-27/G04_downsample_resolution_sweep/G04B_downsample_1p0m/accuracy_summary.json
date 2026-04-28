@@ -1,0 +1,39 @@
+{
+  "experiment_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04B_downsample_1p0m",
+  "g02_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "target_gsd_m": 1.0,
+  "generated_at_utc": "2026-04-28T04:59:11+00:00",
+  "status": "failed",
+  "failure_stage": "romav2_rerank",
+  "failure_reason": "romav2_rerank_timeout_or_cpu_fallback",
+  "detail": "G04B 1.0m ran the first flight RoMa rerank for more than 2 hours with 99% CPU, no visible nvidia-smi GPU process, and 0-byte stage7 output CSVs; run was terminated for gate iteration control.",
+  "retrieval_top20_rows": 0,
+  "matches_row_count": 0,
+  "correspondence_row_count": 0,
+  "sampling_row_count": 0,
+  "sampling_status_counts": {},
+  "pnp_row_count": 0,
+  "pnp_status_counts": {},
+  "best_pose_row_count": 0,
+  "best_pose_status_counts": {},
+  "validation_pipeline_status": "not_run",
+  "layer2_horizontal_error_m_mean": null,
+  "layer3_tiepoint_xy_error_rmse_m": null,
+  "partial_stage7_files": {
+    "per_query_geom_metrics.csv": {
+      "exists": true,
+      "bytes": 0,
+      "rows": 0
+    },
+    "reranked_top20.csv": {
+      "exists": true,
+      "bytes": 0,
+      "rows": 0
+    },
+    "roma_matches_for_pose.csv": {
+      "exists": true,
+      "bytes": 0,
+      "rows": 0
+    }
+  }
+}

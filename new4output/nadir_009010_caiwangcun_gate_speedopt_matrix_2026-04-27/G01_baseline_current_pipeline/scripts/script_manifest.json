@@ -1,0 +1,74 @@
+{
+  "scripts": [
+    {
+      "file": "run_nadir_009010_caiwangcun_fullreplace_gate_experiment.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_nadir_009010_caiwangcun_fullreplace_gate_experiment.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/run_nadir_009010_caiwangcun_fullreplace_gate_experiment.py",
+      "sha256": "55e4e224acc5aefce1d2b3536cd04283834ce6cef84fdf31fd11eaa96b6ed8fb",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "build_caiwangcun_candidate_library.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_caiwangcun_candidate_library.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/build_caiwangcun_candidate_library.py",
+      "sha256": "65f42f2a9462262759bbe7caa3ffe6cda8a7530483fd5c0766ad875bebc81dad",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "diagnose_pose_frame_sanity.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/diagnose_pose_frame_sanity.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/diagnose_pose_frame_sanity.py",
+      "sha256": "7c13175a4a47696604f1511d3428b31dc747cf58b3395f448fef85d795f42ab0",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "build_formal_query_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_formal_query_manifest.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/build_formal_query_manifest.py",
+      "sha256": "41a1edb83721d030bef4994f9dc3aa240b8e6998fd7e2940901b788bd66e3cde",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "build_formal_candidate_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_formal_candidate_manifest.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/build_formal_candidate_manifest.py",
+      "sha256": "b6559cacd2673314ba07541e6bd1e121dc0aba4637ac30167514840f5e43d9e3",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "build_candidate_dsm_cache.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_candidate_dsm_cache.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/build_candidate_dsm_cache.py",
+      "sha256": "adf3d8374b6b82a4290f901d46f1db30363aa56e7c712d3bf589dc89ff318ed7",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "build_pose_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_pose_manifest.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/build_pose_manifest.py",
+      "sha256": "7500ff8b7debbdd027e2e5e49ee38fbcab058c71421cdf258f410635057a7aad",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "run_formal_pose_v1_pipeline.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_formal_pose_v1_pipeline.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/run_formal_pose_v1_pipeline.py",
+      "sha256": "b074e04dba9a70cd7a4ad62c07765b8e578b3d22a85b99023a2eb54f309c13ae",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "run_pose_validation_suite.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_pose_validation_suite.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/run_pose_validation_suite.py",
+      "sha256": "38f83077c700fd7f690e443cc9e405fc59b41e722542c67ed282fa7f28f141aa",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    },
+    {
+      "file": "render_query_predicted_ortho_from_pose.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/render_query_predicted_ortho_from_pose.py",
+      "snapshot_path": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/scripts/render_query_predicted_ortho_from_pose.py",
+      "sha256": "f00bb408aa9a7f907b5fc73cf19b7b495ae1785f01b16ac3741ca51533eb10f5",
+      "copied_at_utc": "2026-04-27T10:43:25+00:00"
+    }
+  ]
+}

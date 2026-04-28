@@ -1,0 +1,23 @@
+{
+  "stage": "romav2_rerank",
+  "top_k": 20,
+  "elapsed_seconds": 9049.64854002808,
+  "per_flight": [
+    {
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "elapsed_seconds": 2508.143897590053
+    },
+    {
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "elapsed_seconds": 2174.457779838005
+    },
+    {
+      "flight_id": "DJI_202510311435_011_新建面状航线1",
+      "elapsed_seconds": 2131.7146565710427
+    },
+    {
+      "flight_id": "DJI_202510311500_012_新建面状航线1",
+      "elapsed_seconds": 2235.3322060289793
+    }
+  ]
+}

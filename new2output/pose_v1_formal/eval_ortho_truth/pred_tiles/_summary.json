@@ -1,0 +1,13 @@
+{
+  "bundle_root": "new2output/pose_v1_formal",
+  "best_pose_csv": "new2output/pose_v1_formal/summary/per_query_best_pose.csv",
+  "pose_manifest_json": "new2output/pose_v1_formal/manifest/pose_manifest.json",
+  "dsm_manifest_csv": "new2output/pose_v1_formal/input/formal_dsm_manifest.csv",
+  "truth_manifest_csv": "new2output/pose_v1_formal/eval_ortho_truth/query_ortho_truth_manifest.csv",
+  "row_count": 5,
+  "status_counts": {
+    "ok": 4,
+    "dsm_intersection_failed": 1
+  },
+  "generated_at_unix": 1775721206.1582737
+}

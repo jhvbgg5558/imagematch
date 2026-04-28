@@ -1,0 +1,13 @@
+{
+  "experiment_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04B_downsample_1p0m",
+  "g02_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "target_gsd_m": 1.0,
+  "generated_at_utc": "2026-04-28T04:59:11+00:00",
+  "status": "failed",
+  "failure_stage": "romav2_rerank",
+  "failure_reason": "romav2_rerank_timeout_or_cpu_fallback",
+  "pose_export_romav2_matches_seconds": 0.0,
+  "romav2_rerank_elapsed_seconds": null,
+  "domz_sampling_total_seconds": null,
+  "wrapper_elapsed_seconds": null
+}

@@ -1,0 +1,53 @@
+{
+  "source_dsm": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/source_mosaic/caiwangcun_dsm_0p14m_epsg32650.tif",
+  "formal_dsm_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/input/formal_dsm_manifest.csv",
+  "planned_count": 119,
+  "built_count": 119,
+  "failed_count": 0,
+  "status_counts": {
+    "ready": 119
+  },
+  "built_examples": [
+    {
+      "dsm_id": "cw_s200_x253783.721_y3364952.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253783.721_y3364952.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x254233.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254233.721_y3364052.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x254083.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3364052.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x255133.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x255133.721_y3364052.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x255133.721_y3364202.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x255133.721_y3364202.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x254983.721_y3365252.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3365252.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x254083.721_y3365102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3365102.517.tif"
+    },
+    {
+      "dsm_id": "cw_s300_x255108.721_y3364327.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x255108.721_y3364327.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x254683.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3364052.517.tif"
+    },
+    {
+      "dsm_id": "cw_s200_x254983.721_y3364352.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3364352.517.tif"
+    }
+  ],
+  "generated_at_utc": "2026-04-20T16:20:27+00:00"
+}

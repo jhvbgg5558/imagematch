@@ -1,0 +1,19 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m",
+  "g02_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "target_gsd_m": 0.5,
+  "generated_at_utc": "2026-04-28T02:44:02+00:00",
+  "checks": {
+    "wrapper_returncode_zero": true,
+    "retrieval_top20_rows_100": true,
+    "pnp_row_count_100": true,
+    "best_pose_5_of_5_ok": true,
+    "validation_pipeline_ok": true,
+    "sampling_matches_correspondences_consistent": true,
+    "pose_export_removed": true
+  },
+  "accepted": true,
+  "accuracy_summary": "accuracy_summary.json",
+  "timing_summary": "timing_summary.json",
+  "compare_summary": "compare_against_G02_summary.json"
+}

@@ -1,0 +1,5 @@
+﻿c_variant,query_count,query_ratio
+C_total,3,0.075
+C_retained,3,0.075
+C_drop_out,0,0.0
+C_near_miss,3,0.075

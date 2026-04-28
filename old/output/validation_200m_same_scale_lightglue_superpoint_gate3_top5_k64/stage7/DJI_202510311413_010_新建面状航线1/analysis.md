@@ -1,0 +1,9 @@
+# LightGlue Rerank Analysis
+
+- Flight: DJI_202510311413_010_新建面状航线1
+- Query count: 5
+- Recall@1: 0.200
+- Recall@5: 0.600
+- Recall@10: 0.600
+- MRR: 0.333
+- Top-1 error mean (m): 643.5457615728471

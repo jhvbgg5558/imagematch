@@ -1,0 +1,9 @@
+{
+  "experiment_root": "new1output\\query_reselect_2026-03-26_v2",
+  "coarse_path": "new1output\\query_reselect_2026-03-26_v2\\romav2_eval_2026-03-30_gpu\\coarse\\retrieval_top20.csv",
+  "comparison_path": "new1output\\query_reselect_2026-03-26_v2\\romav2_eval_2026-03-30_gpu\\per_query_comparison.csv",
+  "query_truth_path": "new1output\\query_reselect_2026-03-26_v2\\query_truth\\query_truth.csv",
+  "query_seed_path": "new1output\\query_reselect_2026-03-26_v2\\query_truth\\queries_truth_seed.csv",
+  "selected_summary_path": "new1output\\query_reselect_2026-03-26_v2\\selected_queries\\selected_images_summary.csv",
+  "reranked_stage7_root": "new1output\\query_reselect_2026-03-26_v2\\romav2_eval_2026-03-30_gpu\\stage7"
+}

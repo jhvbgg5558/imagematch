@@ -1,0 +1,74 @@
+{
+  "scripts": [
+    {
+      "file": "run_nadir_009010_caiwangcun_fullreplace_gate_experiment.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_nadir_009010_caiwangcun_fullreplace_gate_experiment.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/run_nadir_009010_caiwangcun_fullreplace_gate_experiment.py",
+      "sha256": "f59e2236586c8d3dcab9ed9dd6a370a00e44234083e3cde3702ca345b92e2687",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "build_caiwangcun_candidate_library.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_caiwangcun_candidate_library.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/build_caiwangcun_candidate_library.py",
+      "sha256": "cb47c1df08cb14e54e8674afb77916321d6000c31f4a0982dd7c04aa75e6d86b",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "diagnose_pose_frame_sanity.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/diagnose_pose_frame_sanity.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/diagnose_pose_frame_sanity.py",
+      "sha256": "7c13175a4a47696604f1511d3428b31dc747cf58b3395f448fef85d795f42ab0",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "build_formal_query_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_formal_query_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/build_formal_query_manifest.py",
+      "sha256": "ebb436d821dc04e063d1966a1d75f64bfd90cf1dcbbb90001e89289d1ebc9ecd",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "build_formal_candidate_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_formal_candidate_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/build_formal_candidate_manifest.py",
+      "sha256": "b6559cacd2673314ba07541e6bd1e121dc0aba4637ac30167514840f5e43d9e3",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "build_candidate_dsm_cache.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_candidate_dsm_cache.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/build_candidate_dsm_cache.py",
+      "sha256": "adf3d8374b6b82a4290f901d46f1db30363aa56e7c712d3bf589dc89ff318ed7",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "build_pose_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_pose_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/build_pose_manifest.py",
+      "sha256": "7500ff8b7debbdd027e2e5e49ee38fbcab058c71421cdf258f410635057a7aad",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "run_formal_pose_v1_pipeline.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_formal_pose_v1_pipeline.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/run_formal_pose_v1_pipeline.py",
+      "sha256": "915e0a39eb0a015d981e96ae3a892315835ef462b08e8c274014174a8933d31f",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "run_pose_validation_suite.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_pose_validation_suite.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/run_pose_validation_suite.py",
+      "sha256": "38f83077c700fd7f690e443cc9e405fc59b41e722542c67ed282fa7f28f141aa",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    },
+    {
+      "file": "render_query_predicted_ortho_from_pose.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/render_query_predicted_ortho_from_pose.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/scripts/render_query_predicted_ortho_from_pose.py",
+      "sha256": "f00bb408aa9a7f907b5fc73cf19b7b495ae1785f01b16ac3741ca51533eb10f5",
+      "copied_at_utc": "2026-04-28T01:13:26+00:00"
+    }
+  ]
+}

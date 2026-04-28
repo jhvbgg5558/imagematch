@@ -1,0 +1,87 @@
+{
+  "available": true,
+  "classic_siftgpu_executable_available": false,
+  "local_siftgpu_pair_match_available": true,
+  "colmap_siftgpu_probe_available": false,
+  "executables": {
+    "siftgpu": null,
+    "SiftGPU": null,
+    "sift_gpu": null,
+    "colmap": "/usr/bin/colmap",
+    "nvidia-smi": "/usr/lib/wsl/lib/nvidia-smi",
+    "cmake": "/home/farsee2/.local/bin/cmake",
+    "make": "/usr/bin/make",
+    "g++": "/usr/bin/g++"
+  },
+  "nvidia_smi": {
+    "command": [
+      "/usr/lib/wsl/lib/nvidia-smi",
+      "--query-gpu=name,driver_version",
+      "--format=csv,noheader"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.06358960000011393,
+    "output_tail": "NVIDIA GeForce GTX 1080, 581.80\n"
+  },
+  "colmap_help": {
+    "command": [
+      "/usr/bin/colmap",
+      "-h"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.014625700000124198,
+    "output_tail": "COLMAP 3.6 -- Structure-from-Motion and Multi-View Stereo\n              (Commit Unknown on Unknown without CUDA)\n\nUsage:\n  colmap [command] [options]\n\nDocumentation:\n  https://colmap.github.io/\n\nExample usage:\n  colmap help [ -h, --help ]\n  colmap gui\n  colmap gui -h [ --help ]\n  colmap automatic_reconstructor -h [ --help ]\n  colmap automatic_reconstructor --image_path IMAGES --workspace_path WORKSPACE\n  colmap feature_extractor --image_path IMAGES --database_path DATABASE\n  colmap exhaustive_matcher --database_path DATABASE\n  colmap mapper --image_path IMAGES --database_path DATABASE --output_path MODEL\n  ...\n\nAvailable commands:\n  help\n  gui\n  automatic_reconstructor\n  bundle_adjuster\n  color_extractor\n  database_creator\n  database_merger\n  delaunay_mesher\n  exhaustive_matcher\n  feature_extractor\n  feature_importer\n  hierarchical_mapper\n  image_deleter\n  image_filterer\n  image_rectifier\n  image_registrator\n  image_undistorter\n  image_undistorter_standalone\n  mapper\n  matches_importer\n  model_aligner\n  model_analyzer\n  model_converter\n  model_merger\n  model_orientation_aligner\n  patch_match_stereo\n  point_filtering\n  point_triangulator\n  poisson_mesher\n  project_generator\n  rig_bundle_adjuster\n  sequential_matcher\n  spatial_matcher\n  stereo_fusion\n  transitive_matcher\n  vocab_tree_builder\n  vocab_tree_matcher\n  vocab_tree_retriever\n\n"
+  },
+  "local_siftgpu_pair_match_probe": {
+    "requested": true,
+    "available": true,
+    "backend": "local_siftgpu_pair_match",
+    "siftgpu_bin": "/mnt/d/aiproject/imagematch/third_party/SiftGPU/bin/siftgpu_pair_match",
+    "run": {
+      "command": [
+        "/mnt/d/aiproject/imagematch/third_party/SiftGPU/bin/siftgpu_pair_match",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling/query_inputs/images/DJI_202510311347_009_新建面状航线1/DJI_20251031135226_0007_V.JPG",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling/candidate_library/tiles_native/cw_s200_x253783.721_y3364952.517.png",
+        "/tmp/siftgpu_cli_probe_01cojza_/matches.csv",
+        "8192"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 4.769782223999982,
+      "output_tail": "features1=9427 features2=9132 matches=667\n"
+    },
+    "match_row_count": 667
+  },
+  "probe": {
+    "requested": true,
+    "available": false,
+    "backend": "colmap_siftgpu",
+    "feature_extractor": {
+      "command": [
+        "/usr/bin/colmap",
+        "feature_extractor",
+        "--database_path",
+        "/tmp/siftgpu_env_probe__ujv053d/database.db",
+        "--image_path",
+        "/tmp/siftgpu_env_probe__ujv053d/images",
+        "--ImageReader.single_camera",
+        "0",
+        "--SiftExtraction.use_gpu",
+        "1",
+        "--SiftExtraction.max_num_features",
+        "8192"
+      ],
+      "returncode": -6,
+      "elapsed_seconds": 1.8389304090001133,
+      "output_tail": "\n==============================================================================\nFeature extraction\n==============================================================================\n\nShader not supported by your hardware!\nERROR: SiftGPU not fully supported.\nterminate called without an active exception\n*** Aborted at 1777306413 (unix time) try \"date -d @1777306413\" if you are using GNU date ***\nPC: @     0x73483846f00b gsignal\n*** SIGABRT (@0x3e800000de8) received by PID 3560 (TID 0x734835bb9900) from PID 3560; stack trace: ***\n    @     0x73483a171631 (unknown)\n    @     0x73483a002420 (unknown)\n    @     0x73483846f00b gsignal\n    @     0x73483844e859 abort\n    @     0x7348386bc8d1 (unknown)\n    @     0x7348386c837c (unknown)\n    @     0x7348386c83e7 std::terminate()\n    @     0x62a3b815747f colmap::internal::FeatureWriterThread::~FeatureWriterThread()\n    @     0x62a3b809d61f colmap::SiftFeatureExtractor::~SiftFeatureExtractor()\n    @     0x62a3b805054c RunFeatureExtractor()\n    @     0x62a3b803ceaf main\n    @     0x734838450083 __libc_start_main\n    @     0x62a3b8040f6e _start\n"
+    },
+    "database_counts": {
+      "images": 0,
+      "keypoints": 0,
+      "descriptors": 0,
+      "matches": 0,
+      "two_view_geometries": 0
+    }
+  },
+  "formal_cpu_fallback_allowed": false,
+  "generated_at_unix": 1777306415.550633
+}

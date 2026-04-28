@@ -1,0 +1,10 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21",
+  "gate_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20",
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+  "full_pose_summary": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/summary/pose_overall_summary.json",
+  "full_validation_summary": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/full_run_summary.json",
+  "frame_sanity_summary": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/frame_sanity/overall_frame_sanity.json",
+  "acceptance_summary": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/plan/full_acceptance_summary.json",
+  "generated_at_utc": "2026-04-21T19:49:44+00:00"
+}

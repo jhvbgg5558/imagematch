@@ -1,0 +1,10 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+  "tiepoint_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error/per_query_tiepoint_ground_error.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ok": 39,
+    "upstream_eval_failed": 1
+  },
+  "generated_at_unix": 1776800812.0074036
+}

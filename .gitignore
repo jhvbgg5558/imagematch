@@ -57,7 +57,7 @@ desktop.ini
 *.pcd
 *.hgt
 
-# Large experiment/model/data artifacts
+# Model/data artifacts that do not belong in a normal GitHub repository
 *.pt
 *.pth
 *.ckpt
@@ -73,23 +73,6 @@ desktop.ini
 *.sqlite3
 *.db
 
-# Generated report binaries; keep Markdown reports instead
-*.docx
-*.doc
-*.pdf
-*.pptx
-*.xlsx
-
-# Generated experiment outputs and archived task material.
-# Keep curated Markdown summaries in docs_md/ or 汇总/ when they should be published.
-output/
-newoutput/
-new1output/
-new2output/
-new3output/
-new4output/
-old/
-
 # Archives and packaged data
 *.zip
 *.7z
@@ -97,6 +80,30 @@ old/
 *.tar
 *.tar.gz
 *.tgz
+
+# GitHub hard-limits regular Git blobs above 100 MB. These generated CSV
+# artifacts stay local; summaries, reports, configs, and smaller tables are tracked.
+new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/correspondences/pose_correspondences.csv
+new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/matches/roma_matches.csv
+new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/sampling/sampled_correspondences.csv
+new2output/pose_v1_formal/correspondences/pose_correspondences.csv
+new2output/pose_v1_formal/matches/roma_matches.csv
+new2output/pose_v1_formal/sampling/sampled_correspondences.csv
+new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/correspondences/pose_correspondences.csv
+new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/matches/roma_matches.csv
+new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/sampling/sampled_correspondences.csv
+new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/sampling/sampled_correspondences.csv
+new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/correspondences/pose_correspondences.csv
+new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/matches/roma_matches.csv
+new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/sampling/sampled_correspondences.csv
+new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/correspondences/pose_correspondences.csv
+new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/matches/roma_matches.csv
+new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/sampling/sampled_correspondences.csv
+new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/sampling/sampled_correspondences.csv
+new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling/pose_v1_formal/domz_cache/domz_point_cache.csv
+new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling/pose_v1_formal/sampling/sampled_correspondences.csv
+new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/domz_cache/domz_point_cache.csv
+new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/sampling/sampled_correspondences.csv
 
 # Build outputs
 build/

@@ -1,0 +1,34 @@
+{
+  "overall": {
+    "total_truth_unique_tiles": 475,
+    "candidate_unique_tiles": 1029,
+    "k_full_truth": 1029,
+    "reached_full_truth": true
+  },
+  "per_flight": {
+    "DJI_202510311347_009_新建面状航线1": {
+      "total_truth_unique_tiles": 354,
+      "candidate_unique_tiles": 1029,
+      "k_full_truth": 1029,
+      "reached_full_truth": true
+    },
+    "DJI_202510311413_010_新建面状航线1": {
+      "total_truth_unique_tiles": 316,
+      "candidate_unique_tiles": 1029,
+      "k_full_truth": 1029,
+      "reached_full_truth": true
+    },
+    "DJI_202510311435_011_新建面状航线1": {
+      "total_truth_unique_tiles": 340,
+      "candidate_unique_tiles": 1029,
+      "k_full_truth": 1029,
+      "reached_full_truth": true
+    },
+    "DJI_202510311500_012_新建面状航线1": {
+      "total_truth_unique_tiles": 259,
+      "candidate_unique_tiles": 1029,
+      "k_full_truth": 1029,
+      "reached_full_truth": true
+    }
+  }
+}

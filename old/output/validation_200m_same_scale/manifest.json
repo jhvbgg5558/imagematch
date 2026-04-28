@@ -1,0 +1,13 @@
+{
+  "experiment_name": "validation_200m_same_scale",
+  "query_scale_m": 200,
+  "satellite_scale_m": 200,
+  "truth_rule": "query center falls inside 200m satellite tile",
+  "top_k": 10,
+  "flight_query_counts": {
+    "DJI_202510311347_009_新建面状航线1": 5,
+    "DJI_202510311413_010_新建面状航线1": 5,
+    "DJI_202510311435_011_新建面状航线1": 5,
+    "DJI_202510311500_012_新建面状航线1": 5
+  }
+}

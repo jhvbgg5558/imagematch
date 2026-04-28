@@ -1,0 +1,11 @@
+{
+  "bundle_root": "new2output/pose_v1_formal",
+  "truth_manifest_csv": "new2output/pose_v1_formal/eval_ortho_truth/query_ortho_truth_manifest.csv",
+  "pred_manifest_csv": "new2output/pose_v1_formal/eval_ortho_truth/pred_tiles/pred_tile_manifest.csv",
+  "row_count": 5,
+  "status_counts": {
+    "ok": 4,
+    "dsm_intersection_failed": 1
+  },
+  "generated_at_unix": 1775721251.5307033
+}

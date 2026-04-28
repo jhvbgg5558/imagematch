@@ -1,0 +1,15 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "baseline_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline",
+  "generated_at_utc": "2026-04-27T15:16:06+00:00",
+  "sampling_status_counts_equal": false,
+  "pnp_status_counts_equal": true,
+  "best_pose_status_counts_equal": true,
+  "layer2_horizontal_error_m_mean_delta": 0.5700057999999997,
+  "layer3_tiepoint_xy_error_rmse_m_delta": 0.005988946873576317,
+  "baseline_pose_export_romav2_matches_seconds": 1412.0338108539581,
+  "g02_pose_export_romav2_matches_seconds": 0.0,
+  "baseline_dsm_sampling_seconds": 162.2780318260193,
+  "g02_online_domz_sampling_seconds": 19.642729997634888,
+  "g02_domz_prebuild_seconds": 65.29784154891968
+}

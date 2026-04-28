@@ -1,0 +1,88 @@
+{
+  "scripts": [
+    {
+      "file": "build_formal_query_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_formal_query_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/build_formal_query_manifest.py",
+      "sha256": "1a1f58e80519d003b3350d558a31d58748cceff296e19802c955f3392c7bfd95",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "build_formal_candidate_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_formal_candidate_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/build_formal_candidate_manifest.py",
+      "sha256": "b6559cacd2673314ba07541e6bd1e121dc0aba4637ac30167514840f5e43d9e3",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "build_candidate_dsm_cache.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_candidate_dsm_cache.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/build_candidate_dsm_cache.py",
+      "sha256": "adf3d8374b6b82a4290f901d46f1db30363aa56e7c712d3bf589dc89ff318ed7",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "materialize_formal_dsm_rasters.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/materialize_formal_dsm_rasters.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/materialize_formal_dsm_rasters.py",
+      "sha256": "6f73612f825c34966b291845efcc9853d171e5ffd0c1adef784e3f5e996e0f5b",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "build_pose_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_pose_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/build_pose_manifest.py",
+      "sha256": "7500ff8b7debbdd027e2e5e49ee38fbcab058c71421cdf258f410635057a7aad",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "validate_pose_assets.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/validate_pose_assets.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/validate_pose_assets.py",
+      "sha256": "7c1a1e845ce928588ac2ba1ee8512cd428b54284d4bc16e65cc6403f7e8cf2ec",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "run_formal_pose_v1_pipeline.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_formal_pose_v1_pipeline.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/run_formal_pose_v1_pipeline.py",
+      "sha256": "5340b5d6cf33db47309af5802f4471e1a8ad219cbe2615dc4b5b30fa25c53609",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "run_pose_validation_suite_sattruth_srtm.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_pose_validation_suite_sattruth_srtm.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/run_pose_validation_suite_sattruth_srtm.py",
+      "sha256": "15f13a3120344ca0688684fd4bac77fb59550fe5667cc87c88e1f6a446c8bd12",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "evaluate_pose_satellite_tiepoint_ground_error_romav2.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_satellite_tiepoint_ground_error_romav2.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/evaluate_pose_satellite_tiepoint_ground_error_romav2.py",
+      "sha256": "5461b31837d43fef65ada0218ae401e96c8d1bc5772f8ea703e34df89c5c6296",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "generate_pose_localization_accuracy_word_report.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/generate_pose_localization_accuracy_word_report.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/generate_pose_localization_accuracy_word_report.py",
+      "sha256": "6279ab5022197bab8cf5b22d3ca16b56cec8cb2cba0bf1c4b44b1d9e03a9545e",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "generate_sattruth_srtm_romatie_vs_baseline_report.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/generate_sattruth_srtm_romatie_vs_baseline_report.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/generate_sattruth_srtm_romatie_vs_baseline_report.py",
+      "sha256": "f7c57061eb81196c5b9fa5651c5d63027ef5cd033cdb16be58523a1f8f28c21e",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    },
+    {
+      "file": "run_nadir_009010_sattruth_srtm_romatie_experiment.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_nadir_009010_sattruth_srtm_romatie_experiment.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/scripts/run_nadir_009010_sattruth_srtm_romatie_experiment.py",
+      "sha256": "108fab3dcb5e161cbb52a987c21467808c1b5ab27f41eabe08df78e0f3620cf5",
+      "copied_at_utc": "2026-04-16T16:18:17+00:00"
+    }
+  ]
+}

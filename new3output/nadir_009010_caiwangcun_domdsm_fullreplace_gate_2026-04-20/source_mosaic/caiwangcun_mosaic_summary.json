@@ -1,0 +1,47 @@
+{
+  "ortho": {
+    "path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/source_mosaic/caiwangcun_ortho_0p14m_epsg32650.tif",
+    "kind": "ortho",
+    "crs": "EPSG:32650",
+    "bounds": {
+      "left": 253383.72102534556,
+      "bottom": 3363502.5166208195,
+      "right": 255617.45091653088,
+      "top": 3365689.8913650466
+    },
+    "width": 15950,
+    "height": 15619,
+    "count": 3,
+    "dtype": "uint8,uint8,uint8",
+    "resolution": [
+      0.1400457612028412,
+      0.1400457612028412
+    ],
+    "nodata": null,
+    "reused_existing": false
+  },
+  "dsm": {
+    "path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/source_mosaic/caiwangcun_dsm_0p14m_epsg32650.tif",
+    "kind": "dsm",
+    "crs": "EPSG:32650",
+    "bounds": {
+      "left": 253383.72102534556,
+      "bottom": 3363502.5166208195,
+      "right": 255617.45091653088,
+      "top": 3365689.8913650466
+    },
+    "width": 15950,
+    "height": 15619,
+    "count": 1,
+    "dtype": "float32",
+    "resolution": [
+      0.1400457612028412,
+      0.1400457612028412
+    ],
+    "nodata": -9999.0,
+    "reused_existing": false
+  },
+  "target_crs": "EPSG:32650",
+  "source_crs": "CGCS2000 / 3-degree Gauss-Kruger CM 114E (EPSG:4547)",
+  "generated_at_utc": "2026-04-20T12:14:07+00:00"
+}

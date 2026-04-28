@@ -1,0 +1,353 @@
+{
+  "phase": "gate",
+  "query_count": 5,
+  "selected_query_ids": [
+    "q_010",
+    "q_015",
+    "q_022",
+    "q_002",
+    "q_039"
+  ],
+  "suite_root": "new2output/pose_v1_formal/eval_pose_validation_suite",
+  "ortho_root": "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+  "pose_vs_at_root": "new2output/pose_v1_formal/eval_pose_validation_suite/pose_vs_at",
+  "tiepoint_ground_error_root": "new2output/pose_v1_formal/eval_pose_validation_suite/tiepoint_ground_error",
+  "steps": [
+    {
+      "step_name": "build_query_ortho_truth_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_ortho_truth_manifest.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2/query_truth/queries_truth_seed.csv",
+        "--crop-margin-m",
+        "80.0",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.7233777046203613
+    },
+    {
+      "step_name": "crop_query_ortho_truth_tiles",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/crop_query_ortho_truth_tiles.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--target-resolution-m",
+        "0.5",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 22.844099283218384
+    },
+    {
+      "step_name": "render_query_predicted_ortho_from_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_query_predicted_ortho_from_pose.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--block-size",
+        "256",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 25.755921840667725
+    },
+    {
+      "step_name": "evaluate_pose_ortho_alignment",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_alignment.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 13.911853075027466
+    },
+    {
+      "step_name": "render_pose_ortho_overlay_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_overlay_viz.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 36.752766132354736
+    },
+    {
+      "step_name": "build_query_reference_pose_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_reference_pose_manifest.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2/query_truth/queries_truth_seed.csv",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/pose_vs_at",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.9703083038330078
+    },
+    {
+      "step_name": "evaluate_pose_against_reference_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_against_reference_pose.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/pose_vs_at",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 2.7391517162323
+    },
+    {
+      "step_name": "evaluate_pose_ortho_tiepoint_ground_error",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_tiepoint_ground_error.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/tiepoint_ground_error",
+        "--ortho-output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 188.64140129089355
+    },
+    {
+      "step_name": "render_pose_ortho_tiepoint_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_tiepoint_viz.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/tiepoint_ground_error",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 13.92158031463623
+    },
+    {
+      "step_name": "summarize_pose_validation_suite",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/summarize_pose_validation_suite.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--output-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite",
+        "--ortho-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment",
+        "--pose-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/pose_vs_at",
+        "--tiepoint-root",
+        "new2output/pose_v1_formal/eval_pose_validation_suite/tiepoint_ground_error",
+        "--phase",
+        "gate",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.8946678638458252
+    }
+  ],
+  "pipeline_status": "ok",
+  "failed_step_names": [],
+  "overall_ortho_accuracy": {
+    "query_count": 5,
+    "evaluated_query_count": 4,
+    "phase_corr_error_m": {
+      "mean": 0.27388375,
+      "median": 0.278283,
+      "p90": 0.38636790000000004
+    },
+    "center_offset_m": {
+      "mean": 451.44182150000006,
+      "median": 451.471897,
+      "p90": 479.242831
+    },
+    "ortho_iou": {
+      "mean": 0.2610255,
+      "median": 0.258286,
+      "p90": 0.3018606
+    },
+    "ssim": {
+      "mean": 0.48914100000000005,
+      "median": 0.4979195,
+      "p90": 0.5637857000000001
+    },
+    "eval_status_counts": {
+      "ok": 4,
+      "dsm_intersection_failed": 1
+    },
+    "generated_at_unix": 1775729950.921462
+  },
+  "overall_pose_vs_at": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "horizontal_error_m": {
+      "mean": 277.8266456,
+      "median": 5.183039,
+      "p90": 821.6972960000002
+    },
+    "spatial_error_m": {
+      "mean": 301.37348860000003,
+      "median": 16.259415,
+      "p90": 870.7508570000001
+    },
+    "view_dir_angle_error_deg": {
+      "mean": 11.2643744,
+      "median": 0.649163,
+      "p90": 32.760746600000004
+    },
+    "yaw_error_deg": {
+      "mean": 17.971144399999996,
+      "median": 0.642406,
+      "p90": 52.7366304
+    },
+    "pitch_error_deg": {
+      "mean": 1.7740417999999998,
+      "median": 0.456601,
+      "p90": 4.781066000000001
+    },
+    "roll_error_deg": {
+      "mean": 4.3904418,
+      "median": 0.931253,
+      "p90": 11.6533002
+    },
+    "eval_status_counts": {
+      "ok": 5
+    },
+    "generated_at_unix": 1775729993.1336176
+  },
+  "overall_tiepoint_ground_error": {
+    "query_count": 5,
+    "evaluated_query_count": 4,
+    "matchable_query_count": 4,
+    "tiepoint_xy_error_mean_m": 3.4321170707171316,
+    "tiepoint_xy_error_median_m": 3.408665,
+    "tiepoint_xy_error_rmse_m": 3.8514184796019064,
+    "tiepoint_xy_error_p90_m": 4.6114104,
+    "tiepoint_match_count_mean": 916.0,
+    "tiepoint_inlier_ratio_mean": 0.5112225,
+    "eval_status_counts": {
+      "tiepoint_eval_ok": 4,
+      "upstream_eval_failed": 1
+    },
+    "generated_at_unix": 1775730181.4237416
+  },
+  "pnp_failed_candidate_counts": {
+    "q_002": 1,
+    "q_015": 1,
+    "q_022": 1,
+    "q_039": 5
+  },
+  "generated_at_unix": 1775730197.853812
+}

@@ -1,0 +1,24 @@
+
+export http_proxy="http://172.23.112.1:7890"
+export https_proxy="http://172.23.112.1:7890"
+
+• 已在当前目录创建可用环境，路径是 /mnt/d/aiproject/imagematch/.conda，并完成核心依赖安装与验证。
+
+  已安装关键包：
+
+  - torch 2.10.0+cpu
+  - torchvision 0.25.0+cpu
+  - rasterio 1.4.4
+  - opencv-python-headless 4.13.0
+  - faiss-cpu 1.13.2
+  - numpy/scipy/pandas/matplotlib/scikit-image
+  - timm/transformers/einops
+
+  环境激活方式：
+
+  conda activate /mnt/d/aiproject/imagematch/.conda
+
+  快速验证命令：
+
+  python -c "import torch,rasterio,cv2,faiss;print(torch.__version__, rasterio.__version__, cv2.__version__,
+  faiss.__version__)"

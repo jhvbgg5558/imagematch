@@ -1,0 +1,61 @@
+﻿{
+    "root":  "D:\\aiproject\\imagematch\\new3output",
+    "generated_at":  "2026-04-20T19:27:37.9027480+08:00",
+    "rows":  [
+                 {
+                     "name":  "odm_dsm_gate_resolution_sweep_2026-04-17",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\odm_dsm_gate_resolution_sweep_2026-04-17",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "odm_dsm_gate_resolution_sweep_hires_2026-04-18",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\odm_dsm_gate_resolution_sweep_hires_2026-04-18",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_5m_gate_2026-04-17",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_5m_gate_2026-04-17",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_3m_gate_2026-04-17",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_3m_gate_2026-04-17",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_2m_gate_2026-04-17",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_2m_gate_2026-04-17",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_1m_gate_2026-04-18",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_1m_gate_2026-04-18",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_0p5m_gate_2026-04-18",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_0p5m_gate_2026-04-18",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_0p1m_2026-04-17",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_0p1m_2026-04-17",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_0p1m_rerun_2026-04-17",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmtruth_odmdsm_0p1m_rerun_2026-04-17",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_caiwangcun_domdsm_0p14m_gate_2026-04-20",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_caiwangcun_domdsm_0p14m_gate_2026-04-20",
+                     "status":  "deleted"
+                 },
+                 {
+                     "name":  "nadir_009010_dinov2_romav2_pose_caiwangcun_candidate_domdsm_0p14m_gate_2026-04-20",
+                     "path":  "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_caiwangcun_candidate_domdsm_0p14m_gate_2026-04-20",
+                     "status":  "deleted"
+                 }
+             ]
+}

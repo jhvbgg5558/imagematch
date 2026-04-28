@@ -1,0 +1,19 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+  "manifest_json": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/manifest/pose_manifest.json",
+  "correspondences_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/correspondences/pose_correspondences.csv",
+  "dsm_mode": "candidate_specific",
+  "unique_dsm_count": 119,
+  "override_dsm_id": "",
+  "row_count": 500000,
+  "status_counts": {
+    "ok": 499786,
+    "nodata": 92,
+    "unstable_local_height": 122
+  },
+  "stability_window_size": 3,
+  "stability_std_threshold": 8.0,
+  "stability_range_threshold": 20.0,
+  "min_valid_neighbours": 5,
+  "generated_at_unix": 1776704479.3298736
+}

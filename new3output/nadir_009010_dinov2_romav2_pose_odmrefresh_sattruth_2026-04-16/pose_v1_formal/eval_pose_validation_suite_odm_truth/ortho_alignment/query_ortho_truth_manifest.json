@@ -1,0 +1,11 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal",
+  "query_seed_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/query_truth/queries_truth_seed.csv",
+  "raw_uav_root": "/mnt/d/数据/武汉影像/无人机0.1m",
+  "flight_asset_manifest": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/plan/flight_asset_override_manifest.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ready": 40
+  },
+  "generated_at_unix": 1776320354.481526
+}

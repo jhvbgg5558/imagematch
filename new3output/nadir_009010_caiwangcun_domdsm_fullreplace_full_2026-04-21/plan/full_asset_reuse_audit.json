@@ -1,0 +1,145 @@
+{
+  "copied": [
+    {
+      "kind": "dir",
+      "name": "selected_queries",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/selected_queries",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/selected_queries"
+    },
+    {
+      "kind": "dir",
+      "name": "query_inputs",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/query_inputs",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_inputs"
+    },
+    {
+      "kind": "dir",
+      "name": "query_features",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/query_features",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_features"
+    },
+    {
+      "kind": "dir",
+      "name": "query_truth",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/query_truth",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth"
+    },
+    {
+      "kind": "dir",
+      "name": "source_mosaic",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/source_mosaic",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/source_mosaic"
+    },
+    {
+      "kind": "dir",
+      "name": "candidate_library",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/candidate_library",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/candidate_library"
+    },
+    {
+      "kind": "dir",
+      "name": "candidate_features",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/candidate_features",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/candidate_features"
+    },
+    {
+      "kind": "dir",
+      "name": "faiss",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/faiss",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/faiss"
+    },
+    {
+      "kind": "dir",
+      "name": "romav2_rerank",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/romav2_rerank",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/romav2_rerank"
+    },
+    {
+      "kind": "dir",
+      "name": "retrieval",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/retrieval",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/retrieval"
+    },
+    {
+      "kind": "file",
+      "name": "plan/caiwangcun_asset_manifest.csv",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/plan/caiwangcun_asset_manifest.csv",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/plan/caiwangcun_asset_manifest.csv"
+    },
+    {
+      "kind": "file",
+      "name": "plan/caiwangcun_source_tile_manifest.csv",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/plan/caiwangcun_source_tile_manifest.csv",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/plan/caiwangcun_source_tile_manifest.csv"
+    },
+    {
+      "kind": "file",
+      "name": "plan/retrieval_candidate_id_audit.json",
+      "src": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/plan/retrieval_candidate_id_audit.json",
+      "dst": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/plan/retrieval_candidate_id_audit.json"
+    }
+  ],
+  "path_rewrite": {
+    "old_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20",
+    "new_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21",
+    "changed_file_count": 54,
+    "changed_files": [
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/candidate_features/caiwangcun_tile_dinov2_status.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/candidate_library/tiles.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/plan/caiwangcun_asset_manifest.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_inputs/query_manifest.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/queries_truth_seed.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/query_truth.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/query_truth_tiles.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/romav2_rerank/input_round/stage3/DJI_202510311347_009_新建面状航线1/queries.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/romav2_rerank/input_round/stage3/DJI_202510311413_010_新建面状航线1/queries.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/selected_queries/selected_images_summary.csv",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/candidate_library/roi_summary.json",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/faiss/caiwangcun_tiles_ip_mapping.json",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/retrieval/retrieval_top20_export_summary.json",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/source_mosaic/caiwangcun_mosaic_summary.json",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_001/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_002/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_003/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_004/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_005/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_006/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_007/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_008/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_009/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_010/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_011/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_012/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_013/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_014/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_015/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_016/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_017/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_018/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_019/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_020/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_021/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_022/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_023/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_024/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_025/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_026/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_027/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_028/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_029/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_030/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_031/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_032/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_033/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_034/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_035/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_036/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_037/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_038/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_039/truth_summary.md",
+      "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/query_truth/per_query/q_040/truth_summary.md"
+    ]
+  },
+  "stale_gate_reference_count": 0,
+  "generated_at_utc": "2026-04-21T04:26:45+00:00"
+}

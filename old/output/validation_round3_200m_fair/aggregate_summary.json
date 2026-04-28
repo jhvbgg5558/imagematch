@@ -1,0 +1,96 @@
+{
+  "flights": [
+    {
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "query_count": 5,
+      "recall@1": 0.6,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "per_scale": {
+        "200": {
+          "query_count": 5,
+          "recall@1": 0.6,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "top1_hit_queries": [
+            "q_200m_01",
+            "q_200m_03",
+            "q_200m_05"
+          ],
+          "top5_only_queries": [
+            "q_200m_02",
+            "q_200m_04"
+          ]
+        }
+      }
+    },
+    {
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "query_count": 5,
+      "recall@1": 0.4,
+      "recall@5": 0.8,
+      "recall@10": 1.0,
+      "per_scale": {
+        "200": {
+          "query_count": 5,
+          "recall@1": 0.4,
+          "recall@5": 0.8,
+          "recall@10": 1.0,
+          "top1_hit_queries": [
+            "q_200m_01",
+            "q_200m_02"
+          ],
+          "top5_only_queries": [
+            "q_200m_03",
+            "q_200m_05"
+          ]
+        }
+      }
+    },
+    {
+      "flight_id": "DJI_202510311435_011_新建面状航线1",
+      "query_count": 5,
+      "recall@1": 0.6,
+      "recall@5": 0.8,
+      "recall@10": 1.0,
+      "per_scale": {
+        "200": {
+          "query_count": 5,
+          "recall@1": 0.6,
+          "recall@5": 0.8,
+          "recall@10": 1.0,
+          "top1_hit_queries": [
+            "q_200m_02",
+            "q_200m_04",
+            "q_200m_05"
+          ],
+          "top5_only_queries": [
+            "q_200m_01"
+          ]
+        }
+      }
+    },
+    {
+      "flight_id": "DJI_202510311500_012_新建面状航线1",
+      "query_count": 5,
+      "recall@1": 0.4,
+      "recall@5": 0.6,
+      "recall@10": 0.6,
+      "per_scale": {
+        "200": {
+          "query_count": 5,
+          "recall@1": 0.4,
+          "recall@5": 0.6,
+          "recall@10": 0.6,
+          "top1_hit_queries": [
+            "q_200m_03",
+            "q_200m_04"
+          ],
+          "top5_only_queries": [
+            "q_200m_05"
+          ]
+        }
+      }
+    }
+  ]
+}

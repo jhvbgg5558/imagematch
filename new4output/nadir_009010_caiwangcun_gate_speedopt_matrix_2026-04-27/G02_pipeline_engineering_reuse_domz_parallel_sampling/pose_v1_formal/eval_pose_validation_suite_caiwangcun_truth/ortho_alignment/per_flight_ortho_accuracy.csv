@@ -1,0 +1,3 @@
+﻿flight_id,query_count,phase_corr_error_m_mean,center_offset_m_mean,ortho_iou_mean,ssim_mean
+DJI_202510311347_009_新建面状航线1,4,0.11423875,4.05159675,0.74118675,0.74151375
+DJI_202510311413_010_新建面状航线1,1,0.036157,5.521703,0.762216,0.793735

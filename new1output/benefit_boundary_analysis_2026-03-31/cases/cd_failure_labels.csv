@@ -1,0 +1,4 @@
+﻿query_id,flight_id,main_bucket,c_variant,d_variant,pitch_group,tags,truth_count_total,footprint_area_m2,coarse_first_truth_rank,romav2_first_truth_rank,romav2_top1_inlier_count,romav2_top1_inlier_ratio,auto_label_hint,auto_note,manual_label_1,manual_label_2,manual_note
+q_001,DJI_202510311347_009_新建面状航线1,C,C_retained,,downview,downview,234,1143971.292,7,3,140,0.028,hard_negative_dominance,"Truth is retained but not promoted, consistent with unresolved hard negatives.",,,
+q_023,DJI_202510311435_011_新建面状航线1,C,C_retained,,downview,downview,243,1130392.698,5,2,100,0.02,hard_negative_dominance,"Truth is retained but not promoted, consistent with unresolved hard negatives.",,,
+q_038,DJI_202510311500_012_新建面状航线1,C,C_retained,,tilted,tilted,220,1156502.276,6,2,152,0.0304,large_viewpoint_gap,Tilted query remains unresolved after rerank.,,,

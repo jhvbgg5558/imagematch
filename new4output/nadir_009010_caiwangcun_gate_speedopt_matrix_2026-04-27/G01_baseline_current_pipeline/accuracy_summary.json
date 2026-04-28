@@ -1,0 +1,38 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline",
+  "generated_at_utc": "2026-04-27T12:49:11+00:00",
+  "gate_query_ids": [
+    "q_001",
+    "q_021",
+    "q_002",
+    "q_003",
+    "q_004"
+  ],
+  "retrieval_top20_rows": 100,
+  "matches_row_count": 500000,
+  "correspondence_row_count": 500000,
+  "sampling_row_count": 500000,
+  "sampling_status_counts": {
+    "ok": 499799,
+    "unstable_local_height": 107,
+    "nodata": 94
+  },
+  "pnp_row_count": 100,
+  "pnp_status_counts": {
+    "ok": 98,
+    "pnp_failed": 2
+  },
+  "best_pose_row_count": 40,
+  "best_pose_status_counts": {
+    "ok": 5,
+    "missing_pnp_rows": 35
+  },
+  "validation_pipeline_status": "ok",
+  "layer1_evaluated_query_count": 5,
+  "layer1_center_offset_m_mean": 4.1312641999999995,
+  "layer1_ortho_iou_mean": 0.7470350000000001,
+  "layer2_evaluated_query_count": 5,
+  "layer2_horizontal_error_m_mean": 2.6427123999999997,
+  "layer3_evaluated_query_count": 5,
+  "layer3_tiepoint_xy_error_rmse_m": 0.504877910385769
+}

@@ -1,0 +1,10 @@
+{
+  "bundle_root": "new2output/pose_v1_formal",
+  "tiepoint_csv": "new2output/pose_v1_formal/eval_pose_validation_suite/tiepoint_ground_error/per_query_tiepoint_ground_error.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ok": 39,
+    "upstream_eval_failed": 1
+  },
+  "generated_at_unix": 1775733144.2016225
+}

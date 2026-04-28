@@ -1,0 +1,10 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+  "truth_manifest_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/query_ortho_truth_manifest.csv",
+  "pred_manifest_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/pred_tiles/pred_tile_manifest.csv",
+  "row_count": 5,
+  "status_counts": {
+    "ok": 5
+  },
+  "generated_at_unix": 1777308166.2099035
+}

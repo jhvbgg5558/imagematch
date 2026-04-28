@@ -1,0 +1,13 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma",
+  "g02_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "generated_at_utc": "2026-04-27T17:58:07+00:00",
+  "checks": {
+    "wrapper_returncode_zero": true,
+    "retrieval_top20_rows_100": true,
+    "pnp_row_count_100": true,
+    "best_pose_5_of_5_ok": true,
+    "validation_pipeline_ok": true
+  },
+  "accepted": true
+}

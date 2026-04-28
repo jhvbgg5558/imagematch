@@ -1,0 +1,390 @@
+{
+  "phase": "gate",
+  "query_count": 5,
+  "selected_query_ids": [
+    "q_003",
+    "q_001",
+    "q_002",
+    "q_004",
+    "q_021"
+  ],
+  "suite_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+  "ortho_alignment_satellite_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/ortho_alignment_satellite",
+  "ortho_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/ortho_alignment",
+  "pose_vs_at_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pose_vs_at",
+  "tiepoint_ground_error_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/tiepoint_ground_error",
+  "steps": [
+    {
+      "step_name": "build_query_satellite_truth_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_satellite_truth_manifest.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/queries_truth_seed.csv",
+        "--query-truth-tiles-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/query_truth_tiles.csv",
+        "--query-truth-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/query_truth.csv",
+        "--crop-margin-m",
+        "80.0",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.2595207691192627
+    },
+    {
+      "step_name": "crop_query_satellite_truth_patches",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/crop_query_satellite_truth_patches.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--truth-manifest-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/satellite_truth/query_satellite_truth_manifest.csv",
+        "--target-resolution-m",
+        "0.5",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 3.1842715740203857
+    },
+    {
+      "step_name": "render_query_predicted_ortho_from_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_query_predicted_ortho_from_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--truth-manifest-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/satellite_truth/query_satellite_truth_manifest.csv",
+        "--block-size",
+        "256",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 9.411221981048584
+    },
+    {
+      "step_name": "evaluate_pose_satellite_alignment",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_satellite_alignment.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--truth-manifest-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/satellite_truth/query_satellite_truth_manifest.csv",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 3.6715338230133057
+    },
+    {
+      "step_name": "render_pose_ortho_overlay_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_overlay_viz.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--truth-manifest-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/satellite_truth/query_satellite_truth_manifest.csv",
+        "--pred-manifest-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pred_tiles/pred_tile_manifest.csv",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/ortho_alignment",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 7.231586217880249
+    },
+    {
+      "step_name": "build_query_reference_pose_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_reference_pose_manifest.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/queries_truth_seed.csv",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pose_vs_at",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.3017630577087402
+    },
+    {
+      "step_name": "evaluate_pose_against_reference_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_against_reference_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pose_vs_at",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.4173245429992676
+    },
+    {
+      "step_name": "render_pose_vs_at_figures",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_vs_at_figures.py",
+        "--pose-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pose_vs_at"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 18.195680141448975
+    },
+    {
+      "step_name": "evaluate_pose_satellite_tiepoint_ground_error_romav2",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_satellite_tiepoint_ground_error_romav2.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--ortho-accuracy-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/ortho_alignment_satellite/per_query_ortho_accuracy.csv",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+        "--ortho-output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+        "--device",
+        "cuda",
+        "--setting",
+        "satast",
+        "--sample-count",
+        "5000",
+        "--min-inliers",
+        "6",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1342.9423670768738
+    },
+    {
+      "step_name": "render_pose_ortho_tiepoint_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_tiepoint_viz.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/tiepoint_ground_error",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 4.573381423950195
+    },
+    {
+      "step_name": "summarize_pose_validation_suite",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/summarize_pose_validation_suite.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+        "--ortho-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/ortho_alignment",
+        "--pose-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pose_vs_at",
+        "--tiepoint-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/tiepoint_ground_error",
+        "--phase",
+        "gate",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 0.9615659713745117
+    }
+  ],
+  "pipeline_status": "ok",
+  "failed_step_names": [],
+  "overall_ortho_accuracy": {
+    "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+    "truth_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/satellite_truth/query_satellite_truth_manifest.csv",
+    "pred_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pred_tiles/pred_tile_manifest.csv",
+    "status_counts": {
+      "ok": 5
+    },
+    "phase_corr_error_m": {
+      "mean": 0.1664906,
+      "median": 0.139848,
+      "p90": 0.2698196
+    },
+    "center_offset_m": {
+      "mean": 27.924127199999997,
+      "median": 28.851794,
+      "p90": 37.330572599999996
+    },
+    "ortho_iou": {
+      "mean": 0.7938356,
+      "median": 0.797974,
+      "p90": 0.8115154
+    },
+    "ssim": {
+      "mean": 0.43186920000000006,
+      "median": 0.453153,
+      "p90": 0.49660699999999997
+    },
+    "generated_at_unix": 1776348233.926318
+  },
+  "overall_pose_vs_at": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "horizontal_error_m": {
+      "mean": 3.2834114,
+      "median": 3.339841,
+      "p90": 4.6134858
+    },
+    "spatial_error_m": {
+      "mean": 14.1887002,
+      "median": 14.219829,
+      "p90": 15.225259600000001
+    },
+    "view_dir_angle_error_deg": {
+      "mean": 0.3721934,
+      "median": 0.307572,
+      "p90": 0.5385814
+    },
+    "yaw_error_deg": {
+      "mean": 22.9922806,
+      "median": 7.805378,
+      "p90": 55.615790200000006
+    },
+    "pitch_error_deg": {
+      "mean": 0.28638660000000005,
+      "median": 0.266261,
+      "p90": 0.3492464
+    },
+    "roll_error_deg": {
+      "mean": 22.9888676,
+      "median": 7.807852,
+      "p90": 55.632401800000004
+    },
+    "eval_status_counts": {
+      "ok": 5
+    },
+    "generated_at_unix": 1776348244.0572734
+  },
+  "overall_tiepoint_ground_error": {
+    "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+    "ortho_accuracy_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/ortho_alignment_satellite/per_query_ortho_accuracy.csv",
+    "matchable_query_count": 5,
+    "status_counts": {
+      "tiepoint_eval_ok": 5
+    },
+    "tiepoint_xy_error_mean_m": 1.192061610984195,
+    "tiepoint_xy_error_median_m": 1.058292,
+    "tiepoint_xy_error_rmse_m": 1.4129785153152266,
+    "tiepoint_xy_error_p90_m": 2.1935608,
+    "tiepoint_xy_error_max_m": 5.749648,
+    "tiepoint_match_count_mean": 4883.0,
+    "tiepoint_inlier_ratio_mean": 0.8787284,
+    "generated_at_unix": 1776349603.3491073
+  },
+  "pnp_failed_candidate_counts": {
+    "q_001": 1,
+    "q_002": 1,
+    "q_003": 1,
+    "q_004": 1,
+    "q_021": 1
+  },
+  "generated_at_unix": 1776349610.7989879
+}

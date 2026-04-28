@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/mnt/d/aiproject/imagematch/.conda/bin/python",
+    "/mnt/d/aiproject/imagematch/scripts/run_nadir_009010_caiwangcun_fullreplace_gate_experiment.py",
+    "--experiment-root",
+    "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline",
+    "--caiwangcun-root",
+    "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/plan/seed_source_tiles",
+    "--device",
+    "cuda",
+    "--skip-mosaic",
+    "--rerank-query-id",
+    "q_001",
+    "--rerank-query-id",
+    "q_021",
+    "--rerank-query-id",
+    "q_002",
+    "--rerank-query-id",
+    "q_003",
+    "--rerank-query-id",
+    "q_004"
+  ],
+  "returncode": 1,
+  "elapsed_seconds": 2268.0333485603333,
+  "log_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline_wrapper.log"
+}

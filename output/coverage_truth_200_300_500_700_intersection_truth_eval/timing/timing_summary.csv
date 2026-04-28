@@ -1,0 +1,5 @@
+﻿stage,command,status,elapsed_seconds
+satellite_feature_extraction,,not_run,
+faiss_index_build,,not_run,
+query_feature_extraction,,not_run,
+query_retrieval,,not_run,

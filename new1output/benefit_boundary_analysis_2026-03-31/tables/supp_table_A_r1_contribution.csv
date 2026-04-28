@@ -1,0 +1,5 @@
+﻿main_bucket,query_count,direct_new_top1_hits,share_of_total_new_top1_hits,interpretation
+A,31,0,0.000000,Already correct at Top-1; limited direct contribution to R@1 gain.
+B,6,6,1.000000,Main source of new Top-1 hits after reranking.
+C,3,0,0.000000,Coarse recall exists but rerank does not finish correction.
+D,0,0,0.000000,Upper bound is constrained by coarse recall.

@@ -1,0 +1,71 @@
+{
+  "top_k": 20,
+  "query_count": 4,
+  "intersection_recall@1": 1.0,
+  "intersection_recall@5": 1.0,
+  "intersection_recall@10": 1.0,
+  "intersection_recall@20": 1.0,
+  "intersection_mrr": 1.0,
+  "top1_error_m_mean": 107.45081680058206,
+  "intersection_hit_count@1": 4,
+  "intersection_hit_count@5": 4,
+  "intersection_hit_count@10": 4,
+  "intersection_hit_count@20": 4,
+  "per_query": [
+    {
+      "query_id": "q_001",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "truth_count": 1,
+      "first_truth_rank": 1,
+      "intersection_hit@1": true,
+      "intersection_hit@5": true,
+      "intersection_hit@10": true,
+      "intersection_hit@20": true,
+      "intersection_reciprocal_rank": 1.0,
+      "top1_error_m": 58.42697220068089
+    },
+    {
+      "query_id": "q_002",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "truth_count": 3,
+      "first_truth_rank": 1,
+      "intersection_hit@1": true,
+      "intersection_hit@5": true,
+      "intersection_hit@10": true,
+      "intersection_hit@20": true,
+      "intersection_reciprocal_rank": 1.0,
+      "top1_error_m": 59.88705565519018
+    },
+    {
+      "query_id": "q_003",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "truth_count": 6,
+      "first_truth_rank": 1,
+      "intersection_hit@1": true,
+      "intersection_hit@5": true,
+      "intersection_hit@10": true,
+      "intersection_hit@20": true,
+      "intersection_reciprocal_rank": 1.0,
+      "top1_error_m": 179.67560924256725
+    },
+    {
+      "query_id": "q_004",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "truth_count": 3,
+      "first_truth_rank": 1,
+      "intersection_hit@1": true,
+      "intersection_hit@5": true,
+      "intersection_hit@10": true,
+      "intersection_hit@20": true,
+      "intersection_reciprocal_rank": 1.0,
+      "top1_error_m": 131.8136301038899
+    }
+  ],
+  "config": {
+    "matcher_backend": "colmap_siftgpu",
+    "siftgpu_bin": "/mnt/d/aiproject/imagematch/third_party/SiftGPU/bin/siftgpu_pair_match",
+    "max_num_features": 8192,
+    "ranking_mode": "inlier_count_only",
+    "cpu_fallback": false
+  }
+}

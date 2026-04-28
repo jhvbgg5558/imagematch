@@ -1,0 +1,4 @@
+﻿main_bucket,query_count,footprint_area_mean_m2,footprint_area_median_m2,truth_count_total_mean,truth_count_total_median,truth_count_200m_mean,truth_count_300m_mean,truth_count_500m_mean,truth_count_700m_mean
+B,6,1146061.662,1144121.879,238.000,243.500,107.000,58.500,34.000,38.500
+C,3,1143622.089,1143971.292,232.333,234.000,106.667,56.333,32.333,37.000
+D,0,NA,NA,NA,NA,NA,NA,NA,NA

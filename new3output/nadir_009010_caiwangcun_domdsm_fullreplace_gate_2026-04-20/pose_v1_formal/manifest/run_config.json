@@ -1,0 +1,11 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+  "manifest_name": "pose_manifest",
+  "inputs": {
+    "query_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/input/formal_query_manifest.csv",
+    "dom_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/input/formal_candidate_manifest.csv",
+    "dsm_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/input/formal_dsm_manifest.csv",
+    "coarse_topk_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/retrieval/retrieval_top20.csv"
+  },
+  "generated_at_unix": 1776702028.4595003
+}

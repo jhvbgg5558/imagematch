@@ -1,0 +1,11 @@
+{
+  "bundle_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal",
+  "manifest_name": "pose_manifest",
+  "inputs": {
+    "query_manifest_csv": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/input/formal_query_manifest.csv",
+    "dom_manifest_csv": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/input/formal_candidate_manifest.csv",
+    "dsm_manifest_csv": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/input/formal_dsm_manifest.csv",
+    "coarse_topk_csv": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/retrieval/retrieval_top20.csv"
+  },
+  "generated_at_unix": 1775806274.646903
+}

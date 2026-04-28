@@ -1,0 +1,14 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline",
+  "generated_at_utc": "2026-04-27T12:49:22+00:00",
+  "checks": {
+    "wrapper_returncode_zero": true,
+    "best_pose_5_of_5_ok": true,
+    "pnp_row_count_100": true,
+    "sampling_row_count_500000": true,
+    "validation_pipeline_ok": true
+  },
+  "accepted": true,
+  "accuracy_summary": "accuracy_summary.json",
+  "timing_summary": "timing_summary.json"
+}

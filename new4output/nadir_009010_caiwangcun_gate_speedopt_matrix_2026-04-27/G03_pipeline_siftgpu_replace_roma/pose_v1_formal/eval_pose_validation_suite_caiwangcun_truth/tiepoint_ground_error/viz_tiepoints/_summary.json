@@ -1,0 +1,9 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+  "tiepoint_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error/per_query_tiepoint_ground_error.csv",
+  "row_count": 5,
+  "status_counts": {
+    "ok": 5
+  },
+  "generated_at_unix": 1777312654.7325268
+}

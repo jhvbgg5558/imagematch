@@ -1,0 +1,36 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal",
+  "manifest_json": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/manifest/pose_manifest.json",
+  "pnp_results_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/pnp/pnp_results.csv",
+  "scores_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/scores/pose_scores.csv",
+  "per_query_best_pose_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/summary/per_query_best_pose.csv",
+  "query_count": 40,
+  "scored_query_count": 40,
+  "score_row_count": 800,
+  "best_status_counts": {
+    "ok": 40
+  },
+  "best_bucket_counts": {
+    "applicable_success": 40
+  },
+  "score_status_counts": {
+    "ok": 520,
+    "dsm_nodata_too_high": 217,
+    "pnp_failed": 61,
+    "dsm_coverage_insufficient": 2
+  },
+  "bucket_counts": {
+    "applicable_success": 520,
+    "not_applicable_v1": 219,
+    "applicable_failure": 61
+  },
+  "score_formula": "0.30*inlier_ratio + 0.25*coverage_score + 0.20*inlier_count_norm + 0.10*elevation_span_norm - 0.10*reproj_error_norm - 0.05*pose_penalty",
+  "best_score_mean": 0.537038475,
+  "best_score_std": 0.0733527014291183,
+  "best_ok_count": 40,
+  "best_ok_rate": 1.0,
+  "best_success_inlier_ratio_mean": 0.351645825,
+  "best_success_reproj_error_mean": 4.627542525,
+  "best_success_score_mean": 0.537038475,
+  "generated_at_unix": 1776320303.3733711
+}

@@ -1,0 +1,10 @@
+{
+  "bundle_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal",
+  "query_seed_csv": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/query_truth/queries_truth_seed.csv",
+  "raw_uav_root": "/mnt/d/数据/武汉影像/无人机0.1m",
+  "row_count": 40,
+  "status_counts": {
+    "ready": 40
+  },
+  "generated_at_unix": 1775833119.3032393
+}

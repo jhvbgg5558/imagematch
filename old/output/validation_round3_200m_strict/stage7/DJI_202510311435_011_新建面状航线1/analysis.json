@@ -1,0 +1,24 @@
+{
+  "overall": {
+    "query_count": 3,
+    "recall@1": 0.3333333333333333,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.6666666666666666
+  },
+  "per_scale": {
+    "200": {
+      "query_count": 3,
+      "recall@1": 0.3333333333333333,
+      "recall@5": 0.3333333333333333,
+      "recall@10": 0.6666666666666666,
+      "top1_hit_queries": [
+        "q_200m_02"
+      ],
+      "top5_only_queries": []
+    }
+  },
+  "top1_hit_queries": [
+    "q_200m_02"
+  ],
+  "top5_only_queries": []
+}

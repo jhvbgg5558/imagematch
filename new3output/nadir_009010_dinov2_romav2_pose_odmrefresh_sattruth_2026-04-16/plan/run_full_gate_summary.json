@@ -1,0 +1,10 @@
+{
+  "experiment_root": "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16",
+  "reuse_root": "D:\\aiproject\\imagematch\\new2output\\nadir_009010_dinov2_romav2_pose_2026-04-10",
+  "phase": "full",
+  "validation_phase": "gate",
+  "pose_phase": "sample",
+  "flight_asset_manifest": "D:\\aiproject\\imagematch\\new3output\\nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16\\plan\\flight_asset_override_manifest.csv",
+  "dry_run": true,
+  "completed_at_utc": "2026-04-16T02:32:33+00:00"
+}

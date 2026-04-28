@@ -1,0 +1,22 @@
+{
+  "query_count": 40,
+  "baseline_intersection_recall@1": 0.775,
+  "baseline_intersection_recall@5": 0.95,
+  "baseline_intersection_recall@10": 1.0,
+  "baseline_intersection_recall@20": 1.0,
+  "baseline_intersection_mrr": 0.8502380952380951,
+  "baseline_top1_error_m_mean": 862.1913692191981,
+  "coarse_intersection_recall@20": 1.0,
+  "romav2_intersection_recall@1": 0.925,
+  "romav2_intersection_recall@5": 1.0,
+  "romav2_intersection_recall@10": 1.0,
+  "romav2_intersection_recall@20": 1.0,
+  "romav2_intersection_mrr": 0.9583333333333333,
+  "romav2_top1_error_m_mean": 630.3132339444649,
+  "delta_intersection_recall@1": 0.15000000000000002,
+  "delta_intersection_recall@5": 0.050000000000000044,
+  "delta_intersection_recall@10": 0.0,
+  "delta_intersection_recall@20": 0.0,
+  "delta_intersection_mrr": 0.10809523809523813,
+  "delta_top1_error_m_mean": -231.87813527473327
+}

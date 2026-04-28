@@ -1,0 +1,351 @@
+{
+  "phase": "gate",
+  "query_count": 5,
+  "selected_query_ids": [
+    "q_001",
+    "q_002",
+    "q_003",
+    "q_004",
+    "q_021"
+  ],
+  "suite_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth",
+  "ortho_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+  "pose_vs_at_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+  "tiepoint_ground_error_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+  "steps": [
+    {
+      "step_name": "build_query_ortho_truth_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_ortho_truth_manifest.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/query_truth/queries_truth_seed.csv",
+        "--crop-margin-m",
+        "80.0",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021",
+        "--flight-asset-manifest",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/plan/caiwangcun_asset_manifest.csv"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.1340291500091553
+    },
+    {
+      "step_name": "crop_query_ortho_truth_tiles",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/crop_query_ortho_truth_tiles.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--target-resolution-m",
+        "0.14",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 41.45982527732849
+    },
+    {
+      "step_name": "render_query_predicted_ortho_from_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_query_predicted_ortho_from_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--block-size",
+        "256",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 129.33593440055847
+    },
+    {
+      "step_name": "evaluate_pose_ortho_alignment",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_alignment.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 24.91780948638916
+    },
+    {
+      "step_name": "render_pose_ortho_overlay_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_overlay_viz.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 68.26905298233032
+    },
+    {
+      "step_name": "build_query_reference_pose_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_reference_pose_manifest.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/query_truth/queries_truth_seed.csv",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 2.8805959224700928
+    },
+    {
+      "step_name": "evaluate_pose_against_reference_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_against_reference_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.2473559379577637
+    },
+    {
+      "step_name": "evaluate_pose_ortho_tiepoint_ground_error",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_tiepoint_ground_error.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+        "--ortho-output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 3856.077397584915
+    },
+    {
+      "step_name": "render_pose_ortho_tiepoint_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_tiepoint_viz.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 21.306203365325928
+    },
+    {
+      "step_name": "summarize_pose_validation_suite",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/summarize_pose_validation_suite.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth",
+        "--ortho-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--pose-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+        "--tiepoint-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+        "--phase",
+        "gate",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_021"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.0505330562591553
+    }
+  ],
+  "pipeline_status": "ok",
+  "failed_step_names": [],
+  "overall_ortho_accuracy": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "phase_corr_error_m": {
+      "mean": 0.11067659999999999,
+      "median": 0.115509,
+      "p90": 0.1490784
+    },
+    "center_offset_m": {
+      "mean": 4.393887,
+      "median": 3.357251,
+      "p90": 7.1365254
+    },
+    "ortho_iou": {
+      "mean": 0.746525,
+      "median": 0.741463,
+      "p90": 0.7591334
+    },
+    "ssim": {
+      "mean": 0.7584408,
+      "median": 0.777422,
+      "p90": 0.782026
+    },
+    "eval_status_counts": {
+      "ok": 5
+    },
+    "generated_at_unix": 1776735725.3326876
+  },
+  "overall_pose_vs_at": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "horizontal_error_m": {
+      "mean": 1.8294804,
+      "median": 1.655618,
+      "p90": 3.2771866000000003
+    },
+    "spatial_error_m": {
+      "mean": 1.8943800000000004,
+      "median": 1.665702,
+      "p90": 3.3082466000000004
+    },
+    "view_dir_angle_error_deg": {
+      "mean": 0.2725336,
+      "median": 0.237585,
+      "p90": 0.49501760000000006
+    },
+    "yaw_error_deg": {
+      "mean": 12.510713599999999,
+      "median": 10.352804,
+      "p90": 21.6389094
+    },
+    "pitch_error_deg": {
+      "mean": 0.20130659999999997,
+      "median": 0.137259,
+      "p90": 0.40765680000000004
+    },
+    "roll_error_deg": {
+      "mean": 12.5018286,
+      "median": 10.345263,
+      "p90": 21.620573
+    },
+    "eval_status_counts": {
+      "ok": 5
+    },
+    "generated_at_unix": 1776735798.2600915
+  },
+  "overall_tiepoint_ground_error": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "matchable_query_count": 5,
+    "tiepoint_xy_error_mean_m": 0.27520697244777964,
+    "tiepoint_xy_error_median_m": 0.23965550000000002,
+    "tiepoint_xy_error_rmse_m": 0.32361956895217237,
+    "tiepoint_xy_error_p90_m": 0.491323,
+    "tiepoint_match_count_mean": 22185.6,
+    "tiepoint_inlier_ratio_mean": 0.953919,
+    "eval_status_counts": {
+      "tiepoint_eval_ok": 5
+    },
+    "generated_at_unix": 1776739654.200332
+  },
+  "pnp_failed_candidate_counts": {
+    "q_001": 2,
+    "q_003": 1
+  },
+  "generated_at_unix": 1776739676.8339827
+}

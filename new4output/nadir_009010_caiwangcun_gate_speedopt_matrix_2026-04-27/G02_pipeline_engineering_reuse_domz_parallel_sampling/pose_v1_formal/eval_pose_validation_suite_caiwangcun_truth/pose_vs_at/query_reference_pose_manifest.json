@@ -1,0 +1,17 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling/pose_v1_formal",
+  "query_seed_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling/query_truth/queries_truth_seed.csv",
+  "raw_uav_root": "/mnt/d/数据/武汉影像/无人机0.1m",
+  "row_count": 5,
+  "status_counts": {
+    "ready": 5
+  },
+  "reference_source_type_counts": {
+    "queries_truth_seed_fallback": 5
+  },
+  "reference_priority": [
+    "odm_report/shots.geojson",
+    "queries_truth_seed.csv fallback"
+  ],
+  "generated_at_unix": 1777298941.5307124
+}

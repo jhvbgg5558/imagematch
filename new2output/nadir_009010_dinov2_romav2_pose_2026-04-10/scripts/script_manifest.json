@@ -1,0 +1,25 @@
+{
+  "scripts": [
+    {
+      "file": "select_nadir_uav_queries.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/select_nadir_uav_queries.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/scripts/select_nadir_uav_queries.py",
+      "sha256": "5b7749a9763a8c44137b1b2d9a6c85c67d59a91e0a4488eee0b981c1a4461457",
+      "copied_at_utc": "2026-04-10T04:11:07+00:00"
+    },
+    {
+      "file": "export_romav2_reranked_for_pose.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/export_romav2_reranked_for_pose.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/scripts/export_romav2_reranked_for_pose.py",
+      "sha256": "30c92a243bc2d1a3b7cffdf8a8a684fd3517af389e335d51a40732c8567dc704",
+      "copied_at_utc": "2026-04-10T04:11:08+00:00"
+    },
+    {
+      "file": "run_nadir_009010_pose_experiment.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_nadir_009010_pose_experiment.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/scripts/run_nadir_009010_pose_experiment.py",
+      "sha256": "31036c90738d81d0eef4dfaa16bc7d9c0263d14f233790dbc44ad2cdd38324d8",
+      "copied_at_utc": "2026-04-10T04:11:08+00:00"
+    }
+  ]
+}

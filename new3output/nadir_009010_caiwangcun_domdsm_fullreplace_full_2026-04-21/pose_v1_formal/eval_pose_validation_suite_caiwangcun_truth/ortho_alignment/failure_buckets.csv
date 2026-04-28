@@ -1,0 +1,2 @@
+﻿query_id,flight_id,best_candidate_id,failure_bucket,detail
+q_037,DJI_202510311413_010_新建面状航线1,cw_s300_x254658.721_y3365002.517,dsm_intersection_failed,no valid DSM samples on the truth grid

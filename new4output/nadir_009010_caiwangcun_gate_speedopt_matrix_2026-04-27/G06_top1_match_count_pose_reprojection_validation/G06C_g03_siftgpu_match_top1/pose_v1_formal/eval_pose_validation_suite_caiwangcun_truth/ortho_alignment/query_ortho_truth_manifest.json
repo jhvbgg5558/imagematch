@@ -1,0 +1,11 @@
+{
+  "bundle_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06C_g03_siftgpu_match_top1/pose_v1_formal",
+  "query_seed_csv": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/query_truth/queries_truth_seed.csv",
+  "raw_uav_root": "/mnt/d/数据/武汉影像/无人机0.1m",
+  "flight_asset_manifest": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/plan/caiwangcun_asset_manifest.csv",
+  "row_count": 5,
+  "status_counts": {
+    "ready": 5
+  },
+  "generated_at_unix": 1777364671.2129073
+}

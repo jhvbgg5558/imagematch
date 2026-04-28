@@ -1,0 +1,929 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal",
+  "source_query_manifest_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/query_manifest.csv",
+  "source_selected_summary_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/selected_queries/selected_images_summary.csv",
+  "query_count": 40,
+  "queries": [
+    {
+      "query_id": "q_001",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135226_0007_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135226_0007_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_002",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135240_0013_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135240_0013_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_003",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135249_0017_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135249_0017_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_004",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135518_0069_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135518_0069_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_005",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135527_0073_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135527_0073_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_006",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135751_0123_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135751_0123_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_007",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135805_0129_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135805_0129_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_008",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031135815_0134_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135815_0134_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_009",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140038_0183_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140038_0183_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_010",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140057_0191_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140057_0191_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_011",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140135_0215_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140135_0215_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_012",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140321_0240_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140321_0240_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_013",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140335_0246_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140335_0246_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_014",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140411_0267_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140411_0267_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_015",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140559_0296_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140559_0296_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_016",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140618_0304_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140618_0304_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_017",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140841_0354_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140841_0354_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_018",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140856_0360_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140856_0360_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_019",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031140905_0364_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140905_0364_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_020",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_name": "DJI_20251031141125_0412_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031141125_0412_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806479687,
+          "fy_px": 744.7349240711012,
+          "cx_px": 529.6093396269912,
+          "cy_px": 392.1090997710443,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_021",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141624_0001_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141624_0001_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_022",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141633_0005_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141633_0005_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_023",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141642_0009_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141642_0009_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_024",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141701_0019_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141701_0019_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_025",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141907_0057_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141907_0057_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_026",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141917_0061_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141917_0061_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_027",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141930_0067_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141930_0067_V.JPG",
+      "width_px": 1056,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.4967734,
+          "fy_px": 744.3085790700893,
+          "cx_px": 530.111629,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_028",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031141957_0083_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141957_0083_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_029",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142154_0116_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142154_0116_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_030",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142204_0120_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142204_0120_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_031",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142213_0124_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142213_0124_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_032",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142300_0152_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142300_0152_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_033",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142437_0174_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142437_0174_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_034",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142451_0180_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142451_0180_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_035",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142456_0183_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142456_0183_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_036",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142538_0208_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142538_0208_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_037",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142552_0214_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142552_0214_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_038",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142742_0235_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142742_0235_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_039",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142806_0248_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142806_0248_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    },
+    {
+      "query_id": "q_040",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_name": "DJI_20251031142830_0259_V.JPG",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142830_0259_V.JPG",
+      "width_px": 1055,
+      "height_px": 791,
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791757517565,
+          "fy_px": 744.3085790700893,
+          "cx_px": 529.6096293523699,
+          "cy_px": 392.1171129449574,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        },
+        "source": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json|query_manifest_downsample",
+        "model": "dji m3e 5280 3956 brown 0.6666"
+      }
+    }
+  ],
+  "generated_at_unix": 1777342830.465693
+}

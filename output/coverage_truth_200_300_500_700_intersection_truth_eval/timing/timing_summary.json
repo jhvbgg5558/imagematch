@@ -1,0 +1,28 @@
+{
+  "stages": [
+    {
+      "stage": "satellite_feature_extraction",
+      "command": "",
+      "status": "not_run",
+      "elapsed_seconds": null
+    },
+    {
+      "stage": "faiss_index_build",
+      "command": "",
+      "status": "not_run",
+      "elapsed_seconds": null
+    },
+    {
+      "stage": "query_feature_extraction",
+      "command": "",
+      "status": "not_run",
+      "elapsed_seconds": null
+    },
+    {
+      "stage": "query_retrieval",
+      "command": "",
+      "status": "not_run",
+      "elapsed_seconds": null
+    }
+  ]
+}

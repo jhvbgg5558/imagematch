@@ -1,0 +1,18 @@
+{
+  "stage": "romav2_rerank",
+  "top_k": 20,
+  "elapsed_seconds": 3720.387564713,
+  "export_pose_matches": true,
+  "per_flight": [
+    {
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "elapsed_seconds": 3099.289398203,
+      "pose_matches_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/romav2_rerank/stage7/DJI_202510311347_009_新建面状航线1/roma_matches_for_pose.csv"
+    },
+    {
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "elapsed_seconds": 621.0981665099998,
+      "pose_matches_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/romav2_rerank/stage7/DJI_202510311413_010_新建面状航线1/roma_matches_for_pose.csv"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "bundle_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal",
+  "tiepoint_csv": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/tiepoint_ground_error/per_query_tiepoint_ground_error.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ok": 40
+  },
+  "generated_at_unix": 1775833536.9993632
+}

@@ -1,0 +1,24 @@
+{
+  "flights": [
+    {
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "query_count": 20,
+      "intersection_recall@1": 0.65,
+      "intersection_recall@5": 1.0,
+      "intersection_recall@10": 1.0,
+      "intersection_recall@20": 1.0,
+      "intersection_mrr": 0.8099999999999999,
+      "top1_error_m_mean": 103.01394267321473
+    },
+    {
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "query_count": 20,
+      "intersection_recall@1": 0.7,
+      "intersection_recall@5": 0.9,
+      "intersection_recall@10": 0.95,
+      "intersection_recall@20": 0.95,
+      "intersection_mrr": 0.7863095238095237,
+      "top1_error_m_mean": 143.77407765546764
+    }
+  ]
+}

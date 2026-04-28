@@ -1,0 +1,33 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06B_g03_siftgpu_inlier_top1/pose_v1_formal",
+  "manifest_json": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06B_g03_siftgpu_inlier_top1/pose_v1_formal/manifest/pose_manifest.json",
+  "pnp_results_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06B_g03_siftgpu_inlier_top1/pose_v1_formal/pnp/pnp_results.csv",
+  "scores_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06B_g03_siftgpu_inlier_top1/pose_v1_formal/scores/pose_scores.csv",
+  "per_query_best_pose_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06B_g03_siftgpu_inlier_top1/pose_v1_formal/summary/per_query_best_pose.csv",
+  "query_count": 40,
+  "scored_query_count": 5,
+  "score_row_count": 5,
+  "best_status_counts": {
+    "ok": 5,
+    "missing_pnp_rows": 35
+  },
+  "best_bucket_counts": {
+    "applicable_success": 5,
+    "applicable_failure": 35
+  },
+  "score_status_counts": {
+    "ok": 5
+  },
+  "bucket_counts": {
+    "applicable_success": 5
+  },
+  "score_formula": "0.30*inlier_ratio + 0.25*coverage_score + 0.20*inlier_count_norm + 0.10*elevation_span_norm - 0.10*reproj_error_norm - 0.05*pose_penalty",
+  "best_score_mean": 0.8181778,
+  "best_score_std": 0.016629374508982595,
+  "best_ok_count": 5,
+  "best_ok_rate": 0.125,
+  "best_success_inlier_ratio_mean": 0.8939264,
+  "best_success_reproj_error_mean": 2.7265202,
+  "best_success_score_mean": 0.8181778,
+  "generated_at_unix": 1777363400.683159
+}

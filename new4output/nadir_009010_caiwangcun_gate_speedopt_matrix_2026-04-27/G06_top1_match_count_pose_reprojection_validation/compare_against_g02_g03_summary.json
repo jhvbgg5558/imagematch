@@ -1,0 +1,154 @@
+{
+  "generated_at_utc": "2026-04-28T08:23:24+00:00",
+  "g02_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "g03_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma",
+  "summaries": [
+    {
+      "subgroup": "G06A_g02_roma_inlier_top1",
+      "source_group": "g02_roma",
+      "matcher": "RoMa v2",
+      "strategy": "inlier_count_top1",
+      "comparison_group": "G02",
+      "subgroup_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06A_g02_roma_inlier_top1",
+      "base_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+      "selected_candidate_count": 5,
+      "sampling_row_count": 25000,
+      "sampling_status_counts": {
+        "ok": 24993,
+        "nodata": 7
+      },
+      "pnp_row_count": 5,
+      "pnp_status_counts": {
+        "ok": 5
+      },
+      "best_pose_status_counts": {
+        "ok": 5
+      },
+      "validation_pipeline_status": "timeout",
+      "validation_returncode": -15,
+      "validation_timed_out": true,
+      "layer1_center_offset_m_mean": 17.9606562,
+      "layer2_horizontal_error_m_mean": 2.2885236,
+      "layer3_tiepoint_xy_error_rmse_m": null,
+      "base_layer2_horizontal_error_m_mean": 2.0727066,
+      "base_layer3_tiepoint_xy_error_rmse_m": 0.4988889635121927,
+      "layer2_delta_m": 0.21581699999999993,
+      "layer3_delta_m": null,
+      "actual_reduced_downstream_time_seconds": 611.4641814952784,
+      "estimated_end_to_end_time_seconds": 2011.9996007122782,
+      "retrieval_time_from_base_seconds": 0.0,
+      "rerank_time_from_base_seconds": 1400.5354192169998,
+      "step_times": {
+        "run_pnp_baseline": 2.3885185718536377,
+        "run_pose_v1_formal_scoring_summary": 0.4933934211730957,
+        "run_pose_validation_suite": 600.0132772922516
+      },
+      "validation_tiepoint_seconds": null,
+      "base_sampling_row_count": 500000,
+      "base_pnp_row_count": 100,
+      "candidate_reduction_ratio": 0.95,
+      "accepted": false
+    },
+    {
+      "subgroup": "G06B_g03_siftgpu_inlier_top1",
+      "source_group": "g03_siftgpu",
+      "matcher": "SIFTGPU",
+      "strategy": "inlier_count_top1",
+      "comparison_group": "G03",
+      "subgroup_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06B_g03_siftgpu_inlier_top1",
+      "base_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma",
+      "selected_candidate_count": 5,
+      "sampling_row_count": 4910,
+      "sampling_status_counts": {
+        "ok": 4907,
+        "nodata": 3
+      },
+      "pnp_row_count": 5,
+      "pnp_status_counts": {
+        "ok": 5
+      },
+      "best_pose_status_counts": {
+        "ok": 5
+      },
+      "validation_pipeline_status": "timeout",
+      "validation_returncode": -15,
+      "validation_timed_out": true,
+      "layer1_center_offset_m_mean": 4.2584859999999995,
+      "layer2_horizontal_error_m_mean": 3.0732942000000003,
+      "layer3_tiepoint_xy_error_rmse_m": null,
+      "base_layer2_horizontal_error_m_mean": 2.0530604,
+      "base_layer3_tiepoint_xy_error_rmse_m": 0.41744002475044845,
+      "layer2_delta_m": 1.0202338000000002,
+      "layer3_delta_m": null,
+      "actual_reduced_downstream_time_seconds": 602.6432444165248,
+      "estimated_end_to_end_time_seconds": 1183.4735869505246,
+      "retrieval_time_from_base_seconds": 0.0,
+      "rerank_time_from_base_seconds": 580.8303425339998,
+      "step_times": {
+        "run_pnp_baseline": 1.763902187347412,
+        "run_pose_v1_formal_scoring_summary": 0.441303014755249,
+        "run_pose_validation_suite": 600.0260043144226
+      },
+      "validation_tiepoint_seconds": null,
+      "base_sampling_row_count": 21218,
+      "base_pnp_row_count": 100,
+      "candidate_reduction_ratio": 0.95,
+      "accepted": false
+    },
+    {
+      "subgroup": "G06C_g03_siftgpu_match_top1",
+      "source_group": "g03_siftgpu",
+      "matcher": "SIFTGPU",
+      "strategy": "match_count_top1",
+      "comparison_group": "G03",
+      "subgroup_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06C_g03_siftgpu_match_top1",
+      "base_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma",
+      "selected_candidate_count": 5,
+      "sampling_row_count": 5378,
+      "sampling_status_counts": {
+        "ok": 5376,
+        "nodata": 2
+      },
+      "pnp_row_count": 5,
+      "pnp_status_counts": {
+        "ok": 5
+      },
+      "best_pose_status_counts": {
+        "ok": 5
+      },
+      "validation_pipeline_status": "timeout",
+      "validation_returncode": -15,
+      "validation_timed_out": true,
+      "layer1_center_offset_m_mean": 4.1996376,
+      "layer2_horizontal_error_m_mean": 2.0530604,
+      "layer3_tiepoint_xy_error_rmse_m": null,
+      "base_layer2_horizontal_error_m_mean": 2.0530604,
+      "base_layer3_tiepoint_xy_error_rmse_m": 0.41744002475044845,
+      "layer2_delta_m": 0.0,
+      "layer3_delta_m": null,
+      "actual_reduced_downstream_time_seconds": 602.6923465675827,
+      "estimated_end_to_end_time_seconds": 1183.5226891015825,
+      "retrieval_time_from_base_seconds": 0.0,
+      "rerank_time_from_base_seconds": 580.8303425339998,
+      "step_times": {
+        "run_pnp_baseline": 1.7468173503875732,
+        "run_pose_v1_formal_scoring_summary": 0.49718809127807617,
+        "run_pose_validation_suite": 600.0144510269165
+      },
+      "validation_tiepoint_seconds": null,
+      "base_sampling_row_count": 21218,
+      "base_pnp_row_count": 100,
+      "candidate_reduction_ratio": 0.95,
+      "accepted": false
+    }
+  ],
+  "manual_validation_retries": [
+    {
+      "subgroup": "G06C_g03_siftgpu_match_top1",
+      "command": "run_pose_validation_suite.py for the G06C reduced bundle",
+      "timeout_seconds": 3600,
+      "result": "timeout_during_evaluate_pose_ortho_tiepoint_ground_error",
+      "interpretation": "Layer-1 and Layer-2 outputs were produced, but Layer-3 tiepoint summary did not complete within one hour."
+    }
+  ]
+}

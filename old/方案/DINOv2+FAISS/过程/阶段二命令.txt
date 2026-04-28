@@ -1,0 +1,8 @@
+/mnt/d/aiproject/imagematch/.conda/bin/python /mnt/d/aiproject/imagematch/scripts/build_faiss_index.py \
+tiles.csv' \
+   >     --features-npz '/mnt/d/aiproject/imagematch/output/stage2/satellite_dinov2_features.npz' \
+ --id-co>     --metadata-csv '/mnt/d/aiproject/imagematch/output/stage1/tiles_80_120_200/tiles.csv' \
+lumn til>     --id-column tile_id \
+>     --index-type ip \
+>     --output-index '/mnt/d/aiproject/imagematch/output/stage2/satellite_tiles_ip.index' \
+>     --output-mapping-json '/mnt/d/aiproject/imagematch/output/stage2/satellite_tiles_ip_mapping.json'

@@ -1,0 +1,3 @@
+﻿flight_id,query_count,tiepoint_xy_error_mean_m,tiepoint_xy_error_median_m,tiepoint_xy_error_rmse_m,tiepoint_xy_error_p90_m,tiepoint_match_count_mean,tiepoint_inlier_ratio_mean
+DJI_202510311347_009_新建面状航线1,20,0.3595389298651593,0.310974,0.4348709602789743,0.6173624,14471.95,0.9357265
+DJI_202510311413_010_新建面状航线1,19,0.3165946975538324,0.267465,0.3913424179676186,0.5519080000000001,15101.894736842105,0.9519818947368422

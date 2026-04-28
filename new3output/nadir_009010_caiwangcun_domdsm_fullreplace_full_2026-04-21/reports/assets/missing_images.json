@@ -1,0 +1,7 @@
+{
+  "missing_images": [
+    "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/frame_sanity/figures/q_021_frame_overlay.png",
+    "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/frame_sanity/figures/q_021_offset_vectors.png",
+    "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/frame_sanity/figures/q_021_dsm_valid_mask_on_truth_grid.png"
+  ]
+}

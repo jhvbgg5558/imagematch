@@ -1,0 +1,16 @@
+# Stage7 First-Round Analysis
+
+## Overall
+- Query count: 5
+- Recall@1: 0.200
+- Recall@5: 0.800
+- Recall@10: 1.000
+- MRR: 0.500
+- Top-1 error mean (m): 520.4008843711958
+
+## Per Scale
+- 200m: queries=5 R@1=0.200 R@5=0.800 R@10=1.000 MRR=0.500 Top1Err=520.4008843711958
+
+## Hit Breakdown
+- Top1 hit queries: q_200m_05
+- Top5-only hit queries: q_200m_01, q_200m_02, q_200m_04

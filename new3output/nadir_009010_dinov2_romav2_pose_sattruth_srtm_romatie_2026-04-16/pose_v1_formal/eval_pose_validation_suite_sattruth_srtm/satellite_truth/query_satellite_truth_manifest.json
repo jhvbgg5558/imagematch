@@ -1,0 +1,26 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+  "query_seed_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/queries_truth_seed.csv",
+  "query_truth_tiles_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/query_truth_tiles.csv",
+  "query_truth_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/query_truth.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ready": 40
+  },
+  "source_tile_counts": {
+    "s700_x253883.067_y3364778.442": 6,
+    "s500_x254297.293_y3364057.454": 2,
+    "s700_x254397.293_y3364157.454": 3,
+    "s700_x254411.063_y3364766.491": 5,
+    "s500_x254825.317_y3364045.530": 1,
+    "s700_x254925.317_y3364145.530": 8,
+    "s500_x254324.835_y3365275.528": 1,
+    "s500_x254839.058_y3364654.565": 2,
+    "s700_x254424.835_y3365375.528": 2,
+    "s700_x254939.058_y3364754.565": 6,
+    "s500_x254852.800_y3365263.601": 2,
+    "s700_x255453.340_y3364133.631": 1,
+    "s700_x254952.800_y3365363.601": 1
+  },
+  "generated_at_unix": 1776368803.1950722
+}

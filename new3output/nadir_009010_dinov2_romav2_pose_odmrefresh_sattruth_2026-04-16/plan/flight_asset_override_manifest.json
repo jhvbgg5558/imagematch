@@ -1,0 +1,36 @@
+{
+  "raw_uav_root": "/mnt/d/数据/武汉影像/无人机0.1m",
+  "experiment_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16",
+  "asset_version_tag": "odm_refresh_2026-04-16",
+  "row_count": 2,
+  "status_counts": {
+    "ready": 2
+  },
+  "generated_at_unix": 1776307161.0618904,
+  "rows": [
+    {
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "flight_root": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1",
+      "odm_orthophoto_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/odm_orthophoto/odm_orthophoto.tif",
+      "odm_dsm_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/odm_georeferencing/odm_georeferenced_model.laz",
+      "odm_dsm_source_kind": "laz",
+      "shots_geojson_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/odm_report/shots.geojson",
+      "cameras_json_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311347_009_新建面状航线1/cameras.json",
+      "asset_version_tag": "odm_refresh_2026-04-16",
+      "status": "ready",
+      "missing_fields": ""
+    },
+    {
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "flight_root": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1",
+      "odm_orthophoto_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/odm_orthophoto/odm_orthophoto.tif",
+      "odm_dsm_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/odm_georeferencing/odm_georeferenced_model.laz",
+      "odm_dsm_source_kind": "laz",
+      "shots_geojson_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/odm_report/shots.geojson",
+      "cameras_json_path": "/mnt/d/数据/武汉影像/无人机0.1m/DJI_202510311413_010_新建面状航线1/cameras.json",
+      "asset_version_tag": "odm_refresh_2026-04-16",
+      "status": "ready",
+      "missing_fields": ""
+    }
+  ]
+}

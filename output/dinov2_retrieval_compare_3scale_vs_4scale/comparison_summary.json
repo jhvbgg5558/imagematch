@@ -1,0 +1,92 @@
+{
+  "three_scale_metrics": {
+    "recall@1": 0.05,
+    "recall@5": 0.275,
+    "recall@10": 0.35,
+    "mrr": 0.14215277777777777,
+    "top1_error_m_mean": 712.8402938520987
+  },
+  "four_scale_metrics": {
+    "recall@1": 0.125,
+    "recall@5": 0.275,
+    "recall@10": 0.375,
+    "mrr": 0.1931547619047619,
+    "top1_error_m_mean": 778.537863555553
+  },
+  "metric_deltas": {
+    "recall@1": 0.075,
+    "recall@5": 0.0,
+    "recall@10": 0.025000000000000022,
+    "mrr": 0.051001984126984146,
+    "top1_error_m_mean": 65.69756970345429
+  },
+  "improved_query_count": 5,
+  "degraded_query_count": 4,
+  "unchanged_query_count": 31,
+  "new_top1_hits_with_300m": [
+    {
+      "query_id": "q_006",
+      "three_scale_first_truth_rank": 2,
+      "four_scale_first_truth_rank": 1
+    },
+    {
+      "query_id": "q_010",
+      "three_scale_first_truth_rank": 4,
+      "four_scale_first_truth_rank": 1
+    },
+    {
+      "query_id": "q_011",
+      "three_scale_first_truth_rank": 4,
+      "four_scale_first_truth_rank": 1
+    }
+  ],
+  "improved_queries": [
+    {
+      "query_id": "q_005",
+      "three_scale_first_truth_rank": null,
+      "four_scale_first_truth_rank": 5
+    },
+    {
+      "query_id": "q_006",
+      "three_scale_first_truth_rank": 2,
+      "four_scale_first_truth_rank": 1
+    },
+    {
+      "query_id": "q_010",
+      "three_scale_first_truth_rank": 4,
+      "four_scale_first_truth_rank": 1
+    },
+    {
+      "query_id": "q_011",
+      "three_scale_first_truth_rank": 4,
+      "four_scale_first_truth_rank": 1
+    },
+    {
+      "query_id": "q_021",
+      "three_scale_first_truth_rank": null,
+      "four_scale_first_truth_rank": 5
+    }
+  ],
+  "degraded_queries": [
+    {
+      "query_id": "q_013",
+      "three_scale_first_truth_rank": 6,
+      "four_scale_first_truth_rank": 8
+    },
+    {
+      "query_id": "q_020",
+      "three_scale_first_truth_rank": 5,
+      "four_scale_first_truth_rank": 7
+    },
+    {
+      "query_id": "q_032",
+      "three_scale_first_truth_rank": 4,
+      "four_scale_first_truth_rank": 10
+    },
+    {
+      "query_id": "q_034",
+      "three_scale_first_truth_rank": 9,
+      "four_scale_first_truth_rank": null
+    }
+  ]
+}

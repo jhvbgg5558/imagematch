@@ -1,0 +1,28 @@
+{
+  "stages": [
+    {
+      "stage": "satellite_feature_extraction",
+      "command": "/mnt/d/aiproject/imagematch/.conda/bin/python /mnt/d/aiproject/imagematch/scripts/extract_dino_features.py --input-csv /mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_dinov2_baseline/fixed_satellite_library/tiles.csv --id-column tile_id --image-column image_path --output-npz /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/satellite_features/satellite_dinov2_pooler.npz --output-csv /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/satellite_features/satellite_dinov2_pooler_status.csv --model-name facebook/dinov2-base --pooling pooler --batch-size 32 --device auto",
+      "status": "ok",
+      "elapsed_seconds": 3454.227349627763
+    },
+    {
+      "stage": "faiss_index_build",
+      "command": "/mnt/d/aiproject/imagematch/.conda/bin/python /mnt/d/aiproject/imagematch/scripts/build_faiss_index.py --features-npz /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/satellite_features/satellite_dinov2_pooler.npz --metadata-csv /mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_dinov2_baseline/fixed_satellite_library/tiles.csv --id-column tile_id --index-type ip --output-index /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/faiss/satellite_tiles_ip.index --output-mapping-json /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/faiss/satellite_tiles_ip_mapping.json",
+      "status": "ok",
+      "elapsed_seconds": 1.75605443213135
+    },
+    {
+      "stage": "query_feature_extraction",
+      "command": "/mnt/d/aiproject/imagematch/.conda/bin/python /mnt/d/aiproject/imagematch/scripts/extract_dino_features.py --input-csv /mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_dinov2_strict_truth_eval/query_inputs/query_manifest.csv --id-column query_id --image-column sanitized_query_path --output-npz /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/query_features/query_dinov2_pooler.npz --output-csv /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/query_features/query_dinov2_pooler_status.csv --model-name facebook/dinov2-base --pooling pooler --batch-size 32 --device auto",
+      "status": "ok",
+      "elapsed_seconds": 182.99972705217078
+    },
+    {
+      "stage": "query_retrieval",
+      "command": "/mnt/d/aiproject/imagematch/.conda/bin/python /mnt/d/aiproject/imagematch/scripts/evaluate_retrieval_against_intersection_truth.py --query-features-npz /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/query_features/query_dinov2_pooler.npz --query-seed-csv /mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_intersection_truth_eval/query_truth/queries_truth_seed.csv --query-truth-tiles-csv /mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_intersection_truth_eval/query_truth/query_truth_tiles.csv --faiss-index /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/faiss/satellite_tiles_ip.index --mapping-json /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/faiss/satellite_tiles_ip_mapping.json --top-k 20 --output-csv /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/retrieval/retrieval_top20.csv --summary-json /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/retrieval/summary_top20.json --curve-csv /mnt/d/aiproject/imagematch/newoutput/dinov2_rerun_intersection_truth_250m_2026-03-24/retrieval/topk_truth_curve_top20.csv",
+      "status": "ok",
+      "elapsed_seconds": 1.5850522280670702
+    }
+  ]
+}

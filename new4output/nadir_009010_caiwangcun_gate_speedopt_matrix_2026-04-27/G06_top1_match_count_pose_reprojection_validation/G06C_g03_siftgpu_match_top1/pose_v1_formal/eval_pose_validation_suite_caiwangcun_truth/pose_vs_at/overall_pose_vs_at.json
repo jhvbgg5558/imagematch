@@ -1,0 +1,38 @@
+{
+  "query_count": 5,
+  "evaluated_query_count": 5,
+  "horizontal_error_m": {
+    "mean": 2.0530604,
+    "median": 2.029462,
+    "p90": 3.5301476000000003
+  },
+  "spatial_error_m": {
+    "mean": 2.1669808,
+    "median": 2.035001,
+    "p90": 3.540038
+  },
+  "view_dir_angle_error_deg": {
+    "mean": 0.7935589999999999,
+    "median": 0.693453,
+    "p90": 1.4031044000000001
+  },
+  "yaw_error_deg": {
+    "mean": 28.059323600000006,
+    "median": 19.302866,
+    "p90": 53.26843840000001
+  },
+  "pitch_error_deg": {
+    "mean": 0.7935589999999999,
+    "median": 0.693453,
+    "p90": 1.4031044000000001
+  },
+  "roll_error_deg": {
+    "mean": 27.7189854,
+    "median": 19.914386,
+    "p90": 52.373822200000006
+  },
+  "eval_status_counts": {
+    "ok": 5
+  },
+  "generated_at_unix": 1777364869.341036
+}

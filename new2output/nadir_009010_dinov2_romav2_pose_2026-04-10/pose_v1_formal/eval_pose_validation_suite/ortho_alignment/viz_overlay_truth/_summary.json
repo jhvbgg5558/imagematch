@@ -1,0 +1,10 @@
+{
+  "bundle_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal",
+  "truth_manifest_csv": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/ortho_alignment/query_ortho_truth_manifest.csv",
+  "pred_manifest_csv": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/ortho_alignment/pred_tiles/pred_tile_manifest.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ok": 40
+  },
+  "generated_at_unix": 1775833333.6759024
+}

@@ -1,0 +1,109 @@
+{
+  "scripts": [
+    {
+      "file": "build_odm_asset_override_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_odm_asset_override_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/build_odm_asset_override_manifest.py",
+      "sha256": "6ce0bf4bec1556d0b9d7f3f13ca95b555313a6ac878601a3a3ecafbf058f0966",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "build_query_ortho_truth_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_query_ortho_truth_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/build_query_ortho_truth_manifest.py",
+      "sha256": "f67e076f1cf9f24fc4d24dd7e9ed1aa35e062e1f6e995ac2afcf59e74ebdf307",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "build_candidate_dsm_cache.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_candidate_dsm_cache.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/build_candidate_dsm_cache.py",
+      "sha256": "adf3d8374b6b82a4290f901d46f1db30363aa56e7c712d3bf589dc89ff318ed7",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "materialize_formal_dsm_rasters_from_odm.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/materialize_formal_dsm_rasters_from_odm.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/materialize_formal_dsm_rasters_from_odm.py",
+      "sha256": "097f83bed8a9e56605e3395b3c3ef537bca6f4f3b2bf8a197e97e3c646d19e35",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "run_pose_validation_suite.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_pose_validation_suite.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/run_pose_validation_suite.py",
+      "sha256": "38f83077c700fd7f690e443cc9e405fc59b41e722542c67ed282fa7f28f141aa",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "run_pose_validation_suite_satellite_truth.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_pose_validation_suite_satellite_truth.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/run_pose_validation_suite_satellite_truth.py",
+      "sha256": "3546fcbbfa5274ca3edb26854be88b73b3274d318fc11181fddeed5639b4f740",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "generate_odm_truth_vs_satellite_truth_comparison_report.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/generate_odm_truth_vs_satellite_truth_comparison_report.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/generate_odm_truth_vs_satellite_truth_comparison_report.py",
+      "sha256": "0d1f9f025c04fc3754bd3ab7b1da44aacfe736ffa98dc663830b49a8ea9204b5",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "run_nadir_009010_odmrefresh_and_sattruth_experiment.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/run_nadir_009010_odmrefresh_and_sattruth_experiment.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/run_nadir_009010_odmrefresh_and_sattruth_experiment.py",
+      "sha256": "00bbe8caf90bccd40b9cf1b13719ae4e95e400d89695087023c8ec920f0eb9c6",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "build_query_satellite_truth_manifest.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/build_query_satellite_truth_manifest.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/build_query_satellite_truth_manifest.py",
+      "sha256": "606ad02722cb84a6ea90176d2e8412724f4e84ffebb6be8ee1ad151b4f87e004",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "crop_query_satellite_truth_patches.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/crop_query_satellite_truth_patches.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/crop_query_satellite_truth_patches.py",
+      "sha256": "b61c698c998ef97b7305d9ca5d8ac46d5ee380e9c43afae7a2d8426d072c84d3",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "evaluate_pose_satellite_alignment.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_satellite_alignment.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/evaluate_pose_satellite_alignment.py",
+      "sha256": "603c92da045f513590bef06cfb99aebe48b5231edec2e0b89cdfc3f8b65bb28e",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "evaluate_pose_satellite_geometry.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_satellite_geometry.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/evaluate_pose_satellite_geometry.py",
+      "sha256": "0cb77f60ba88cedffaa3e3f614470353f01b6a9964ea29e7561f0b117a53d47b",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "evaluate_pose_satellite_tiepoint_ground_error.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_satellite_tiepoint_ground_error.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/evaluate_pose_satellite_tiepoint_ground_error.py",
+      "sha256": "81f0a2788299a15378527f9733fd6ac3eb7c38c6c7c7a748672d71c91f010d97",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "generate_pose_validation_suite_satellite_truth_word_report.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/generate_pose_validation_suite_satellite_truth_word_report.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/generate_pose_validation_suite_satellite_truth_word_report.py",
+      "sha256": "ca806f69d2e039afee0aa559de4be5bf12d21b07a09fbf27a8f744e8b20b5a96",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    },
+    {
+      "file": "generate_pose_localization_accuracy_satellite_truth_report.py",
+      "source_path": "/mnt/d/aiproject/imagematch/scripts/generate_pose_localization_accuracy_satellite_truth_report.py",
+      "snapshot_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/scripts/generate_pose_localization_accuracy_satellite_truth_report.py",
+      "sha256": "aa1aa6207f937814d6eb366fb1ecbdff7e3f847d2f7ed11019d2931515b68a91",
+      "copied_at_utc": "2026-04-16T02:40:10+00:00"
+    }
+  ]
+}

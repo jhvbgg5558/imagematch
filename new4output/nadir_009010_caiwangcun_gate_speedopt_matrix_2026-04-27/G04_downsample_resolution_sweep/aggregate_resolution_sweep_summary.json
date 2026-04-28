@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "2026-04-28T04:59:11+00:00",
+  "subgroup_count": 2,
+  "rows": [
+    {
+      "subgroup": "G04A_downsample_0p5m",
+      "target_gsd_m": 0.5,
+      "status": "ok",
+      "accepted": true,
+      "retrieval_top20_rows": 100,
+      "matches_row_count": 500000,
+      "sampling_row_count": 500000,
+      "pnp_status_counts": {
+        "ok": 100
+      },
+      "best_pose_status_counts": {
+        "ok": 5,
+        "missing_pnp_rows": 35
+      },
+      "validation_pipeline_status": "ok",
+      "layer2_horizontal_error_m_mean": 6.0390186,
+      "layer3_tiepoint_xy_error_rmse_m": 441.89850627736695,
+      "romav2_rerank_elapsed_seconds": 3720.387564713,
+      "domz_sampling_total_seconds": 21.74139142036438,
+      "wrapper_elapsed_seconds": 5430.584408760071,
+      "failure_reason": null
+    },
+    {
+      "subgroup": "G04B_downsample_1p0m",
+      "target_gsd_m": 1.0,
+      "status": "failed",
+      "accepted": false,
+      "retrieval_top20_rows": 0,
+      "matches_row_count": 0,
+      "sampling_row_count": 0,
+      "pnp_status_counts": {},
+      "best_pose_status_counts": {},
+      "validation_pipeline_status": "not_run",
+      "layer2_horizontal_error_m_mean": null,
+      "layer3_tiepoint_xy_error_rmse_m": null,
+      "romav2_rerank_elapsed_seconds": null,
+      "domz_sampling_total_seconds": null,
+      "wrapper_elapsed_seconds": null,
+      "failure_reason": "romav2_rerank_timeout_or_cpu_fallback"
+    }
+  ]
+}

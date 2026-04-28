@@ -1,0 +1,83 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+  "source_hgt": "/mnt/d/aiproject/imagematch/new2output/N30E114.hgt",
+  "formal_dsm_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/input/formal_dsm_manifest.csv",
+  "planned_count": 195,
+  "built_count": 195,
+  "missing_count": 0,
+  "failed_count": 0,
+  "crs": "EPSG:32650",
+  "resampling": "bilinear",
+  "source_bounds": {
+    "left": 113.99986111111112,
+    "bottom": 29.99986111111111,
+    "right": 115.0001388888889,
+    "top": 31.000138888888888
+  },
+  "status_counts": {
+    "ready": 195
+  },
+  "built_examples": [
+    {
+      "dsm_id": "s200_x253783.067_y3364828.442",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s200_x253783.067_y3364828.442.tif",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "dsm_id": "s500_x253783.067_y3365053.442",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s500_x253783.067_y3365053.442.tif",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "dsm_id": "s500_x253783.067_y3364678.442",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s500_x253783.067_y3364678.442.tif",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "dsm_id": "s700_x253883.067_y3364778.442",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s700_x253883.067_y3364778.442.tif",
+      "width": 42,
+      "height": 42
+    },
+    {
+      "dsm_id": "s300_x253908.067_y3365028.442",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s300_x253908.067_y3365028.442.tif",
+      "width": 28,
+      "height": 28
+    },
+    {
+      "dsm_id": "s200_x253933.067_y3364978.442",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s200_x253933.067_y3364978.442.tif",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "dsm_id": "s300_x253908.067_y3364803.442",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s300_x253908.067_y3364803.442.tif",
+      "width": 28,
+      "height": 28
+    },
+    {
+      "dsm_id": "s300_x253696.869_y3365187.480",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s300_x253696.869_y3365187.480.tif",
+      "width": 28,
+      "height": 28
+    },
+    {
+      "dsm_id": "s200_x253810.673_y3365746.519",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s200_x253810.673_y3365746.519.tif",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "dsm_id": "s200_x254188.610_y3365734.565",
+      "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/dsm_cache/rasters/srtm_s200_x254188.610_y3365734.565.tif",
+      "width": 24,
+      "height": 24
+    }
+  ],
+  "generated_at_unix": 1776356308.5223026
+}

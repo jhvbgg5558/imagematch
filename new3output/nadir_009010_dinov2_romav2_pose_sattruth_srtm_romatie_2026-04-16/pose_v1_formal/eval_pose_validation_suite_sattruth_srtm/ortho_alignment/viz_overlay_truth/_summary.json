@@ -1,0 +1,10 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+  "truth_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/satellite_truth/query_satellite_truth_manifest.csv",
+  "pred_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/pred_tiles/pred_tile_manifest.csv",
+  "row_count": 40,
+  "status_counts": {
+    "ok": 40
+  },
+  "generated_at_unix": 1776368896.189088
+}

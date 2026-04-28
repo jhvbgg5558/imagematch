@@ -1,0 +1,326 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+  "phase": "full",
+  "query_ids": [
+    "q_001",
+    "q_002",
+    "q_003",
+    "q_004",
+    "q_005",
+    "q_006",
+    "q_007",
+    "q_008",
+    "q_009",
+    "q_010",
+    "q_011",
+    "q_012",
+    "q_013",
+    "q_014",
+    "q_015",
+    "q_016",
+    "q_017",
+    "q_018",
+    "q_019",
+    "q_020",
+    "q_021",
+    "q_022",
+    "q_023",
+    "q_024",
+    "q_025",
+    "q_026",
+    "q_027",
+    "q_028",
+    "q_029",
+    "q_030",
+    "q_031",
+    "q_032",
+    "q_033",
+    "q_034",
+    "q_035",
+    "q_036",
+    "q_037",
+    "q_038",
+    "q_039",
+    "q_040"
+  ],
+  "query_count": 40,
+  "matches": {
+    "path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/matches/roma_matches.csv",
+    "row_count": 1600000
+  },
+  "correspondences": {
+    "path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/correspondences/pose_correspondences.csv",
+    "row_count": 1600000,
+    "status_counts": {
+      "ok": 1600000
+    }
+  },
+  "sampling": {
+    "path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/sampling/sampled_correspondences.csv",
+    "row_count": 1600000,
+    "status_counts": {
+      "ok": 1600000
+    }
+  },
+  "pnp": {
+    "path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/pnp/pnp_results.csv",
+    "row_count": 100,
+    "status_counts": {
+      "ok": 98,
+      "pnp_failed": 2
+    }
+  },
+  "dsm": {
+    "bundle_root": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+    "source_hgt": "/mnt/d/aiproject/imagematch/new2output/N30E114.hgt",
+    "formal_dsm_manifest_csv": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/input/formal_dsm_manifest.csv",
+    "planned_count": 199,
+    "built_count": 199,
+    "missing_count": 0,
+    "failed_count": 0,
+    "crs": "EPSG:32650",
+    "resampling": "bilinear",
+    "source_bounds": {
+      "left": 113.99986111111112,
+      "bottom": 29.99986111111111,
+      "right": 115.0001388888889,
+      "top": 31.000138888888888
+    },
+    "status_counts": {
+      "ready": 199
+    },
+    "built_examples": [
+      {
+        "dsm_id": "s200_x253646.869_y3365287.480",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s200_x253646.869_y3365287.480.tif",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "dsm_id": "s300_x253696.869_y3365187.480",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s300_x253696.869_y3365187.480.tif",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "dsm_id": "s700_x253883.067_y3364778.442",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s700_x253883.067_y3364778.442.tif",
+        "width": 42,
+        "height": 42
+      },
+      {
+        "dsm_id": "s500_x253783.067_y3364678.442",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s500_x253783.067_y3364678.442.tif",
+        "width": 35,
+        "height": 35
+      },
+      {
+        "dsm_id": "s300_x253908.067_y3364803.442",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s300_x253908.067_y3364803.442.tif",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "dsm_id": "s200_x253933.067_y3364978.442",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s200_x253933.067_y3364978.442.tif",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "dsm_id": "s200_x254174.835_y3365575.528",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s200_x254174.835_y3365575.528.tif",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "dsm_id": "s300_x253908.067_y3365028.442",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s300_x253908.067_y3365028.442.tif",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "dsm_id": "s200_x253933.067_y3364828.442",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s200_x253933.067_y3364828.442.tif",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "dsm_id": "s200_x255717.683_y3363412.726",
+        "raster_path": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/dsm_cache/rasters/srtm_s200_x255717.683_y3363412.726.tif",
+        "width": 24,
+        "height": 24
+      }
+    ],
+    "generated_at_unix": 1775547621.3152323
+  },
+  "stages": [
+    {
+      "stage": "export_romav2_matches_batch_for_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/export_romav2_matches_batch_for_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+        "--device",
+        "cuda",
+        "--sample-count",
+        "2000",
+        "--min-rank",
+        "1",
+        "--max-rank",
+        "20",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_005",
+        "--query-id",
+        "q_006",
+        "--query-id",
+        "q_007",
+        "--query-id",
+        "q_008",
+        "--query-id",
+        "q_009",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_011",
+        "--query-id",
+        "q_012",
+        "--query-id",
+        "q_013",
+        "--query-id",
+        "q_014",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_016",
+        "--query-id",
+        "q_017",
+        "--query-id",
+        "q_018",
+        "--query-id",
+        "q_019",
+        "--query-id",
+        "q_020",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_023",
+        "--query-id",
+        "q_024",
+        "--query-id",
+        "q_025",
+        "--query-id",
+        "q_026",
+        "--query-id",
+        "q_027",
+        "--query-id",
+        "q_028",
+        "--query-id",
+        "q_029",
+        "--query-id",
+        "q_030",
+        "--query-id",
+        "q_031",
+        "--query-id",
+        "q_032",
+        "--query-id",
+        "q_033",
+        "--query-id",
+        "q_034",
+        "--query-id",
+        "q_035",
+        "--query-id",
+        "q_036",
+        "--query-id",
+        "q_037",
+        "--query-id",
+        "q_038",
+        "--query-id",
+        "q_039",
+        "--query-id",
+        "q_040"
+      ],
+      "returncode": 0,
+      "stdout_tail": "2026-04-07 23:25:56 INFO     romav2.romav2 - romav2:116 in __init__ -           \n                             RoMaV2-satast initialized.                         \n/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/matches/roma_matches.csv\n",
+      "stderr_tail": "Using cache found in /home/farsee2/.cache/torch/hub/facebookresearch_dinov3_adc254450203739c8149213a7a69d8d905b4fcfa\n",
+      "elapsed_seconds": 8830.79948425293
+    },
+    {
+      "stage": "prepare_pose_correspondences",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/prepare_pose_correspondences.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+        "--manifest-json",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/manifest/pose_manifest.json",
+        "--match-csv",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/matches/roma_matches.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/correspondences/pose_correspondences.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 38.530858516693115
+    },
+    {
+      "stage": "sample_dsm_for_dom_points",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/sample_dsm_for_dom_points.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+        "--manifest-json",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/manifest/pose_manifest.json",
+        "--correspondences-csv",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/correspondences/pose_correspondences.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/sampling/sampled_correspondences.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 3479.970085144043
+    },
+    {
+      "stage": "run_pnp_baseline",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/run_pnp_baseline.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+        "--manifest-json",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/manifest/pose_manifest.json",
+        "--sampled-correspondences-csv",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/sampling/sampled_correspondences.csv"
+      ],
+      "returncode": 1,
+      "stdout_tail": "",
+      "stderr_tail": "Traceback (most recent call last):\n  File \"/mnt/d/aiproject/imagematch/scripts/run_pnp_baseline.py\", line 442, in <module>\n    main()\n  File \"/mnt/d/aiproject/imagematch/scripts/run_pnp_baseline.py\", line 409, in main\n    write_csv(out_dir / \"pnp_results.csv\", results)\n  File \"/mnt/d/aiproject/imagematch/scripts/run_pnp_baseline.py\", line 84, in write_csv\n    with path.open(\"w\", newline=\"\", encoding=\"utf-8-sig\") as handle:\n  File \"/mnt/d/aiproject/imagematch/.conda/lib/python3.10/pathlib.py\", line 1119, in open\n    return self._accessor.open(self, mode, buffering, encoding, errors,\nPermissionError: [Errno 13] Permission denied: '/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/pnp/pnp_results.csv'\n",
+      "elapsed_seconds": 170.70758962631226
+    },
+    {
+      "stage": "score_formal_pose_results",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/score_formal_pose_results.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+        "--pnp-results-csv",
+        "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/pnp/pnp_results.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/summary/pose_overall_summary.json\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 0.6373791694641113
+    }
+  ],
+  "generated_at_unix": 1775587947.2875564
+}

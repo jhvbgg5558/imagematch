@@ -1,0 +1,374 @@
+{
+  "phase": "gate",
+  "query_count": 5,
+  "selected_query_ids": [
+    "q_002",
+    "q_004",
+    "q_003",
+    "q_021",
+    "q_001"
+  ],
+  "suite_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth",
+  "ortho_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+  "pose_vs_at_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+  "tiepoint_ground_error_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+  "steps": [
+    {
+      "step_name": "build_query_ortho_truth_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_ortho_truth_manifest.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/query_truth/queries_truth_seed.csv",
+        "--crop-margin-m",
+        "80.0",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001",
+        "--flight-asset-manifest",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/plan/caiwangcun_asset_manifest.csv"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 0.958824872970581
+    },
+    {
+      "step_name": "crop_query_ortho_truth_tiles",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/crop_query_ortho_truth_tiles.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--target-resolution-m",
+        "0.14",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 12.977142095565796
+    },
+    {
+      "step_name": "render_query_predicted_ortho_from_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_query_predicted_ortho_from_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--block-size",
+        "256",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 82.08613109588623
+    },
+    {
+      "step_name": "evaluate_pose_ortho_alignment",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_alignment.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 20.249619722366333
+    },
+    {
+      "step_name": "render_pose_ortho_overlay_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_overlay_viz.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 64.71070575714111
+    },
+    {
+      "step_name": "build_query_reference_pose_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_reference_pose_manifest.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/query_truth/queries_truth_seed.csv",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.1122052669525146
+    },
+    {
+      "step_name": "evaluate_pose_against_reference_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_against_reference_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.1542730331420898
+    },
+    {
+      "step_name": "evaluate_pose_ortho_tiepoint_ground_error",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_tiepoint_ground_error.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+        "--ortho-output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 4462.774753570557
+    },
+    {
+      "step_name": "render_pose_ortho_tiepoint_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_tiepoint_viz.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 23.514087677001953
+    },
+    {
+      "step_name": "summarize_pose_validation_suite",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/summarize_pose_validation_suite.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal",
+        "--output-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth",
+        "--ortho-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+        "--pose-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+        "--tiepoint-root",
+        "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+        "--phase",
+        "gate",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_001"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 0.9313433170318604
+    }
+  ],
+  "pipeline_status": "ok",
+  "failed_step_names": [],
+  "overall_ortho_accuracy": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "phase_corr_error_m": {
+      "mean": 0.0971436,
+      "median": 0.084981,
+      "p90": 0.1429326
+    },
+    "center_offset_m": {
+      "mean": 4.1996376,
+      "median": 3.451074,
+      "p90": 7.3386762
+    },
+    "ortho_iou": {
+      "mean": 0.7460724,
+      "median": 0.739989,
+      "p90": 0.7598896
+    },
+    "ssim": {
+      "mean": 0.7406308,
+      "median": 0.747916,
+      "p90": 0.8096524
+    },
+    "eval_status_counts": {
+      "ok": 5
+    },
+    "generated_at_unix": 1777308101.4463577
+  },
+  "overall_pose_vs_at": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "horizontal_error_m": {
+      "mean": 2.0530604,
+      "median": 2.029462,
+      "p90": 3.5301476000000003
+    },
+    "spatial_error_m": {
+      "mean": 2.1669808,
+      "median": 2.035001,
+      "p90": 3.540038
+    },
+    "view_dir_angle_error_deg": {
+      "mean": 0.7935589999999999,
+      "median": 0.693453,
+      "p90": 1.4031044000000001
+    },
+    "yaw_error_deg": {
+      "mean": 28.059323600000006,
+      "median": 19.302866,
+      "p90": 53.26843840000001
+    },
+    "pitch_error_deg": {
+      "mean": 0.7935589999999999,
+      "median": 0.693453,
+      "p90": 1.4031044000000001
+    },
+    "roll_error_deg": {
+      "mean": 27.7189854,
+      "median": 19.914386,
+      "p90": 52.373822200000006
+    },
+    "eval_status_counts": {
+      "ok": 5
+    },
+    "generated_at_unix": 1777308168.5121868
+  },
+  "overall_tiepoint_ground_error": {
+    "query_count": 5,
+    "evaluated_query_count": 5,
+    "matchable_query_count": 5,
+    "tiepoint_xy_error_mean_m": 0.3252203448091157,
+    "tiepoint_xy_error_median_m": 0.23823650000000002,
+    "tiepoint_xy_error_rmse_m": 0.41744002475044845,
+    "tiepoint_xy_error_p90_m": 0.6517212,
+    "tiepoint_match_count_mean": 21350.6,
+    "tiepoint_inlier_ratio_mean": 0.9478224000000001,
+    "eval_status_counts": {
+      "tiepoint_eval_ok": 5
+    },
+    "tiepoint_detail_scope": "ratio_test_ransac_inliers",
+    "tiepoint_detail_csv_dir": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error/tiepoints/per_query_matches",
+    "tiepoint_detail_csv_pattern": "<query_id>_tiepoints.csv",
+    "tiepoint_detail_csv_fields": [
+      "query_id",
+      "match_index",
+      "truth_col_px",
+      "truth_row_px",
+      "pred_col_px",
+      "pred_row_px",
+      "truth_x_m",
+      "truth_y_m",
+      "pred_x_m",
+      "pred_y_m",
+      "dx_m",
+      "dy_m",
+      "dxy_m"
+    ],
+    "tiepoint_detail_csv_count": 5,
+    "missing_tiepoint_detail_query_ids": [],
+    "generated_at_unix": 1777312631.0988376
+  },
+  "pnp_failed_candidate_counts": {
+    "q_001": 19,
+    "q_002": 12,
+    "q_003": 11,
+    "q_004": 14,
+    "q_021": 5
+  },
+  "generated_at_unix": 1777312655.805651
+}

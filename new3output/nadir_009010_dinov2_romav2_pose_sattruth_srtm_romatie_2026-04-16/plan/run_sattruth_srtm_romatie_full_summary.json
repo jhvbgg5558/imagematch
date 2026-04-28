@@ -1,0 +1,9 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16",
+  "validation_phase": "full",
+  "pose_phase": "full",
+  "query_count": 40,
+  "suite_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm",
+  "suite_summary_json": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/full_run_summary.json",
+  "generated_at_utc": "2026-04-16T19:58:22+00:00"
+}

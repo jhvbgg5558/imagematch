@@ -1,0 +1,28 @@
+{
+  "overall": {
+    "query_count": 5,
+    "recall@1": 0.0,
+    "recall@5": 0.2,
+    "recall@10": 0.6,
+    "mrr": 0.09833333333333334,
+    "top1_error_m_mean": 1019.9917852166236
+  },
+  "per_scale": {
+    "200": {
+      "query_count": 5,
+      "recall@1": 0.0,
+      "recall@5": 0.2,
+      "recall@10": 0.6,
+      "mrr": 0.09833333333333334,
+      "top1_error_m_mean": 1019.9917852166236,
+      "top1_hit_queries": [],
+      "top5_only_queries": [
+        "q_200m_02"
+      ]
+    }
+  },
+  "top1_hit_queries": [],
+  "top5_only_queries": [
+    "q_200m_02"
+  ]
+}

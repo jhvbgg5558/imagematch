@@ -1,0 +1,17 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal",
+  "manifest_json": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/manifest/pose_manifest.json",
+  "sampled_correspondences_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/sampling/sampled_correspondences.csv",
+  "row_count": 800,
+  "status_counts": {
+    "ok": 520,
+    "dsm_nodata_too_high": 217,
+    "pnp_failed": 61,
+    "dsm_coverage_insufficient": 2
+  },
+  "min_points": 6,
+  "ransac_reproj_thresh": 8.0,
+  "ransac_max_iters": 1000,
+  "ransac_confidence": 0.99,
+  "generated_at_unix": 1776320302.0258837
+}

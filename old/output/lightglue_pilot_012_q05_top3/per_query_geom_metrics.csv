@@ -1,0 +1,4 @@
+query_id,candidate_tile_id,raw_rank,global_score,candidate_scale_level_m,keypoints_query,keypoints_candidate,match_count,inlier_count,inlier_ratio,reproj_error_mean,geom_valid,geom_score,promote_flag,is_truth_hit
+q_200m_05,s120_x254467.293_y3364137.454,1,0.856103777885437,120,128,128,12,5,0.4166666666666667,0.7087569236755371,0,-1.0,0,0
+q_200m_05,s200_x254689.058_y3364504.565,2,0.8495759963989258,200,128,128,10,4,0.4,0.0,0,-1.0,0,0
+q_200m_05,s200_x254597.293_y3364207.454,3,0.8484377861022949,200,128,128,6,4,0.6666666666666666,0.0,1,3067.6666666666665,1,1

@@ -1,0 +1,28 @@
+{
+  "stages": [
+    {
+      "stage": "coarse_topk_export",
+      "elapsed_seconds": 3.2400002230133396
+    },
+    {
+      "stage": "input_preparation",
+      "elapsed_seconds": 0.9821642769966274
+    },
+    {
+      "stage": "romav2_rerank",
+      "elapsed_seconds": 9649.367413795
+    },
+    {
+      "stage": "summary_aggregation",
+      "elapsed_seconds": 0.49322960802237503
+    },
+    {
+      "stage": "visualization",
+      "elapsed_seconds": 83.03570476299501
+    },
+    {
+      "stage": "report_generation",
+      "elapsed_seconds": 3.5014801539946347
+    }
+  ]
+}

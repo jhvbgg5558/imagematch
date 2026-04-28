@@ -1,0 +1,29 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal",
+  "truth_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/eval_pose_validation_suite_satellite_truth/satellite_truth/query_satellite_truth_manifest.csv",
+  "pred_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/eval_pose_validation_suite_satellite_truth/pred_tiles/pred_tile_manifest.csv",
+  "status_counts": {
+    "ok": 40
+  },
+  "phase_corr_error_m": {
+    "mean": 0.08377757499999999,
+    "median": 0.046564999999999995,
+    "p90": 0.26050200000000007
+  },
+  "center_offset_m": {
+    "mean": 32.853355199999996,
+    "median": 28.959557500000003,
+    "p90": 53.125168300000006
+  },
+  "ortho_iou": {
+    "mean": 0.6935077749999999,
+    "median": 0.703696,
+    "p90": 0.7884418
+  },
+  "ssim": {
+    "mean": 0.4225962,
+    "median": 0.4577815,
+    "p90": 0.5405987000000001
+  },
+  "generated_at_unix": 1776320711.295478
+}

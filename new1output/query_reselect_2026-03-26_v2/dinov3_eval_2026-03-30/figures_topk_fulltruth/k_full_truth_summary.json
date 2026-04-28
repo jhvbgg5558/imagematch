@@ -1,0 +1,54 @@
+{
+  "query_count": 40,
+  "reached_count": 40,
+  "reached_ratio": 1.0,
+  "overall": {
+    "mean": 1028.175,
+    "median": 1029,
+    "p90": 1029,
+    "p95": 1029,
+    "max": 1029
+  },
+  "per_flight": {
+    "DJI_202510311347_009_新建面状航线1": {
+      "query_count": 10,
+      "reached_count": 10,
+      "reached_ratio": 1.0,
+      "mean": 1028.8,
+      "median": 1029,
+      "p90": 1029,
+      "p95": 1029,
+      "max": 1029
+    },
+    "DJI_202510311413_010_新建面状航线1": {
+      "query_count": 10,
+      "reached_count": 10,
+      "reached_ratio": 1.0,
+      "mean": 1027.8,
+      "median": 1028,
+      "p90": 1029,
+      "p95": 1029,
+      "max": 1029
+    },
+    "DJI_202510311435_011_新建面状航线1": {
+      "query_count": 10,
+      "reached_count": 10,
+      "reached_ratio": 1.0,
+      "mean": 1027.4,
+      "median": 1028,
+      "p90": 1029,
+      "p95": 1029,
+      "max": 1029
+    },
+    "DJI_202510311500_012_新建面状航线1": {
+      "query_count": 10,
+      "reached_count": 10,
+      "reached_ratio": 1.0,
+      "mean": 1028.7,
+      "median": 1029,
+      "p90": 1029,
+      "p95": 1029,
+      "max": 1029
+    }
+  }
+}

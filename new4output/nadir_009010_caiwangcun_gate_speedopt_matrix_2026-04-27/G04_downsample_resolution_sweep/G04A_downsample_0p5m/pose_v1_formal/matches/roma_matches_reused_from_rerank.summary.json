@@ -1,0 +1,30 @@
+{
+  "stage": "merge_pose_matches",
+  "input_name": "roma_matches_for_pose.csv",
+  "stage7_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/romav2_rerank/stage7",
+  "out_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/matches/roma_matches_reused_from_rerank.csv",
+  "row_count": 500000,
+  "query_count": 5,
+  "pair_count": 100,
+  "source_files": [
+    {
+      "source_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/romav2_rerank/stage7/DJI_202510311347_009_新建面状航线1/roma_matches_for_pose.csv",
+      "source_row_count": 400000,
+      "used_row_count": 400000
+    },
+    {
+      "source_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/romav2_rerank/stage7/DJI_202510311413_010_新建面状航线1/roma_matches_for_pose.csv",
+      "source_row_count": 100000,
+      "used_row_count": 100000
+    }
+  ],
+  "selected_query_ids": [
+    "q_001",
+    "q_002",
+    "q_003",
+    "q_004",
+    "q_021"
+  ],
+  "elapsed_seconds": 8.860587742000462,
+  "generated_at_unix": 1777343100.7332735
+}

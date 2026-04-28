@@ -1,0 +1,8 @@
+{
+  "query_count": 40,
+  "dom_tile_count": 100,
+  "dsm_source_count": 71,
+  "coarse_pair_count": 100,
+  "queries_missing_intrinsics": 0,
+  "coarse_rows_with_missing_dom": 0
+}

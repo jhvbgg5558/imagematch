@@ -1,0 +1,10 @@
+﻿query_id,flight_id,main_bucket,pitch_group,tags,coarse_first_truth_rank,romav2_first_truth_rank,coarse_top1_error_m,romav2_top1_error_m,delta_top1_error_m,rank_gain,c_variant,d_variant,selection_reason
+q_034,DJI_202510311500_012_新建面状航线1,A,downview,downview,1,1,1116.542767,153.005875,-963.536892,0,,,A_shrink exemplar
+q_015,DJI_202510311413_010_新建面状航线1,A,downview,downview,1,1,870.157725,612.413405,-257.744321,0,,,A_shrink exemplar
+q_002,DJI_202510311347_009_新建面状航线1,B,tilted,tilted,3,1,2759.088113,379.526892,-2379.561221,2,,,B gain exemplar
+q_022,DJI_202510311435_011_新建面状航线1,B,tilted,tilted,3,1,1339.99264,479.429745,-860.562895,2,,,B gain exemplar
+q_037,DJI_202510311500_012_新建面状航线1,B,tilted,tilted,3,1,981.125431,317.571291,-663.554139,2,,,B gain exemplar
+q_013,DJI_202510311413_010_新建面状航线1,B,downview,downview,2,1,1610.927933,243.352684,-1367.575249,1,,,B gain exemplar
+q_023,DJI_202510311435_011_新建面状航线1,C,downview,downview,5,2,2222.609237,2222.609237,0.0,3,C_retained,,C failure boundary exemplar
+q_038,DJI_202510311500_012_新建面状航线1,C,tilted,tilted,6,2,1120.203262,1120.203262,0.0,4,C_retained,,C failure boundary exemplar
+q_001,DJI_202510311347_009_新建面状航线1,C,downview,downview,7,3,1952.838914,1952.838914,0.0,4,C_retained,,C failure boundary exemplar

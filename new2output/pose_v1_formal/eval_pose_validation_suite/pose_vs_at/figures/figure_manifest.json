@@ -1,0 +1,106 @@
+{
+  "pose_root": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at",
+  "output_root": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures",
+  "input_files": {
+    "per_query": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\per_query_pose_vs_at.csv",
+    "per_flight": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\per_flight_pose_vs_at.csv",
+    "overall": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\overall_pose_vs_at.json",
+    "reference_manifest": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\query_reference_pose_manifest.json"
+  },
+  "pandas_available": true,
+  "figure_count": 8,
+  "summary": {
+    "query_count": 40,
+    "evaluated_query_count": 40,
+    "reference_source_type_counts": {
+      "odm_report_shots_geojson": 40
+    },
+    "q022_horizontal_error_m": 1357.953818,
+    "q022_view_dir_angle_error_deg": 53.405885
+  },
+  "figures": [
+    {
+      "filename": "figure_1_position_error_distribution.png",
+      "title": "位置误差分布图",
+      "description": "展示 horizontal_error_m 与 spatial_error_m 的分布，用于查看整体位置误差水平和异常值。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_1_position_error_distribution.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    },
+    {
+      "filename": "figure_2_orientation_error_distribution.png",
+      "title": "姿态误差分布图",
+      "description": "展示 view_dir_angle_error_deg、yaw_error_deg、pitch_error_deg、roll_error_deg 的分布，用于查看姿态误差构成。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_2_orientation_error_distribution.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    },
+    {
+      "filename": "figure_3_per_query_horizontal_error.png",
+      "title": "逐 query 平面位置误差图",
+      "description": "按 query 展示 horizontal_error_m，并突出 q_022 这类极端异常样本。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_3_per_query_horizontal_error.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    },
+    {
+      "filename": "figure_4_per_query_view_dir_error.png",
+      "title": "逐 query 视线方向误差图",
+      "description": "按 query 展示 view_dir_angle_error_deg，用于查看哪些 query 的姿态偏差更明显。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_4_per_query_view_dir_error.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    },
+    {
+      "filename": "figure_5_per_flight_pose_error.png",
+      "title": "按 flight 的误差对比图",
+      "description": "按航线展示 horizontal_error_m_mean 和 view_dir_angle_error_deg_mean，用于比较航线差异。",
+      "input_tables": [
+        "per_flight_pose_vs_at.csv"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_5_per_flight_pose_error.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    },
+    {
+      "filename": "figure_6_dx_dy_scatter.png",
+      "title": "相机中心平面偏移散点图",
+      "description": "以 dx_m 和 dy_m 展示 best pose 相机中心相对 ODM/AT 参考位置的偏移方向和大小。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_6_dx_dy_scatter.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    },
+    {
+      "filename": "figure_7_horizontal_vs_viewdir_scatter.png",
+      "title": "位置误差与姿态误差关系图",
+      "description": "展示 horizontal_error_m 与 view_dir_angle_error_deg 是否同步变差。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_7_horizontal_vs_viewdir_scatter.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    },
+    {
+      "filename": "figure_8_reference_source_status.png",
+      "title": "参考来源与评估状态统计图",
+      "description": "展示参考位姿来源和 eval_status 分布，用于审计第二层输入可靠性。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv",
+        "query_reference_pose_manifest.json"
+      ],
+      "path": "new2output\\pose_v1_formal\\eval_pose_validation_suite\\pose_vs_at\\figures\\figure_8_reference_source_status.png",
+      "generated_at_utc": "2026-04-10T02:16:40.386057+00:00"
+    }
+  ],
+  "generated_at_utc": "2026-04-10T02:16:40.386057+00:00",
+  "generated_at_unix": 1775787400.3862996
+}

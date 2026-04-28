@@ -1,0 +1,14 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal",
+  "manifest_json": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/manifest/pose_manifest.json",
+  "sampled_correspondences_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/sampling/sampled_correspondences.csv",
+  "row_count": 100,
+  "status_counts": {
+    "ok": 100
+  },
+  "min_points": 6,
+  "ransac_reproj_thresh": 8.0,
+  "ransac_max_iters": 1000,
+  "ransac_confidence": 0.99,
+  "generated_at_unix": 1777343246.177651
+}

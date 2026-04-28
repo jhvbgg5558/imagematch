@@ -1,0 +1,13 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16",
+  "reuse_retrieval_root": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10",
+  "validation_phase": "full",
+  "pose_phase": "full",
+  "runtime_task_definition": "uav_to_fixed_satellite_library_localization",
+  "main_variable_changes": [
+    "truth orthophoto: UAV orthophoto -> satellite truth patch",
+    "PnP DSM: SRTM retained",
+    "layer-3 tiepoint matcher: SIFT/BF -> RoMa v2"
+  ],
+  "generated_at_utc": "2026-04-16T16:18:17+00:00"
+}

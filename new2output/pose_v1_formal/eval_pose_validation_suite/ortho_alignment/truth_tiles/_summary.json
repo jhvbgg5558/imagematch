@@ -1,0 +1,11 @@
+{
+  "bundle_root": "new2output/pose_v1_formal",
+  "truth_manifest_csv": "new2output/pose_v1_formal/eval_pose_validation_suite/ortho_alignment/query_ortho_truth_manifest.csv",
+  "target_resolution_m": 0.5,
+  "row_count": 40,
+  "built_count": 40,
+  "status_counts": {
+    "ready": 40
+  },
+  "generated_at_unix": 1775730584.9981494
+}

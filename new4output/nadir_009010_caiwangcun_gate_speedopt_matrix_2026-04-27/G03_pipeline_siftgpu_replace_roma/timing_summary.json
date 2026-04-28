@@ -1,0 +1,26 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma",
+  "g02_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "generated_at_utc": "2026-04-27T17:58:07+00:00",
+  "wrapper_elapsed_seconds": 6271.424701213837,
+  "siftgpu_rerank_elapsed_seconds": 580.8303425339998,
+  "pose_export_romav2_matches_seconds": 0.0,
+  "siftgpu_rerank_timing": {
+    "stage": "siftgpu_rerank",
+    "top_k": 20,
+    "elapsed_seconds": 580.8303425339998,
+    "export_pose_matches": true,
+    "per_flight": [
+      {
+        "flight_id": "DJI_202510311347_009_新建面状航线1",
+        "elapsed_seconds": 482.24702344699995,
+        "pose_matches_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/siftgpu_rerank/stage7/DJI_202510311347_009_新建面状航线1/siftgpu_matches_for_pose.csv"
+      },
+      {
+        "flight_id": "DJI_202510311413_010_新建面状航线1",
+        "elapsed_seconds": 98.58331908699984,
+        "pose_matches_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/siftgpu_rerank/stage7/DJI_202510311413_010_新建面状航线1/siftgpu_matches_for_pose.csv"
+      }
+    ]
+  }
+}

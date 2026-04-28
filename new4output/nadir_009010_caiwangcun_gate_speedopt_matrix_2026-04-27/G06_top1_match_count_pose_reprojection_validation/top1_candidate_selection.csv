@@ -1,0 +1,16 @@
+﻿subgroup,source_group,matcher,strategy,query_id,candidate_id,raw_rank,rerank_rank,match_count,inlier_count,inlier_ratio,fused_score,geom_valid,is_truth_hit
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_001,cw_s200_x253783.721_y3364952.517,2,1,5000,2655,0.531,1.0070601026862571,1,1
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_021,cw_s200_x254983.721_y3364052.517,14,1,5000,3611,0.7222,0.7057200736979227,1,1
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_002,cw_s200_x253783.721_y3364802.517,15,1,5000,2142,0.4284,0.6156002454714963,1,1
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_003,cw_s200_x253933.721_y3364352.517,14,1,5000,1798,0.3596,0.5894043297688578,1,0
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_004,cw_s200_x254383.721_y3364052.517,16,1,5000,2652,0.5304,0.5751611883901453,1,1
+G06B_g03_siftgpu_inlier_top1,g03_siftgpu,SIFTGPU,inlier_count_top1,q_001,cw_s200_x253783.721_y3364952.517,2,1,668,409,0.6122754491017964,0.9932193066179029,1,1
+G06B_g03_siftgpu_inlier_top1,g03_siftgpu,SIFTGPU,inlier_count_top1,q_021,cw_s300_x254883.721_y3364102.517,1,1,1515,852,0.5623762376237624,0.9610623430766625,1,1
+G06B_g03_siftgpu_inlier_top1,g03_siftgpu,SIFTGPU,inlier_count_top1,q_002,cw_s200_x253783.721_y3364802.517,15,1,475,197,0.4147368421052632,0.5644867110657649,1,1
+G06B_g03_siftgpu_inlier_top1,g03_siftgpu,SIFTGPU,inlier_count_top1,q_003,cw_s500_x254008.721_y3364502.517,3,1,935,238,0.2545454545454545,0.7114973914337498,1,1
+G06B_g03_siftgpu_inlier_top1,g03_siftgpu,SIFTGPU,inlier_count_top1,q_004,cw_s500_x254383.721_y3364127.517,2,1,1317,347,0.26347760060744113,0.7574241651429358,1,1
+G06C_g03_siftgpu_match_top1,g03_siftgpu,SIFTGPU,match_count_top1,q_001,cw_s200_x253783.721_y3364952.517,2,1,668,409,0.6122754491017964,0.9932193066179029,1,1
+G06C_g03_siftgpu_match_top1,g03_siftgpu,SIFTGPU,match_count_top1,q_021,cw_s500_x254758.721_y3364127.517,5,4,1721,640,0.37187681580476467,0.7150678513580391,1,1
+G06C_g03_siftgpu_match_top1,g03_siftgpu,SIFTGPU,match_count_top1,q_002,cw_s500_x254008.721_y3364877.517,7,2,737,187,0.2537313432835821,0.5759153180418328,1,1
+G06C_g03_siftgpu_match_top1,g03_siftgpu,SIFTGPU,match_count_top1,q_003,cw_s500_x254008.721_y3364502.517,3,1,935,238,0.2545454545454545,0.7114973914337498,1,1
+G06C_g03_siftgpu_match_top1,g03_siftgpu,SIFTGPU,match_count_top1,q_004,cw_s500_x254383.721_y3364127.517,2,1,1317,347,0.26347760060744113,0.7574241651429358,1,1

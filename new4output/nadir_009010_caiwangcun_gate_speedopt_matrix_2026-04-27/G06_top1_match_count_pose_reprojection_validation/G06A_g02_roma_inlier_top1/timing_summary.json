@@ -1,0 +1,14 @@
+{
+  "subgroup": "G06A_g02_roma_inlier_top1",
+  "validation_timed_out": true,
+  "actual_reduced_downstream_time_seconds": 611.4641814952784,
+  "estimated_end_to_end_time_seconds": 2011.9996007122782,
+  "retrieval_time_from_base_seconds": 0.0,
+  "rerank_time_from_base_seconds": 1400.5354192169998,
+  "step_times": {
+    "run_pnp_baseline": 2.3885185718536377,
+    "run_pose_v1_formal_scoring_summary": 0.4933934211730957,
+    "run_pose_validation_suite": 600.0132772922516
+  },
+  "validation_tiepoint_seconds": null
+}

@@ -1,0 +1,107 @@
+{
+  "pose_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at",
+  "output_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures",
+  "input_files": {
+    "per_query": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/per_query_pose_vs_at.csv",
+    "per_flight": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/per_flight_pose_vs_at.csv",
+    "overall": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/overall_pose_vs_at.json",
+    "reference_manifest": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/query_reference_pose_manifest.json"
+  },
+  "pandas_available": true,
+  "figure_count": 8,
+  "summary": {
+    "query_count": 40,
+    "evaluated_query_count": 40,
+    "reference_source_type_counts": {
+      "odm_report_shots_geojson": 40
+    },
+    "highlight_query_id": "q_012",
+    "highlight_horizontal_error_m": 27.372117,
+    "highlight_view_dir_angle_error_deg": 3.933729
+  },
+  "figures": [
+    {
+      "filename": "figure_1_position_error_distribution.png",
+      "title": "位置误差分布",
+      "description": "展示 horizontal_error_m 和 spatial_error_m 的分布，用于查看整体位置误差水平和异常值。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_1_position_error_distribution.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    },
+    {
+      "filename": "figure_2_orientation_error_distribution.png",
+      "title": "姿态误差分布",
+      "description": "展示 view_dir_angle_error_deg 与 yaw/pitch/roll 误差分布，用于查看整体姿态偏差水平。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_2_orientation_error_distribution.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    },
+    {
+      "filename": "figure_3_per_query_horizontal_error.png",
+      "title": "逐 query 水平误差",
+      "description": "按 query 展示 horizontal_error_m，并动态高亮当前最大 horizontal error 的 query。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_3_per_query_horizontal_error.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    },
+    {
+      "filename": "figure_4_per_query_view_dir_error.png",
+      "title": "逐 query 视线方向误差",
+      "description": "按 query 展示 view_dir_angle_error_deg，并高亮同一异常 query 以便对照。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_4_per_query_view_dir_error.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    },
+    {
+      "filename": "figure_5_per_flight_pose_error.png",
+      "title": "分航线 pose 误差对比",
+      "description": "按航线展示 horizontal_error_m_mean 和 view_dir_angle_error_deg_mean，用于比较航线差异。",
+      "input_tables": [
+        "per_flight_pose_vs_at.csv"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_5_per_flight_pose_error.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    },
+    {
+      "filename": "figure_6_dx_dy_scatter.png",
+      "title": "dx/dy 偏移散点图",
+      "description": "展示 best pose 相对参考位姿的平面偏移方向，并高亮当前异常 query。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_6_dx_dy_scatter.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    },
+    {
+      "filename": "figure_7_horizontal_vs_viewdir_scatter.png",
+      "title": "位置误差与视向误差耦合",
+      "description": "展示 horizontal_error_m 与 view_dir_angle_error_deg 是否同步变差。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_7_horizontal_vs_viewdir_scatter.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    },
+    {
+      "filename": "figure_8_reference_source_status.png",
+      "title": "参考源与状态统计",
+      "description": "展示 reference source 和 eval_status 分布，用于审计数据来源与评估完成情况。",
+      "input_tables": [
+        "per_query_pose_vs_at.csv",
+        "query_reference_pose_manifest.json"
+      ],
+      "path": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/pose_v1_formal/eval_pose_validation_suite/pose_vs_at/figures/figure_8_reference_source_status.png",
+      "generated_at_utc": "2026-04-13T02:49:50.841718+00:00"
+    }
+  ],
+  "generated_at_utc": "2026-04-13T02:49:50.841718+00:00",
+  "generated_at_unix": 1776048590.841829
+}

@@ -1,0 +1,3171 @@
+{
+  "task_name": "pose_baseline_v1",
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal",
+  "generated_at_unix": 1777343091.4350414,
+  "query_manifest_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/input/formal_query_manifest.csv",
+  "dom_manifest_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/input/formal_candidate_manifest.csv",
+  "dsm_manifest_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/input/formal_dsm_manifest.csv",
+  "coarse_topk_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/retrieval/retrieval_top20.csv",
+  "defaults": {
+    "world_coordinate_system": "dom_projection_crs",
+    "intrinsics_model": "approx_intrinsics_v1",
+    "pnp_mode": "solvePnPRansac_plus_refinement",
+    "stability_window": "3x3"
+  },
+  "queries": [
+    {
+      "query_id": "q_001",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135226_0007_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_002",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135240_0013_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_003",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135249_0017_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_004",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135518_0069_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_005",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135527_0073_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_006",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135751_0123_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_007",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135805_0129_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_008",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031135815_0134_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_009",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140038_0183_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_010",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140057_0191_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_011",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140135_0215_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_012",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140321_0240_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_013",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140335_0246_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_014",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140411_0267_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_015",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140559_0296_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_016",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140618_0304_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_017",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140841_0354_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_018",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140856_0360_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_019",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031140905_0364_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_020",
+      "flight_id": "DJI_202510311347_009_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311347_009_新建面状航线1/DJI_20251031141125_0412_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.217806,
+          "fy_px": 744.734924,
+          "cx_px": 529.60934,
+          "cy_px": 392.1091,
+          "k1": -0.108451579368,
+          "k2": 0.000500674618,
+          "p1": 0.00021468399,
+          "p2": -0.000218283216
+        }
+      }
+    },
+    {
+      "query_id": "q_021",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141624_0001_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_022",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141633_0005_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_023",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141642_0009_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_024",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141701_0019_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_025",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141907_0057_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_026",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141917_0061_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_027",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141930_0067_V.JPG",
+      "width_px": "1056",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 744.496773,
+          "fy_px": 744.308579,
+          "cx_px": 530.111629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_028",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031141957_0083_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_029",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142154_0116_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_030",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142204_0120_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_031",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142213_0124_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_032",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142300_0152_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_033",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142437_0174_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_034",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142451_0180_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_035",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142456_0183_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_036",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142538_0208_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_037",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142552_0214_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_038",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142742_0235_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_039",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142806_0248_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    },
+    {
+      "query_id": "q_040",
+      "flight_id": "DJI_202510311413_010_新建面状航线1",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/images_downsampled_0p5m/DJI_202510311413_010_新建面状航线1/DJI_20251031142830_0259_V.JPG",
+      "width_px": "1055",
+      "height_px": "791",
+      "intrinsics": {
+        "status": "ready",
+        "values": {
+          "fx_px": 743.791758,
+          "fy_px": 744.308579,
+          "cx_px": 529.609629,
+          "cy_px": 392.117113,
+          "k1": -0.107910689252,
+          "k2": -0.000778342396,
+          "p1": 0.000219120724,
+          "p2": -0.000217801752
+        }
+      }
+    }
+  ],
+  "dom_tiles": [
+    {
+      "candidate_id": "cw_s200_x253783.721_y3364952.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253783.721_y3364952.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253683.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365052.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254083.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254083.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253983.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254083.721_y3365102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254083.721_y3365102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253983.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365202.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x255133.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x255133.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 255033.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254233.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254133.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254983.721_y3365252.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254983.721_y3365252.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254883.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365352.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x255133.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x255133.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 255033.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254983.721_y3364352.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254883.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364452.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x255108.721_y3364327.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254958.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364477.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3364952.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3364952.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365052.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3364327.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364477.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254208.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254208.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254058.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x255108.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254958.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x255108.721_y3365002.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x255108.721_y3365002.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254958.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3365002.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253783.721_y3364802.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253783.721_y3364802.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253683.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364902.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364802.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364902.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364952.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365052.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253783.721_y3364652.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253783.721_y3364652.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253683.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364752.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x253983.721_y3365002.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x253983.721_y3365002.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254008.721_y3364502.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253758.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364752.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x253983.721_y3364777.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364927.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254008.721_y3364877.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253758.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365127.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x253983.721_y3364552.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364702.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254233.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254133.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364352.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364452.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254233.721_y3364952.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254133.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365052.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254208.721_y3365002.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254058.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3364952.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3364952.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365052.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3365002.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3365002.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3365227.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x255108.721_y3365227.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x255108.721_y3365227.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254958.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254208.721_y3365227.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254058.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254758.721_y3364877.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365127.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364802.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364902.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x253983.721_y3364327.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x253983.721_y3364327.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364477.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x253983.721_y3364552.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364702.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364952.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365052.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364652.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364652.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364752.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364502.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364502.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364602.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x253933.721_y3364352.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364452.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254008.721_y3364502.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253758.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364752.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254083.721_y3364652.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254083.721_y3364652.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253983.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364752.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3365252.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3365252.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365352.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3365227.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3365227.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254208.721_y3365002.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254058.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3365252.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3365252.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365352.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3365227.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254233.721_y3364952.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254133.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365052.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254233.721_y3365102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254233.721_y3365102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254133.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365202.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254233.721_y3365252.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254233.721_y3365252.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254133.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365352.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3365102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3365102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365202.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254208.721_y3365227.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254058.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254383.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254383.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254283.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254533.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254533.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254433.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254433.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254433.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254283.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254533.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254533.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254433.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254433.721_y3364327.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254433.721_y3364327.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254283.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364477.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254383.721_y3364127.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254383.721_y3364127.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254133.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3364327.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3364327.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364477.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3364352.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3364352.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364452.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254083.721_y3364802.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254083.721_y3364802.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253983.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364902.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3364802.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3364802.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364902.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254208.721_y3364777.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254208.721_y3364777.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254058.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364927.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254433.721_y3365227.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254433.721_y3365227.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254283.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3364552.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3364552.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364702.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x253983.721_y3364777.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253833.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364927.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3364777.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3364777.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364927.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254383.721_y3364352.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254383.721_y3364352.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254283.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364452.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254383.721_y3365252.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254383.721_y3365252.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254283.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365352.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254008.721_y3364877.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253758.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365127.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3364777.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3364777.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364927.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254758.721_y3364877.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365127.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254983.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254983.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254883.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254983.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254983.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254883.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254983.721_y3364352.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254883.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364452.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3363902.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3363902.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364002.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254833.721_y3364352.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254833.721_y3364352.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364452.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3363902.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3363902.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364002.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254683.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254583.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3364327.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364477.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x255108.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254958.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x255108.721_y3364327.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254958.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364477.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x255133.721_y3364202.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x255133.721_y3364202.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 255033.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364302.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254658.721_y3364102.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364252.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254758.721_y3364127.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254758.721_y3364127.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254508.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s200_x254083.721_y3364052.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s200_x254083.721_y3364052.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253983.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s300_x254883.721_y3365002.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 254733.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3365152.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    },
+    {
+      "candidate_id": "cw_s500_x254008.721_y3364127.517",
+      "image_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/candidate_library/tiles_native/cw_s500_x254008.721_y3364127.517.png",
+      "crs": "EPSG:32650",
+      "affine": {
+        "geo_x0": 253758.72102534556,
+        "geo_x_col": 0.5,
+        "geo_x_row": 0.0,
+        "geo_y0": 3364377.5166208195,
+        "geo_y_col": 0.0,
+        "geo_y_row": -0.5
+      }
+    }
+  ],
+  "dsm_sources": [
+    {
+      "dsm_id": "cw_s200_x253783.721_y3364952.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253783.721_y3364952.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254083.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254083.721_y3365102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3365102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x255133.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x255133.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254233.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254233.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254983.721_y3365252.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3365252.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x255133.721_y3364202.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x255133.721_y3364202.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254683.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254983.721_y3364352.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3364352.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x255108.721_y3364327.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x255108.721_y3364327.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3364952.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3364952.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254883.721_y3364327.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254883.721_y3364327.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254208.721_y3364102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254208.721_y3364102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x255108.721_y3364102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x255108.721_y3364102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x255108.721_y3365002.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x255108.721_y3365002.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254883.721_y3365002.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254883.721_y3365002.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254883.721_y3364102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254883.721_y3364102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3364202.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3364202.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254658.721_y3364102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254658.721_y3364102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x253783.721_y3364802.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253783.721_y3364802.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x253933.721_y3364802.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253933.721_y3364802.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x253933.721_y3364952.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253933.721_y3364952.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x253783.721_y3364652.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253783.721_y3364652.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x253983.721_y3365002.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x253983.721_y3365002.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s500_x254008.721_y3364502.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s500_x254008.721_y3364502.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x253983.721_y3364777.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x253983.721_y3364777.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s500_x254008.721_y3364877.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s500_x254008.721_y3364877.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x253983.721_y3364552.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x253983.721_y3364552.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x253933.721_y3364352.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253933.721_y3364352.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254233.721_y3364952.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254233.721_y3364952.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254208.721_y3365002.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254208.721_y3365002.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254683.721_y3364952.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3364952.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254658.721_y3365002.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254658.721_y3365002.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254658.721_y3365227.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254658.721_y3365227.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x255108.721_y3365227.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x255108.721_y3365227.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254683.721_y3364202.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3364202.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254208.721_y3365227.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254208.721_y3365227.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s500_x254758.721_y3364877.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s500_x254758.721_y3364877.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x253983.721_y3364327.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x253983.721_y3364327.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x253933.721_y3364652.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253933.721_y3364652.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x253933.721_y3364502.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253933.721_y3364502.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254083.721_y3364652.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3364652.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3365252.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3365252.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254883.721_y3365227.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254883.721_y3365227.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254683.721_y3365252.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3365252.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254233.721_y3365102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254233.721_y3365102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254233.721_y3365252.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254233.721_y3365252.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3365102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3365102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254383.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254383.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254533.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254533.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254433.721_y3364102.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254433.721_y3364102.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254533.721_y3364202.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254533.721_y3364202.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254433.721_y3364327.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254433.721_y3364327.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s500_x254383.721_y3364127.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s500_x254383.721_y3364127.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254658.721_y3364327.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254658.721_y3364327.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254683.721_y3364352.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3364352.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254083.721_y3364802.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3364802.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3364802.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3364802.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254208.721_y3364777.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254208.721_y3364777.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254433.721_y3365227.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254433.721_y3365227.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254658.721_y3364552.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254658.721_y3364552.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254658.721_y3364777.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254658.721_y3364777.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254383.721_y3364352.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254383.721_y3364352.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254383.721_y3365252.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254383.721_y3365252.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s300_x254883.721_y3364777.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x254883.721_y3364777.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254983.721_y3364202.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3364202.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254983.721_y3364052.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3364052.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3363902.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3363902.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254833.721_y3364352.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254833.721_y3364352.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s200_x254683.721_y3363902.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3363902.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s500_x254758.721_y3364127.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s500_x254758.721_y3364127.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    },
+    {
+      "dsm_id": "cw_s500_x254008.721_y3364127.517",
+      "raster_path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s500_x254008.721_y3364127.517.tif",
+      "crs": "EPSG:32650",
+      "nodata": ""
+    }
+  ],
+  "coarse_candidates": [
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x253783.721_y3364952.517",
+      "rank": 1,
+      "score": 1.10018684509
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254083.721_y3364052.517",
+      "rank": 2,
+      "score": 0.440671080565
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254083.721_y3365102.517",
+      "rank": 3,
+      "score": 0.694219624979
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x255133.721_y3364052.517",
+      "rank": 4,
+      "score": 0.339585095325
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "rank": 5,
+      "score": 0.457765614623
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254983.721_y3365252.517",
+      "rank": 6,
+      "score": 0.392388832494
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x255133.721_y3364202.517",
+      "rank": 7,
+      "score": 0.36335390735
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "rank": 8,
+      "score": 0.573776432678
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "rank": 9,
+      "score": 0.445623034598
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "rank": 10,
+      "score": 0.602014040671
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254833.721_y3364952.517",
+      "rank": 11,
+      "score": 0.316772755179
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "rank": 12,
+      "score": 0.209744461846
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254208.721_y3364102.517",
+      "rank": 13,
+      "score": 0.330450976669
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "rank": 14,
+      "score": 0.2702771896
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x255108.721_y3365002.517",
+      "rank": 15,
+      "score": 0.266767118313
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "rank": 16,
+      "score": 0.276783240726
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "rank": 17,
+      "score": 0.541342538759
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "rank": 18,
+      "score": 0.148682957589
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "rank": 19,
+      "score": 0.191728054052
+    },
+    {
+      "query_id": "q_001",
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "rank": 20,
+      "score": 0.461673053899
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253783.721_y3364802.517",
+      "rank": 1,
+      "score": 0.677867589105
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "rank": 2,
+      "score": 1.06622157986
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "rank": 3,
+      "score": 0.674321863895
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253783.721_y3364652.517",
+      "rank": 4,
+      "score": 0.623558785005
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3365002.517",
+      "rank": 5,
+      "score": 0.821762186478
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "rank": 6,
+      "score": 0.77428639041
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "rank": 7,
+      "score": 0.561035307561
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "rank": 8,
+      "score": 0.62048421747
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "rank": 9,
+      "score": 0.467428830247
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254233.721_y3364052.517",
+      "rank": 10,
+      "score": 0.517505045882
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "rank": 11,
+      "score": 0.35109593233
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "rank": 12,
+      "score": 0.288432029471
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "rank": 13,
+      "score": 0.312703238125
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254683.721_y3364952.517",
+      "rank": 14,
+      "score": 0.199184364508
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254658.721_y3365002.517",
+      "rank": 15,
+      "score": 0.189053340465
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "rank": 16,
+      "score": 0.436705919387
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x255108.721_y3365227.517",
+      "rank": 17,
+      "score": 0.278659622288
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "rank": 18,
+      "score": 0.278059794097
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "rank": 19,
+      "score": 0.210803397258
+    },
+    {
+      "query_id": "q_002",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "rank": 20,
+      "score": 0.272472651515
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364802.517",
+      "rank": 1,
+      "score": 0.678401515008
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x253983.721_y3364327.517",
+      "rank": 2,
+      "score": 0.679091625586
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x253983.721_y3364552.517",
+      "rank": 3,
+      "score": 1.04055515027
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364952.517",
+      "rank": 4,
+      "score": 0.627189109091
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364652.517",
+      "rank": 5,
+      "score": 0.601508707443
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364502.517",
+      "rank": 6,
+      "score": 0.750508913152
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x253933.721_y3364352.517",
+      "rank": 7,
+      "score": 0.590841423593
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s500_x254008.721_y3364502.517",
+      "rank": 8,
+      "score": 0.81903544243
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254083.721_y3364652.517",
+      "rank": 9,
+      "score": 0.606251963865
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254833.721_y3365252.517",
+      "rank": 10,
+      "score": 0.465047837065
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254883.721_y3365227.517",
+      "rank": 11,
+      "score": 0.329336202336
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254208.721_y3365002.517",
+      "rank": 12,
+      "score": 0.341385808969
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254683.721_y3365252.517",
+      "rank": 13,
+      "score": 0.332388010941
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254658.721_y3365227.517",
+      "rank": 14,
+      "score": 0.183647359652
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3364952.517",
+      "rank": 15,
+      "score": 0.268648039778
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3365102.517",
+      "rank": 16,
+      "score": 0.216656384713
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "rank": 17,
+      "score": 0.177497858252
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254233.721_y3365252.517",
+      "rank": 18,
+      "score": 0.274229107696
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s200_x254833.721_y3365102.517",
+      "rank": 19,
+      "score": 0.419055909254
+    },
+    {
+      "query_id": "q_003",
+      "candidate_id": "cw_s300_x254208.721_y3365227.517",
+      "rank": 20,
+      "score": 0.280447701492
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3364052.517",
+      "rank": 1,
+      "score": 0.920492553208
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254533.721_y3364052.517",
+      "rank": 2,
+      "score": 0.666628168999
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3364102.517",
+      "rank": 3,
+      "score": 0.994861152159
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254533.721_y3364202.517",
+      "rank": 4,
+      "score": 0.617579902325
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3364327.517",
+      "rank": 5,
+      "score": 0.456641402375
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254383.721_y3364127.517",
+      "rank": 6,
+      "score": 0.708276233066
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364327.517",
+      "rank": 7,
+      "score": 0.678500506138
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254683.721_y3364352.517",
+      "rank": 8,
+      "score": 0.412438120148
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254083.721_y3364802.517",
+      "rank": 9,
+      "score": 0.337590516441
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254833.721_y3364802.517",
+      "rank": 10,
+      "score": 0.306004788072
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254208.721_y3364777.517",
+      "rank": 11,
+      "score": 0.359615607784
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254433.721_y3365227.517",
+      "rank": 12,
+      "score": 0.175465353925
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364552.517",
+      "rank": 13,
+      "score": 0.269432009614
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x253983.721_y3364777.517",
+      "rank": 14,
+      "score": 0.20756763421
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254658.721_y3364777.517",
+      "rank": 15,
+      "score": 0.512329299177
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3364352.517",
+      "rank": 16,
+      "score": 0.310269940274
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s200_x254383.721_y3365252.517",
+      "rank": 17,
+      "score": 0.220470097186
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254008.721_y3364877.517",
+      "rank": 18,
+      "score": 0.289269208449
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s300_x254883.721_y3364777.517",
+      "rank": 19,
+      "score": 0.223988789251
+    },
+    {
+      "query_id": "q_004",
+      "candidate_id": "cw_s500_x254758.721_y3364877.517",
+      "rank": 20,
+      "score": 0.240742436683
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364202.517",
+      "rank": 1,
+      "score": 1.0153628519
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364052.517",
+      "rank": 2,
+      "score": 0.773105093829
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254983.721_y3364352.517",
+      "rank": 3,
+      "score": 1.05392054081
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3363902.517",
+      "rank": 4,
+      "score": 0.733181619649
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364052.517",
+      "rank": 5,
+      "score": 0.90609924592
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364202.517",
+      "rank": 6,
+      "score": 0.798657148109
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254833.721_y3364352.517",
+      "rank": 7,
+      "score": 0.755107275274
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254683.721_y3363902.517",
+      "rank": 8,
+      "score": 0.68239006704
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254683.721_y3364052.517",
+      "rank": 9,
+      "score": 0.704344731721
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254683.721_y3364202.517",
+      "rank": 10,
+      "score": 0.585380635957
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3364102.517",
+      "rank": 11,
+      "score": 1.04145834281
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3364327.517",
+      "rank": 12,
+      "score": 1.05113180689
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3364102.517",
+      "rank": 13,
+      "score": 0.833899932732
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x255108.721_y3364327.517",
+      "rank": 14,
+      "score": 0.982472576941
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x255133.721_y3364202.517",
+      "rank": 15,
+      "score": 0.550835521291
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254658.721_y3364102.517",
+      "rank": 16,
+      "score": 0.703601684665
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254758.721_y3364127.517",
+      "rank": 17,
+      "score": 0.776139095106
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s200_x254083.721_y3364052.517",
+      "rank": 18,
+      "score": 0.138693871083
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s300_x254883.721_y3365002.517",
+      "rank": 19,
+      "score": 0.280258583315
+    },
+    {
+      "query_id": "q_021",
+      "candidate_id": "cw_s500_x254008.721_y3364127.517",
+      "rank": 20,
+      "score": 0.125342626926
+    }
+  ],
+  "statistics": {
+    "query_count": 40,
+    "dom_tile_count": 100,
+    "dsm_source_count": 73,
+    "coarse_pair_count": 100,
+    "coarse_pairs_per_query_max": 20,
+    "coarse_pairs_per_query_min": 20,
+    "queries_missing_intrinsics": 0,
+    "coarse_rows_with_missing_dom": 0
+  }
+}

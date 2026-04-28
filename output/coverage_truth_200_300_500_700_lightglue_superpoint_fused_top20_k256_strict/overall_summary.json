@@ -1,0 +1,19 @@
+{
+  "query_count": 40,
+  "baseline_strict_recall@1": 0.175,
+  "baseline_strict_recall@5": 0.375,
+  "baseline_strict_recall@10": 0.425,
+  "baseline_strict_mrr": 0.2621825396825397,
+  "baseline_top1_error_m_mean": 759.0714967080746,
+  "coarse_strict_recall@20": 0.7,
+  "lightglue_strict_recall@1": 0.15,
+  "lightglue_strict_recall@5": 0.35,
+  "lightglue_strict_recall@10": 0.475,
+  "lightglue_strict_recall@20": 0.7,
+  "lightglue_strict_mrr": 0.25725003904763966,
+  "lightglue_top1_error_m_mean": 682.1985722612142,
+  "delta_strict_recall@1": -0.024999999999999994,
+  "delta_strict_recall@5": -0.025000000000000022,
+  "delta_strict_recall@10": 0.04999999999999999,
+  "delta_strict_mrr": -0.004932500634900028
+}

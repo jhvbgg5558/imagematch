@@ -1,0 +1,21 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+  "suite_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth",
+  "phase": "gate",
+  "selected_query_ids": [
+    "q_001",
+    "q_002",
+    "q_003",
+    "q_004",
+    "q_021"
+  ],
+  "ortho_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment",
+  "pose_vs_at_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at",
+  "tiepoint_ground_error_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error",
+  "outputs": {
+    "ortho_overall": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/ortho_alignment/overall_ortho_accuracy.json",
+    "pose_overall": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/pose_vs_at/overall_pose_vs_at.json",
+    "tiepoint_overall": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error/overall_tiepoint_ground_error.json"
+  },
+  "generated_at_unix": 1776739676.7060268
+}

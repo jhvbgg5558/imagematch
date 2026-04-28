@@ -1,0 +1,6 @@
+﻿stage,elapsed_seconds
+coarse_topk_export,2.714284
+input_preparation,0.537169
+lightglue_rerank,4330.360103
+summary_aggregation,0.418073
+visualization,69.532706

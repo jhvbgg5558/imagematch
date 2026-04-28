@@ -1,0 +1,11 @@
+{
+  "ortho": {
+    "path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04B_downsample_1p0m/source_mosaic/caiwangcun_ortho_0p14m_epsg32650.tif"
+  },
+  "dsm": {
+    "path": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04B_downsample_1p0m/source_mosaic/caiwangcun_dsm_0p14m_epsg32650.tif"
+  },
+  "target_crs": "EPSG:32650",
+  "source_crs": "CGCS2000 / 3-degree Gauss-Kruger CM 114E (EPSG:4547)",
+  "generated_at_utc": "2026-04-28T02:44:20+00:00"
+}

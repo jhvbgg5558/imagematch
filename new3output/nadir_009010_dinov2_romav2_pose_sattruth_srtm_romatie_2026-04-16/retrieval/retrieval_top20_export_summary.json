@@ -1,0 +1,12 @@
+{
+  "stage7_root": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/romav2_rerank/stage7",
+  "out_csv": "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/retrieval/retrieval_top20.csv",
+  "top_k": 20,
+  "source_files": [
+    "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/romav2_rerank/stage7/DJI_202510311347_009_新建面状航线1/reranked_top20.csv",
+    "new2output/nadir_009010_dinov2_romav2_pose_2026-04-10/romav2_rerank/stage7/DJI_202510311413_010_新建面状航线1/reranked_top20.csv"
+  ],
+  "query_count": 40,
+  "row_count": 800,
+  "score_source": "fused_score"
+}

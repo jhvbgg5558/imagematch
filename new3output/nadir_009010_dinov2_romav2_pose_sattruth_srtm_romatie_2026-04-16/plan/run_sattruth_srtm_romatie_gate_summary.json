@@ -1,0 +1,14 @@
+﻿{
+    "experiment_root":  "D:/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16",
+    "validation_phase":  "gate",
+    "pose_phase":  "sample",
+    "pose_gate_summary_json":  "D:/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/summary/phase_gate_summary.json",
+    "suite_gate_summary_json":  "D:/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/phase_gate_summary.json",
+    "reports":  [
+                    "D:/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/reports/formal_pose_v1_validation_suite_sattruth_srtm_report.docx",
+                    "D:/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal/eval_pose_validation_suite_sattruth_srtm/reports/pose_localization_accuracy_sattruth_srtm_romatie_report.docx",
+                    "D:/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/reports/sattruth_srtm_romatie_vs_baseline.docx",
+                    "D:/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/reports/sattruth_srtm_romatie_vs_baseline.md"
+                ],
+    "generated_at_utc":  "2026-04-16T14:30:14Z"
+}

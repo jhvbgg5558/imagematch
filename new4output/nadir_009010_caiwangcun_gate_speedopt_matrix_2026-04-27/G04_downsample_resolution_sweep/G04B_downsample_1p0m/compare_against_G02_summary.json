@@ -1,0 +1,9 @@
+{
+  "experiment_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04B_downsample_1p0m",
+  "g02_root": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "target_gsd_m": 1.0,
+  "generated_at_utc": "2026-04-28T04:59:11+00:00",
+  "status": "failed",
+  "failure_stage": "romav2_rerank",
+  "conclusion": "1.0m/pix variant is not usable in this implementation because RoMa did not complete the first flight within the gate iteration window."
+}

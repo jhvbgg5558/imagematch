@@ -1,0 +1,269 @@
+{
+  "phase": "gate",
+  "query_count": 5,
+  "selected_query_ids": [
+    "q_010",
+    "q_015",
+    "q_022",
+    "q_002",
+    "q_039"
+  ],
+  "target_resolution_m": 0.5,
+  "crop_margin_m": 80.0,
+  "steps": [
+    {
+      "step_name": "build_query_ortho_truth_manifest",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/build_query_ortho_truth_manifest.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--query-seed-csv",
+        "/mnt/d/aiproject/imagematch/new1output/query_reselect_2026-03-26_v2/query_truth/queries_truth_seed.csv",
+        "--crop-margin-m",
+        "80.0",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 1.5912766456604004
+    },
+    {
+      "step_name": "crop_query_ortho_truth_tiles",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/crop_query_ortho_truth_tiles.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--target-resolution-m",
+        "0.5",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 27.102556943893433
+    },
+    {
+      "step_name": "render_query_predicted_ortho_from_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_query_predicted_ortho_from_pose.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--block-size",
+        "256",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 24.09734320640564
+    },
+    {
+      "step_name": "evaluate_pose_ortho_alignment",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_alignment.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 1,
+      "elapsed_sec": 12.768876075744629
+    },
+    {
+      "step_name": "render_pose_ortho_overlay_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_overlay_viz.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039",
+        "--overwrite"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 32.682658433914185
+    },
+    {
+      "step_name": "evaluate_pose_ortho_tiepoint_ground_error",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/evaluate_pose_ortho_tiepoint_ground_error.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039"
+      ],
+      "returncode": 0,
+      "elapsed_sec": 168.70428895950317
+    },
+    {
+      "step_name": "render_pose_ortho_tiepoint_viz",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/render_pose_ortho_tiepoint_viz.py",
+        "--bundle-root",
+        "new2output/pose_v1_formal",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_039",
+        "--overwrite"
+      ],
+      "returncode": 1,
+      "elapsed_sec": 5.4251978397369385
+    }
+  ],
+  "truth_tile_summary": {
+    "bundle_root": "new2output/pose_v1_formal",
+    "truth_manifest_csv": "new2output/pose_v1_formal/eval_ortho_truth/query_ortho_truth_manifest.csv",
+    "target_resolution_m": 0.5,
+    "row_count": 5,
+    "built_count": 5,
+    "status_counts": {
+      "ready": 5
+    },
+    "generated_at_unix": 1775721181.9527776
+  },
+  "pred_tile_summary": {
+    "bundle_root": "new2output/pose_v1_formal",
+    "best_pose_csv": "new2output/pose_v1_formal/summary/per_query_best_pose.csv",
+    "pose_manifest_json": "new2output/pose_v1_formal/manifest/pose_manifest.json",
+    "dsm_manifest_csv": "new2output/pose_v1_formal/input/formal_dsm_manifest.csv",
+    "truth_manifest_csv": "new2output/pose_v1_formal/eval_ortho_truth/query_ortho_truth_manifest.csv",
+    "row_count": 5,
+    "status_counts": {
+      "ok": 4,
+      "dsm_intersection_failed": 1
+    },
+    "generated_at_unix": 1775721206.1582737
+  },
+  "overlay_truth_summary": {
+    "bundle_root": "new2output/pose_v1_formal",
+    "truth_manifest_csv": "new2output/pose_v1_formal/eval_ortho_truth/query_ortho_truth_manifest.csv",
+    "pred_manifest_csv": "new2output/pose_v1_formal/eval_ortho_truth/pred_tiles/pred_tile_manifest.csv",
+    "row_count": 5,
+    "status_counts": {
+      "ok": 4,
+      "dsm_intersection_failed": 1
+    },
+    "generated_at_unix": 1775721251.5307033
+  },
+  "overlay_dom_summary": {
+    "bundle_root": "new2output/pose_v1_formal",
+    "candidate_manifest_csv": "new2output/pose_v1_formal/input/formal_candidate_manifest.csv",
+    "best_pose_csv": "new2output/pose_v1_formal/summary/per_query_best_pose.csv",
+    "row_count": 5,
+    "status_counts": {
+      "ok": 4,
+      "dsm_intersection_failed": 1
+    },
+    "generated_at_unix": 1775721251.547987
+  },
+  "overall_ortho_accuracy": {
+    "query_count": 5,
+    "evaluated_query_count": 4,
+    "phase_corr_error_m": {
+      "mean": 0.27388375,
+      "median": 0.278283,
+      "p90": 0.38636790000000004
+    },
+    "center_offset_m": {
+      "mean": 451.4418215,
+      "median": 451.471897,
+      "p90": 479.242831
+    },
+    "ortho_iou": {
+      "mean": 0.2610255,
+      "median": 0.258286,
+      "p90": 0.30186060000000003
+    },
+    "ssim": {
+      "mean": 0.489141,
+      "median": 0.4979195,
+      "p90": 0.5637857
+    },
+    "eval_status_counts": {
+      "ok": 4,
+      "dsm_intersection_failed": 1
+    }
+  },
+  "overall_tiepoint_ground_error": {
+    "query_count": 5,
+    "evaluated_query_count": 4,
+    "matchable_query_count": 4,
+    "tiepoint_xy_error_mean_m": 3.38102775,
+    "tiepoint_xy_error_median_m": 2.9131215,
+    "tiepoint_xy_error_rmse_m": 3.9290240490466903,
+    "tiepoint_xy_error_p90_m": 7.1935572,
+    "tiepoint_match_count_mean": 916.0,
+    "tiepoint_inlier_ratio_mean": 0.5112225,
+    "eval_status_counts": {
+      "tiepoint_eval_ok": 4,
+      "upstream_eval_failed": 1
+    }
+  },
+  "overlay_tiepoint_summary": {
+    "bundle_root": "D:\\aiproject\\imagematch\\new2output\\pose_v1_formal",
+    "tiepoint_csv": "D:\\aiproject\\imagematch\\new2output\\pose_v1_formal\\eval_ortho_truth\\per_query_tiepoint_ground_error.csv",
+    "row_count": 5,
+    "status_counts": {
+      "tiepoint_eval_ok": 4,
+      "upstream_eval_failed": 1
+    }
+  },
+  "pnp_failed_candidate_counts": {
+    "q_002": 1,
+    "q_015": 1,
+    "q_022": 1,
+    "q_039": 5
+  },
+  "generated_at_unix": 1775721426.1976051
+}

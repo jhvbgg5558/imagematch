@@ -1,0 +1,298 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+  "phase": "full",
+  "query_ids": [
+    "q_001",
+    "q_002",
+    "q_003",
+    "q_004",
+    "q_005",
+    "q_006",
+    "q_007",
+    "q_008",
+    "q_009",
+    "q_010",
+    "q_011",
+    "q_012",
+    "q_013",
+    "q_014",
+    "q_015",
+    "q_016",
+    "q_017",
+    "q_018",
+    "q_019",
+    "q_020",
+    "q_021",
+    "q_022",
+    "q_023",
+    "q_024",
+    "q_025",
+    "q_026",
+    "q_027",
+    "q_028",
+    "q_029",
+    "q_030",
+    "q_031",
+    "q_032",
+    "q_033",
+    "q_034",
+    "q_035",
+    "q_036",
+    "q_037",
+    "q_038",
+    "q_039",
+    "q_040"
+  ],
+  "query_count": 40,
+  "matches": {
+    "path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/matches/roma_matches.csv",
+    "row_count": 4000000
+  },
+  "correspondences": {
+    "path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/correspondences/pose_correspondences.csv",
+    "row_count": 4000000,
+    "status_counts": {
+      "ok": 4000000
+    }
+  },
+  "sampling": {
+    "path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/sampling/sampled_correspondences.csv",
+    "row_count": 4000000,
+    "status_counts": {
+      "ok": 3997663,
+      "unstable_local_height": 1497,
+      "nodata": 840
+    }
+  },
+  "pnp": {
+    "path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/pnp/pnp_results.csv",
+    "row_count": 800,
+    "status_counts": {
+      "ok": 781,
+      "pnp_failed": 19
+    }
+  },
+  "dsm": {
+    "source_dsm": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/source_mosaic/caiwangcun_dsm_0p14m_epsg32650.tif",
+    "formal_dsm_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/input/formal_dsm_manifest.csv",
+    "planned_count": 119,
+    "built_count": 119,
+    "failed_count": 0,
+    "status_counts": {
+      "ready": 119
+    },
+    "built_examples": [
+      {
+        "dsm_id": "cw_s200_x253783.721_y3364952.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x253783.721_y3364952.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x254233.721_y3364052.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254233.721_y3364052.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x254083.721_y3364052.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3364052.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x255133.721_y3364052.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x255133.721_y3364052.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x255133.721_y3364202.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x255133.721_y3364202.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x254983.721_y3365252.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3365252.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x254083.721_y3365102.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254083.721_y3365102.517.tif"
+      },
+      {
+        "dsm_id": "cw_s300_x255108.721_y3364327.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s300_x255108.721_y3364327.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x254683.721_y3364052.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254683.721_y3364052.517.tif"
+      },
+      {
+        "dsm_id": "cw_s200_x254983.721_y3364352.517",
+        "raster_path": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/dsm_cache/rasters/caiwangcun_dsm_0p14m_epsg32650_cw_s200_x254983.721_y3364352.517.tif"
+      }
+    ],
+    "generated_at_utc": "2026-04-21T04:37:29+00:00"
+  },
+  "stages": [
+    {
+      "stage": "export_romav2_matches_batch_for_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/export_romav2_matches_batch_for_pose.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+        "--device",
+        "cuda",
+        "--sample-count",
+        "5000",
+        "--min-rank",
+        "1",
+        "--max-rank",
+        "20",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004",
+        "--query-id",
+        "q_005",
+        "--query-id",
+        "q_006",
+        "--query-id",
+        "q_007",
+        "--query-id",
+        "q_008",
+        "--query-id",
+        "q_009",
+        "--query-id",
+        "q_010",
+        "--query-id",
+        "q_011",
+        "--query-id",
+        "q_012",
+        "--query-id",
+        "q_013",
+        "--query-id",
+        "q_014",
+        "--query-id",
+        "q_015",
+        "--query-id",
+        "q_016",
+        "--query-id",
+        "q_017",
+        "--query-id",
+        "q_018",
+        "--query-id",
+        "q_019",
+        "--query-id",
+        "q_020",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_022",
+        "--query-id",
+        "q_023",
+        "--query-id",
+        "q_024",
+        "--query-id",
+        "q_025",
+        "--query-id",
+        "q_026",
+        "--query-id",
+        "q_027",
+        "--query-id",
+        "q_028",
+        "--query-id",
+        "q_029",
+        "--query-id",
+        "q_030",
+        "--query-id",
+        "q_031",
+        "--query-id",
+        "q_032",
+        "--query-id",
+        "q_033",
+        "--query-id",
+        "q_034",
+        "--query-id",
+        "q_035",
+        "--query-id",
+        "q_036",
+        "--query-id",
+        "q_037",
+        "--query-id",
+        "q_038",
+        "--query-id",
+        "q_039",
+        "--query-id",
+        "q_040"
+      ],
+      "returncode": 0,
+      "stdout_tail": "2026-04-21 12:38:46 INFO     romav2.romav2 - romav2:116 in __init__ - RoMaV2-satast initialized.                        \n/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/matches/roma_matches.csv\n",
+      "stderr_tail": "Using cache found in /home/farsee2/.cache/torch/hub/facebookresearch_dinov3_adc254450203739c8149213a7a69d8d905b4fcfa\n",
+      "elapsed_seconds": 9898.979407787323
+    },
+    {
+      "stage": "prepare_pose_correspondences",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/prepare_pose_correspondences.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+        "--manifest-json",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/manifest/pose_manifest.json",
+        "--match-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/matches/roma_matches.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/correspondences/pose_correspondences.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 81.58177375793457
+    },
+    {
+      "stage": "sample_dsm_for_dom_points",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/sample_dsm_for_dom_points.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+        "--manifest-json",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/manifest/pose_manifest.json",
+        "--correspondences-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/correspondences/pose_correspondences.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/sampling/sampled_correspondences.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 9274.06083369255
+    },
+    {
+      "stage": "run_pnp_baseline",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/run_pnp_baseline.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+        "--manifest-json",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/manifest/pose_manifest.json",
+        "--sampled-correspondences-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/sampling/sampled_correspondences.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/pnp/pnp_results.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 255.50739169120789
+    },
+    {
+      "stage": "score_formal_pose_results",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/score_formal_pose_results.py",
+        "--bundle-root",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal",
+        "--pnp-results-csv",
+        "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/pnp/pnp_results.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/pose_v1_formal/summary/pose_overall_summary.json\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 0.5230395793914795
+    }
+  ],
+  "generated_at_unix": 1776765902.1547892
+}

@@ -1,0 +1,29 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10",
+  "formal_query_policy": {
+    "flight_ids": [
+      "DJI_202510311347_009_新建面状航线1",
+      "DJI_202510311413_010_新建面状航线1"
+    ],
+    "per_flight_count": 20,
+    "pitch_rule": "gimbal_pitch_degree <= -85.0",
+    "query_id_order": "009 rows become q_001..q_020; 010 rows become q_021..q_040"
+  },
+  "runtime_candidate_policy": {
+    "coarse_retrieval": "DINOv2 query features searched against the reused fixed satellite FAISS index",
+    "rerank": "RoMa v2 inlier_count_only over DINOv2 Top-20",
+    "truth_usage": "query truth CSVs are passed to RoMa/evaluation scripts only for labels, summaries, and reports; they are not used to construct runtime FAISS candidates",
+    "pose_score_source": "RoMa reranked fused_score exported as build_formal_candidate_manifest score"
+  },
+  "path_isolation": {
+    "forbidden_write_root": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+    "allowed_experiment_root": "/mnt/d/aiproject/imagematch/new2output/nadir_009010_dinov2_romav2_pose_2026-04-10",
+    "read_only_reused_assets": [
+      "/mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_dinov2_baseline/fixed_satellite_library/tiles.csv",
+      "/mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_dinov2_baseline/faiss/satellite_tiles_ip.index",
+      "/mnt/d/aiproject/imagematch/output/coverage_truth_200_300_500_700_dinov2_baseline/faiss/satellite_tiles_ip_mapping.json",
+      "/mnt/d/aiproject/imagematch/new2output/N30E114.hgt"
+    ]
+  },
+  "generated_at_utc": "2026-04-10T04:11:08+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "gate_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20",
+  "required_count": 12,
+  "missing": [],
+  "stage7_reranked_file_count": 2,
+  "candidate_tile_count": 149,
+  "retrieval_top20_rows": 800,
+  "generated_at_utc": "2026-04-21T04:30:22+00:00",
+  "runtime_environment": {
+    "generated_at_utc": "2026-04-21T04:30:22+00:00",
+    "python_report_libs": "ok",
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "disk_free_gb": 103.45,
+    "disk_total_gb": 931.51
+  }
+}

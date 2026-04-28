@@ -1,0 +1,39 @@
+{
+  "source_ortho_mosaic": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/source_mosaic/caiwangcun_ortho_0p14m_epsg32650.tif",
+  "source_dsm_mosaic": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_full_2026-04-21/source_mosaic/caiwangcun_dsm_0p14m_epsg32650.tif",
+  "target_crs": "EPSG:32650",
+  "query_count": 40,
+  "roi_bounds": [
+    253476.527,
+    3363753.005,
+    255535.29,
+    3365604.074
+  ],
+  "coverage_bounds": [
+    253383.72102534556,
+    3363502.5166208195,
+    255617.45091653088,
+    3365689.8913650466
+  ],
+  "build_bounds": [
+    253476.527,
+    3363753.005,
+    255535.29,
+    3365604.074
+  ],
+  "tile_sizes_m": [
+    200.0,
+    300.0,
+    500.0,
+    700.0
+  ],
+  "overlap": 0.25,
+  "roi_buffer_meters": 250.0,
+  "dsm_expand_margin_m": 250.0,
+  "tile_count": 149,
+  "skipped_counts": {
+    "outside_roi": 77,
+    "not_fully_covered": 233,
+    "empty_window": 0
+  }
+}

@@ -1,0 +1,6 @@
+﻿subgroup,source_group,matcher,strategy,query_id,candidate_id,raw_rank,rerank_rank,match_count,inlier_count,inlier_ratio,fused_score,geom_valid,is_truth_hit
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_001,cw_s200_x253783.721_y3364952.517,2,1,5000,2655,0.531,1.0070601026862571,1,1
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_021,cw_s200_x254983.721_y3364052.517,14,1,5000,3611,0.7222,0.7057200736979227,1,1
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_002,cw_s200_x253783.721_y3364802.517,15,1,5000,2142,0.4284,0.6156002454714963,1,1
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_003,cw_s200_x253933.721_y3364352.517,14,1,5000,1798,0.3596,0.5894043297688578,1,0
+G06A_g02_roma_inlier_top1,g02_roma,RoMa v2,inlier_count_top1,q_004,cw_s200_x254383.721_y3364052.517,16,1,5000,2652,0.5304,0.5751611883901453,1,1

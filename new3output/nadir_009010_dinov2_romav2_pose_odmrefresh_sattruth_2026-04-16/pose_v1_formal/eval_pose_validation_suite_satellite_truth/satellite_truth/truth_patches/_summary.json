@@ -1,0 +1,11 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal",
+  "truth_manifest_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_odmrefresh_sattruth_2026-04-16/pose_v1_formal/eval_pose_validation_suite_satellite_truth/satellite_truth/query_satellite_truth_manifest.csv",
+  "target_resolution_m": 0.5,
+  "row_count": 40,
+  "built_count": 40,
+  "status_counts": {
+    "clamped_to_source_bounds": 40
+  },
+  "generated_at_unix": 1776320656.1547077
+}

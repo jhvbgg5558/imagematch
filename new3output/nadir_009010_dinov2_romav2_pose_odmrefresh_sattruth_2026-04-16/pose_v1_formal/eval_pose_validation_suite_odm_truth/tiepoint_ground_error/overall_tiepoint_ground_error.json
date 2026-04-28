@@ -1,0 +1,15 @@
+{
+  "query_count": 40,
+  "evaluated_query_count": 40,
+  "matchable_query_count": 40,
+  "tiepoint_xy_error_mean_m": 2.0856486732424275,
+  "tiepoint_xy_error_median_m": 1.910153,
+  "tiepoint_xy_error_rmse_m": 2.3426778627448535,
+  "tiepoint_xy_error_p90_m": 3.260369600000001,
+  "tiepoint_match_count_mean": 496.95,
+  "tiepoint_inlier_ratio_mean": 0.8950421250000001,
+  "eval_status_counts": {
+    "tiepoint_eval_ok": 40
+  },
+  "generated_at_unix": 1776320606.369953
+}

@@ -1,0 +1,11 @@
+query_id,image_path,status
+q_120m_01,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_120m_01.png,ok
+q_120m_02,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_120m_02.png,ok
+q_120m_03,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_120m_03.png,ok
+q_120m_04,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_120m_04.png,ok
+q_120m_05,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_120m_05.png,ok
+q_200m_01,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_200m_01.png,ok
+q_200m_02,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_200m_02.png,ok
+q_200m_03,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_200m_03.png,ok
+q_200m_04,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_200m_04.png,ok
+q_200m_05,/mnt/d/aiproject/imagematch/output/validation_round2/stage3/DJI_202510311500_012_新建面状航线1/q_200m_05.png,ok

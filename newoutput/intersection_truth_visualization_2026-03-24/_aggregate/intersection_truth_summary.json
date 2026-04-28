@@ -1,0 +1,11 @@
+{
+  "query_count": 40,
+  "truth_tile_count": 3311,
+  "mean_truth_count": 82.775,
+  "scale_counts": {
+    "200m": 1252,
+    "300m": 751,
+    "500m": 535,
+    "700m": 773
+  }
+}

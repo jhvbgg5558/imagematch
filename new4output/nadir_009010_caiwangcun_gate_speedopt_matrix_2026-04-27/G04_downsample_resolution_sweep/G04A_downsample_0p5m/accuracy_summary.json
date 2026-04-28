@@ -1,0 +1,37 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m",
+  "g02_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G02_pipeline_engineering_reuse_domz_parallel_sampling",
+  "target_gsd_m": 0.5,
+  "generated_at_utc": "2026-04-28T02:44:02+00:00",
+  "gate_query_ids": [
+    "q_001",
+    "q_021",
+    "q_002",
+    "q_003",
+    "q_004"
+  ],
+  "retrieval_top20_rows": 100,
+  "matches_row_count": 500000,
+  "correspondence_row_count": 500000,
+  "sampling_row_count": 500000,
+  "sampling_status_counts": {
+    "ok": 499713,
+    "unstable_local_height": 207,
+    "nodata": 80
+  },
+  "pnp_row_count": 100,
+  "pnp_status_counts": {
+    "ok": 100
+  },
+  "best_pose_row_count": 40,
+  "best_pose_status_counts": {
+    "ok": 5,
+    "missing_pnp_rows": 35
+  },
+  "validation_pipeline_status": "ok",
+  "layer1_center_offset_m_mean": 32.488831,
+  "layer1_ortho_iou_mean": 0.863844,
+  "layer2_horizontal_error_m_mean": 6.0390186,
+  "layer3_tiepoint_xy_error_rmse_m": 441.89850627736695,
+  "query_downsample_summary": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G04_downsample_resolution_sweep/G04A_downsample_0p5m/query_inputs/query_downsample_0p5m_summary.json"
+}

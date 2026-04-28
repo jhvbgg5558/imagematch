@@ -1,0 +1,60 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal",
+  "suite_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_caiwangcun_domdsm_fullreplace_gate_2026-04-20/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth",
+  "row_count": 5,
+  "diagnosis_counts": {
+    "ok_or_manual_review": 5
+  },
+  "numeric_summaries": {
+    "dsm_sample_valid_ratio_on_truth_grid": {
+      "count": 5,
+      "mean": 0.9977258620211694,
+      "median": 0.9999065483377174,
+      "min": 0.9888980672068947,
+      "max": 0.9999946866513969
+    },
+    "pred_valid_pixel_ratio": {
+      "count": 5,
+      "mean": 0.7465249084583512,
+      "median": 0.7414626933724504,
+      "min": 0.736123100205395,
+      "max": 0.7623931531594421
+    },
+    "center_offset_m": {
+      "count": 5,
+      "mean": 4.393887,
+      "median": 3.357251,
+      "min": 1.664488,
+      "max": 8.262615
+    },
+    "camera_center_offset_m": {
+      "count": 5,
+      "mean": 1.8976317611031355,
+      "median": 1.6984231895822106,
+      "min": 0.706075119890006,
+      "max": 4.247884374595035
+    },
+    "bbox_center_delta_m": {
+      "count": 5,
+      "mean": 0.6392317859100299,
+      "median": 0.028792360021891825,
+      "min": 0.021095023289415107,
+      "max": 3.0840468543516053
+    },
+    "horizontal_error_m": {
+      "count": 5,
+      "mean": 1.8294804,
+      "median": 1.655618,
+      "min": 0.649051,
+      "max": 3.998881
+    },
+    "truth_to_footprint_area_ratio": {
+      "count": 5,
+      "mean": 3.8148181598731328,
+      "median": 3.834834801178271,
+      "min": 3.7716541800638983,
+      "max": 3.8400383709779096
+    }
+  },
+  "generated_at_unix": 1776739709.8786094
+}

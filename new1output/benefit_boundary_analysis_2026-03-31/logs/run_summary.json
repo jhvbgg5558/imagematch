@@ -1,0 +1,36 @@
+{
+  "query_count": 40,
+  "bucket_counts": {
+    "A": 31,
+    "B": 6,
+    "C": 3,
+    "D": 0
+  },
+  "truth_count_total_q1": 233.75,
+  "footprint_area_m2_q1": 1131971.7595000002,
+  "coarse_source": "new1output\\query_reselect_2026-03-26_v2\\romav2_eval_2026-03-30_gpu\\coarse\\retrieval_top20.csv",
+  "generated_tables": [
+    "bucket_summary.csv",
+    "per_query_boundary_analysis.csv",
+    "supp_table_A_r1_contribution.csv",
+    "supp_table_B_c_bucket_breakdown.csv",
+    "supp_table_C_pitch_group_bucket_ratio.csv",
+    "table_1_bucket_counts.csv",
+    "table_2_bucket_by_flight.csv",
+    "table_3_rank_error_summary.csv",
+    "table_4_truth_footprint_summary.csv"
+  ],
+  "generated_figures": [
+    "figure_1_bucket_counts.png",
+    "figure_2_bucket_by_flight.png",
+    "figure_3_rank_scatter.png",
+    "figure_4_top1_error_delta_boxplot.png",
+    "figure_5_pitch_distribution.png",
+    "figure_6_truthcount_footprint_distribution.png",
+    "figure_7_b_rank_gain_distribution.png"
+  ],
+  "generated_cases": [
+    "cd_failure_labels.csv",
+    "representative_cases.csv"
+  ]
+}

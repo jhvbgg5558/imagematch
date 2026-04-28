@@ -1,0 +1,12 @@
+{
+  "stage7_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/siftgpu_rerank/stage7",
+  "out_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/retrieval/retrieval_top20.csv",
+  "top_k": 20,
+  "source_files": [
+    "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/siftgpu_rerank/stage7/DJI_202510311347_009_新建面状航线1/reranked_top20.csv",
+    "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/siftgpu_rerank/stage7/DJI_202510311413_010_新建面状航线1/reranked_top20.csv"
+  ],
+  "query_count": 5,
+  "row_count": 100,
+  "score_source": "fused_score"
+}

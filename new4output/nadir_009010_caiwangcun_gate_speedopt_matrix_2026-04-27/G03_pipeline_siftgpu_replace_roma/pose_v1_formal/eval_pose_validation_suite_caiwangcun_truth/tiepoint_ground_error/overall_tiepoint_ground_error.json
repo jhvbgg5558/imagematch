@@ -1,0 +1,35 @@
+{
+  "query_count": 5,
+  "evaluated_query_count": 5,
+  "matchable_query_count": 5,
+  "tiepoint_xy_error_mean_m": 0.3252203448091157,
+  "tiepoint_xy_error_median_m": 0.23823650000000002,
+  "tiepoint_xy_error_rmse_m": 0.41744002475044845,
+  "tiepoint_xy_error_p90_m": 0.6517212,
+  "tiepoint_match_count_mean": 21350.6,
+  "tiepoint_inlier_ratio_mean": 0.9478224000000001,
+  "eval_status_counts": {
+    "tiepoint_eval_ok": 5
+  },
+  "tiepoint_detail_scope": "ratio_test_ransac_inliers",
+  "tiepoint_detail_csv_dir": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G03_pipeline_siftgpu_replace_roma/pose_v1_formal/eval_pose_validation_suite_caiwangcun_truth/tiepoint_ground_error/tiepoints/per_query_matches",
+  "tiepoint_detail_csv_pattern": "<query_id>_tiepoints.csv",
+  "tiepoint_detail_csv_fields": [
+    "query_id",
+    "match_index",
+    "truth_col_px",
+    "truth_row_px",
+    "pred_col_px",
+    "pred_row_px",
+    "truth_x_m",
+    "truth_y_m",
+    "pred_x_m",
+    "pred_y_m",
+    "dx_m",
+    "dy_m",
+    "dxy_m"
+  ],
+  "tiepoint_detail_csv_count": 5,
+  "missing_tiepoint_detail_query_ids": [],
+  "generated_at_unix": 1777312631.0988376
+}

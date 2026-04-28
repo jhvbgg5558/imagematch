@@ -1,0 +1,10 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06A_g02_roma_inlier_top1/pose_v1_formal",
+  "candidate_manifest_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06A_g02_roma_inlier_top1/pose_v1_formal/input/formal_candidate_manifest.csv",
+  "best_pose_csv": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G06_top1_match_count_pose_reprojection_validation/G06A_g02_roma_inlier_top1/pose_v1_formal/summary/per_query_best_pose.csv",
+  "row_count": 5,
+  "status_counts": {
+    "ok": 5
+  },
+  "generated_at_unix": 1777362978.5295887
+}

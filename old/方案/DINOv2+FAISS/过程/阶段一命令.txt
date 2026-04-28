@@ -1,0 +1,23 @@
+  先跑完整性扫描：
+
+  mkdir -p /mnt/d/aiproject/imagematch/output/stage1
+  /mnt/d/aiproject/imagematch/.conda/bin/python /mnt/d/aiproject/imagematch/scripts/scan_rasters.py \
+    --src-dir '/mnt/d/数据/武汉影像/卫星0.5m_32650/武汉_大图/L19' \
+    --report-csv '/mnt/d/aiproject/imagematch/output/stage1/satellite_l19_scan.csv'
+
+  再正式跑阶段 1 多尺度瓦片化：
+
+  /mnt/d/aiproject/imagematch/.conda/bin/python /mnt/d/aiproject/imagematch/scripts/tile_satellite.py \
+    --sat-dir '/mnt/d/数据/武汉影像/卫星0.5m_32650/武汉_大图/L19' \
+    --drone-glob '/mnt/d/数据/武汉影像/无人机0.1m/*/odm_orthophoto/odm_orthophoto.tif' \
+    --out-dir '/mnt/d/aiproject/imagematch/output/stage1/tiles_80_120_200' \
+    --metadata-csv '/mnt/d/aiproject/imagematch/output/stage1/tiles_80_120_200/tiles.csv' \
+    --tile-sizes 80 120 200 \
+    --overlap 0.25 \
+    --resize 512 \
+    --image-format png
+
+  跑完后你重点看这两个结果：
+
+  - /mnt/d/aiproject/imagematch/output/stage1/satellite_l19_scan.csv
+  - /mnt/d/aiproject/imagematch/output/stage1/tiles_80_120_200/tiles.csv

@@ -1,0 +1,17 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/pose_v1_formal",
+  "query_seed_csv": "/mnt/d/aiproject/imagematch/new3output/nadir_009010_dinov2_romav2_pose_sattruth_srtm_romatie_2026-04-16/query_truth/queries_truth_seed.csv",
+  "raw_uav_root": "/mnt/d/数据/武汉影像/无人机0.1m",
+  "row_count": 40,
+  "status_counts": {
+    "ready": 40
+  },
+  "reference_source_type_counts": {
+    "odm_report_shots_geojson": 40
+  },
+  "reference_priority": [
+    "odm_report/shots.geojson",
+    "queries_truth_seed.csv fallback"
+  ],
+  "generated_at_unix": 1776368897.3639047
+}

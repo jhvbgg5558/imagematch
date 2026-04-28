@@ -1,0 +1,17 @@
+{
+  "bundle_root": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal",
+  "query_manifest_csv": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/input/formal_query_manifest.csv",
+  "candidate_manifest_csv": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/input/formal_candidate_manifest.csv",
+  "truth_manifest_csv": "/mnt/d/aiproject/imagematch/new2output/pose_v1_formal/input/formal_truth_manifest.csv",
+  "statistics": {
+    "query_count": 40,
+    "queries_with_original_path_reference": 40,
+    "candidate_count": 800,
+    "candidate_truth_hits": 473,
+    "candidate_pairs_in_truth_manifest": 473
+  },
+  "errors": [],
+  "warnings": [],
+  "is_valid": true,
+  "generated_at_unix": 1775116645.506133
+}

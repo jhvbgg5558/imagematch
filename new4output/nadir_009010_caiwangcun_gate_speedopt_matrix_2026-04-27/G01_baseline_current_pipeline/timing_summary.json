@@ -1,0 +1,114 @@
+{
+  "experiment_root": "/mnt/d/aiproject/imagematch/new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline",
+  "generated_at_utc": "2026-04-27T12:49:11+00:00",
+  "wrapper_elapsed_seconds": null,
+  "wrapper_returncode": null,
+  "romav2_rerank_elapsed_seconds": 1617.055254247,
+  "pose_export_romav2_matches_seconds": 1412.0338108539581,
+  "prepare_pose_correspondences_seconds": 14.071234703063965,
+  "sample_dsm_for_dom_points_seconds": 162.2780318260193,
+  "run_pnp_baseline_seconds": 28.719109058380127,
+  "score_formal_pose_results_seconds": 0.4780545234680176,
+  "pose_phase_stages": [
+    {
+      "stage": "export_romav2_matches_batch_for_pose",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/export_romav2_matches_batch_for_pose.py",
+        "--bundle-root",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal",
+        "--device",
+        "cuda",
+        "--sample-count",
+        "5000",
+        "--min-rank",
+        "1",
+        "--max-rank",
+        "20",
+        "--query-id",
+        "q_001",
+        "--query-id",
+        "q_021",
+        "--query-id",
+        "q_002",
+        "--query-id",
+        "q_003",
+        "--query-id",
+        "q_004"
+      ],
+      "returncode": 0,
+      "stdout_tail": "2026-04-27 18:55:27 INFO     romav2.romav2 - romav2:116 in __init__ - RoMaV2-satast initialized.                        \nnew4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/matches/roma_matches.csv\n",
+      "stderr_tail": "Using cache found in /home/farsee2/.cache/torch/hub/facebookresearch_dinov3_adc254450203739c8149213a7a69d8d905b4fcfa\n",
+      "elapsed_seconds": 1412.0338108539581
+    },
+    {
+      "stage": "prepare_pose_correspondences",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/prepare_pose_correspondences.py",
+        "--bundle-root",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal",
+        "--manifest-json",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/manifest/pose_manifest.json",
+        "--match-csv",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/matches/roma_matches.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/correspondences/pose_correspondences.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 14.071234703063965
+    },
+    {
+      "stage": "sample_dsm_for_dom_points",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/sample_dsm_for_dom_points.py",
+        "--bundle-root",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal",
+        "--manifest-json",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/manifest/pose_manifest.json",
+        "--correspondences-csv",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/correspondences/pose_correspondences.csv",
+        "--workers",
+        "1"
+      ],
+      "returncode": 0,
+      "stdout_tail": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/sampling/sampled_correspondences.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 162.2780318260193
+    },
+    {
+      "stage": "run_pnp_baseline",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/run_pnp_baseline.py",
+        "--bundle-root",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal",
+        "--manifest-json",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/manifest/pose_manifest.json",
+        "--sampled-correspondences-csv",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/sampling/sampled_correspondences.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/pnp/pnp_results.csv\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 28.719109058380127
+    },
+    {
+      "stage": "score_formal_pose_results",
+      "command": [
+        "/mnt/d/aiproject/imagematch/.conda/bin/python",
+        "/mnt/d/aiproject/imagematch/scripts/score_formal_pose_results.py",
+        "--bundle-root",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal",
+        "--pnp-results-csv",
+        "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/pnp/pnp_results.csv"
+      ],
+      "returncode": 0,
+      "stdout_tail": "new4output/nadir_009010_caiwangcun_gate_speedopt_matrix_2026-04-27/G01_baseline_current_pipeline/pose_v1_formal/summary/pose_overall_summary.json\n",
+      "stderr_tail": "",
+      "elapsed_seconds": 0.4780545234680176
+    }
+  ],
+  "note": "DINOv2 feature/retrieval timing is retained in the existing gate logs when no structured timing JSON is emitted by that stage."
+}
