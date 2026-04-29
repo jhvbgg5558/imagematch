@@ -23,3 +23,8 @@
 3. [DATA_ASSETS.md](./DATA_ASSETS.md)
 4. [RESULTS_INDEX.md](./RESULTS_INDEX.md)
 5. [CODE_STYLE.md](./CODE_STYLE.md)
+6. [knowledge_graph/README.md](./knowledge_graph/README.md)
+
+## Knowledge Graph Wiki
+
+`docs_md/knowledge_graph/` 是当前项目的 Markdown 知识图谱层。它借鉴 Karpathy LLM Wiki 思路：现有 `docs_md/*.md` 仍是 source-of-truth，知识图谱目录只做结构化编译、互链索引和维护入口，不作为新的实验结论来源。
