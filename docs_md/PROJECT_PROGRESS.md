@@ -1,6 +1,6 @@
 # 项目当前进度
 
-最后更新：2026-04-09
+最后更新：2026-04-29
 
 ## 1. 当前主任务
 
@@ -1496,3 +1496,26 @@
   - No Top-1 strategy is accepted as a full replacement until Layer-3 either
     completes or is replaced by a bounded validation proxy for this pruning
     experiment.
+
+## 2026-04-29 Knowledge Graph Wiki
+- Added a maintained Markdown knowledge layer under:
+  - `docs_md/knowledge_graph/`
+- The wiki follows a Karpathy-style LLM Wiki pattern:
+  - existing `docs_md/*.md` files remain the source-of-truth
+  - `docs_md/knowledge_graph/` is a compiled, linked working layer
+  - no experiment scripts, datasets, or output roots were changed
+- Initial wiki pages:
+  - `README.md`
+  - `SCHEMA.md`
+  - `CURRENT_STATE.md`
+  - `CONCEPTS.md`
+  - `PIPELINES.md`
+  - `EXPERIMENTS.md`
+  - `ASSETS.md`
+  - `RESULTS.md`
+  - `OPEN_QUESTIONS.md`
+- The wiki explicitly preserves the current-task boundary:
+  - `old/` is historical only
+  - same-scale legacy assumptions remain invalidated
+  - query-truth assets remain offline evaluation material, not runtime candidate-selection inputs
+- Current emphasis in the first wiki pass is the 009/010 route, CaiWangCun DOM/DSM full replacement, and the `new4` speed-optimization matrix.
